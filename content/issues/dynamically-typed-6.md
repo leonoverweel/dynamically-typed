@@ -8,6 +8,7 @@ Let’s dive in.
 ## Productized Artificial Intelligence 🔌
 
 ![Mapillary's map of Amsterdam, with green lines indicating available street-level imagery, and icons indicating tags. (Mapillary)](https://s3.amazonaws.com/revue/items/images/004/198/786/mail/mapillary-2.jpg?1549189934)
+
 _Mapillary's map of Amsterdam, with green lines indicating available street-level imagery, and icons indicating tags. (Mapillary)_
 
 **Swedish startup Mapillary is an open platform that crowdsources images of streets** and then uses computer vision to identify and tag objects like stop signs, traffic lights, and manhole covers on the map – what OpenStreetMap is to Google Maps, Mapillary is to Street View.
@@ -37,6 +38,7 @@ Check it out here: [How AI is changing photography](https://www.theverge.com/201
 ## Machine Learning Technology 🎛
 
 ![512x512 pixel images generated using BigGAN models. (Brock et al.)](https://s3.amazonaws.com/revue/items/images/004/196/926/mail/screenshot-2019-02-02-at-12-07.jpg?1549109620)
+
 _512x512 pixel images generated using BigGAN models. (Brock et al.)_
 
 **Andrew Brock et al.
@@ -75,6 +77,7 @@ Both the ML and video game aspects of this go right over my head, but their blog
 ## Tech and Startups 🚀
 
 ![The distribution of car trips by distance in the US. What happens to car sales when the first 3-5 miles of these trips shift to micromobility? (Horace Dediu, Micromobility)](https://s3.amazonaws.com/revue/items/images/004/197/828/mail/blogpost_disruption-01.png?1549144837)
+
 _The distribution of car trips by distance in the US. What happens to car sales when the first 3-5 miles of these trips shift to micromobility? (Horace Dediu, Micromobility)_
 
 **The second micromobility conference happened this week.**
@@ -106,6 +109,7 @@ Mark Gurman and Debby Wu’s report at Bloomberg: [Apple Is Planning 3-D Cameras
 ## Cool Things ✨
 
 ![Mobula rays in the Sea of Cortez. (OceanX)](https://s3.amazonaws.com/revue/items/images/004/198/916/mail/uploads_2F2019_2F1_2F16_2FOceanX_Mashable_01.09.19_20.jpg_2Ffit-in__1440x1440.jpg?1549194699)
+
 _Mobula rays in the Sea of Cortez. (OceanX)_
 
 **Mark Kaufman at Mashable did a deep dive deep-sea exploration.**

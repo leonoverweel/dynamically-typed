@@ -12,6 +12,7 @@ Let’s dive in.
 ## Productized Artificial Intelligence 🔌
 
 ![OpenAI + Microsoft](https://s3.amazonaws.com/revue/items/images/004/850/973/mail/d104aee2ea4f68c6b6fe7ef3d204cca7.png?1564605294)
+
 _OpenAI + Microsoft_
 
 **Microsoft is investing $1 billion in OpenAI.**
@@ -55,6 +56,7 @@ As always, Evan’s post is worth a read: [Computers that can see](https://www.b
 ## Machine Learning Research 🎛
 
 ![FlashTorch visualizations of parts of images that have the most influence on ](https://s3.amazonaws.com/revue/items/images/004/850/887/mail/c020d8f99eb7a9520b3a0ddbfb1e9d2a.png?1564604403)
+
 _FlashTorch visualizations of parts of images that have the most influence on _
 
 **Misa Ogura wrote about FlashTorch, her open source feature visualization toolkit for neural networks in PyTorch.**

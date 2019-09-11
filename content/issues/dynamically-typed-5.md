@@ -10,6 +10,7 @@ Let’s dive in.
 ## Productized Artificial Intelligence 🔌
 
 ![OneSoil's AI-generated map of different crop fields in the Netherlands (OneSoil)](https://s3.amazonaws.com/revue/items/images/004/125/382/mail/Screenshot_2019-01-20_at_15.15.34.png?1547997371)
+
 _OneSoil's AI-generated map of different crop fields in the Netherlands (OneSoil)_
 
 **ProductHunt announced the Golden Kitty awards,** which this year included an AI & Machine Learning Product of the Year category.
@@ -60,6 +61,7 @@ Gueguen’s approach yields a slight accuracy improvement on the standard ImageN
 ## Tech and Startups 🚀
 
 ![LG's rollable TV, showed off at CES, hides itself in its speaker bar when you're done using it (LG)](https://s3.amazonaws.com/revue/items/images/004/124/935/mail/lg-rollable-tv-ces-2019_key-visual.jpg?1547986676)
+
 _LG's rollable TV, showed off at CES, hides itself in its speaker bar when you're done using it (LG)_
 
 **Earlier this month, the Consumer Electronics Show (CES) happened.**
@@ -93,6 +95,7 @@ Ben Thompson’s take at Stratechery: [AWS, MongoDB, and the Economic Realities 
 ## Cool Things ✨
 
 ![A screenshot about 2/3rds down Cameron's World (cameronsworld.net)](https://s3.amazonaws.com/revue/items/images/004/123/809/mail/Screenshot_2019-01-19_at_19.04.18.png?1547924690)
+
 _A screenshot about 2/3rds down Cameron's World (cameronsworld.net)_
 
 **This isn’t exactly new, but I think it’s _amazing:_** at Cameron’s World, [Cameron Askin](https://twitter.com/cameronaskin/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter) is recreating beautiful, weird websites from the 90s that were created before everything got slurped up into algorithm-ordered news feeds.

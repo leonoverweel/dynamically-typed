@@ -26,6 +26,7 @@ Read their full post here: [Bridging the gap between research and big tech: appl
 ## Artificial Intelligence for the Climate Crisis 🌍
 
 ![GAN-generated images of houses before and after a flood hits. (Schmidt et al.)](https://s3.amazonaws.com/revue/items/images/004/627/160/mail/81b9dcf978b56925cef01db25a3c9850.jpeg?1558809684)
+
 _GAN-generated images of houses before and after a flood hits. (Schmidt et al.)_
 
 **Victor Schmidt et al.
@@ -54,6 +55,7 @@ _(PS: If you know a better title for this section than “Artificial Intelligenc
 ## Machine Learning Technology 🎛
 
 ![Google's lung cancer prediction model (Shravya Shetty, The Keyword)](https://s3.amazonaws.com/revue/items/images/004/626/402/mail/3f06ea2cd6272a88cae1cbac92073736.png?1558780967)
+
 _Google's lung cancer prediction model (Shravya Shetty, The Keyword)_
 
 **Google AI’s Health division has published a new end-to-end lung cancer screening system.**
@@ -102,6 +104,7 @@ Check it out here: [Machine Learning Resources](https://www.notion.so/adab36feca
 ## Cool Things ✨
 
 ![Infinite Patterns used the bottom-right image of a butterfly as input to "dream" this pattern. (Damien Henry, The Keyword)](https://s3.amazonaws.com/revue/items/images/004/626/457/mail/784e345b2108f878368a2a20ba0a55e8.png?1558783980)
+
 _Infinite Patterns used the bottom-right image of a butterfly as input to "dream" this pattern. (Damien Henry, The Keyword)_
 
 **Infinite Patterns is a tool to create one-of-a-kind patterns using machine learning.**

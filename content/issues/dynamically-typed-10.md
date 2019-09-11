@@ -51,6 +51,7 @@ I’d love to know what you all think, so here’s all the posts I mentioned abo
 ## Productized Artificial Intelligence 🔌
 
 ![A waterfall landscape drawn using Nvidia's image generator (Nvidia).](https://s3.amazonaws.com/revue/items/images/004/422/337/mail/NVIDIA-GauGAN-AI-demo-screenshot.jpg?1554049892)
+
 _A waterfall landscape drawn using Nvidia's image generator (Nvidia)._
 
 **Nvidia unveiled GauGAN, a demo of a tool that can automatically paint photorealistic landscapes.**
@@ -108,6 +109,7 @@ _Update: the council has been disbanded; see_[ _DT #11_](https://dynamicallytype
 ## People in AI 👩‍💻
 
 ![DeepMind cofounder Demis Hassabis (1843 Magazine)](https://s3.amazonaws.com/revue/items/images/004/419/813/mail/201904_FE_DEM_02-HEADER.jpg?1553981997)
+
 _DeepMind cofounder Demis Hassabis (1843 Magazine)_
 
 **1843 Magazine’s Hal Hodson did a feature on DeepMind cofounder Demis Hassabis.**[DeepMind](https://deepmind.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is an AI company famous for reinforcement learning research accomplishments like [AlphaGo](https://deepmind.com/research/alphago/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which was the first computer program to beat a human in the ancient Chinese game of Go.
@@ -123,6 +125,7 @@ Turing Award](https://awards.acm.org/about/2018-turing?utm_campaign=Dynamically%
 ## Cool Things ✨
 
 ![Gen Studio in action (The Met, Microsoft, and MIT)](https://s3.amazonaws.com/revue/items/images/004/421/464/mail/screenshot-2019-03-31-at-14-57.png?1554040756)
+
 _Gen Studio in action (The Met, Microsoft, and MIT)_
 
 **Microsoft, MIT and the Metropolitan Museum of Art did a joint hackathon that resulted in some cool projects:**

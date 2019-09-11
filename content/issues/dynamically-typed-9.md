@@ -8,6 +8,7 @@ I’m also experimenting with a new _quick resource links_ list as part of the M
 ## Productized Artificial Intelligence 🔌
 
 ![The ways in which AI and humans will work together for a better society, according to Frank Chen. (Andreessen Horowitz)](https://s3.amazonaws.com/revue/items/images/004/306/828/mail/Humanity-and-AI-Better-Together.008.jpeg?1551548390)
+
 _The ways in which AI and humans will work together for a better society, according to Frank Chen. (Andreessen Horowitz)_
 
 **Frank Chen of Silicon Valley venture capital firm Andreessen Horowitz (a16z) wrote about how AI and humans can work together** in a blog post version of his talk at the November 2018 a16z Summit.
@@ -53,6 +54,7 @@ Tom Warren at The Verge: [Microsoft Excel will now let you snap a picture of a s
 ## Machine Learning Technology 🎛
 
 ![A layer of an activation atlas for the InceptionV1 network (Carter et al.)](https://s3.amazonaws.com/revue/items/images/004/362/198/mail/Activation-Atlas-MAIN.jpg?1552747329)
+
 _A layer of an activation atlas for the InceptionV1 network (Carter et al.)_
 
 **Researchers at Google Brain and OpenAI have released activation atlases, a new Distill paper on visualizing neural networks,** building on previous work that [visualized individual neurons](https://distill.pub/2017/feature-visualization/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
@@ -98,6 +100,7 @@ I expect that this trend will spread as cities in the US start to (slowly) reali
 ## Cool Things ✨
 
 ![Memories of Passersby I by Mario Klingemann (ONKAOS)](https://s3.amazonaws.com/revue/items/images/004/362/988/mail/Webp.net-resizeimage.png?1552774929)
+
 _Memories of Passersby I by Mario Klingemann (ONKAOS)_
 
 **This is definitely the coolest AI art I’ve seen so far.**

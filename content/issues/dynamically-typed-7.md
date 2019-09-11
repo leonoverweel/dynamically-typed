@@ -9,6 +9,7 @@ Let’s dive in.
 ## Productized Artificial Intelligence 🔌
 
 ![How much time does each step of building a machine learning product take? (Josh Cogan, Google)](https://s3.amazonaws.com/revue/items/images/004/241/689/mail/0_JPKydbSB9YRzy8k6.png?1550142136)
+
 _How much time does each step of building a machine learning product take? (Josh Cogan, Google)_
 
 **Josh Cogan wrote about about the surprises he encountered building machine learning products at Google.**
@@ -44,6 +45,7 @@ Waymo currently has over 600 cars on the road in Phoenix, Arizona, serving its E
 ## Machine Learning Technology 🎛
 
 ![Over the past 20 years, AI research has shifted from logic and constraints to networks and learning (MIT Technology Review)](https://s3.amazonaws.com/revue/items/images/004/236/211/mail/artboard-12x-2.png?1550010444)
+
 _Over the past 20 years, AI research has shifted from logic and constraints to networks and learning (MIT Technology Review)_
 
 **MIT Technology Review analyzed 16,625 research articles to identify historical trends in AI research.**
@@ -92,6 +94,7 @@ I’m surprised they’re publishing this as an online article–it would probab
 ## Tech and Startups 🚀
 
 ![Some tools in the "no code" stack (Ryan Hoover)](https://s3.amazonaws.com/revue/items/images/004/241/553/mail/1_t-KAcvxBmBhiwZbrEJGaUQ.png?1550139393)
+
 _Some tools in the "no code" stack (Ryan Hoover)_
 
 **Ryan Hoover wrote a post about the rise of indie makers who are building their online products without code.**
@@ -116,6 +119,7 @@ It’s a fascinating story, and definitely one of my favorite reads from the pas
 ## Cool Things ✨
 
 ![Bill & Melinda's 2019 annual letter was one of "surprises" (Gates Foundation)](https://s3.amazonaws.com/revue/items/images/004/241/989/mail/Screenshot_2019-02-14_at_12.05.08.png?1550145942)
+
 _Bill & Melinda's 2019 annual letter was one of "surprises" (Gates Foundation)_
 
 **Bill and Melinda Gates released their 2019 annual letter,** which discusses the philanthropic work they’re doing with the Gates Foundation.

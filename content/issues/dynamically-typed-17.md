@@ -12,6 +12,7 @@ Finally, I found a fun study from Stanford that allows you to take turns with an
 ## Productized Artificial Intelligence 🔌
 
 ![GANPaint Studio (MIT CSAIL).](https://s3.amazonaws.com/revue/items/images/004/766/177/mail/c4b238b6dfd0b9fb532dc1f4543ae35d.png?1562316272)
+
 _GANPaint Studio (MIT CSAIL)._
 
 **GANPaint Studio is a tool by MIT CSAIL to modify images of certain categories using a generative adversarial network.**
@@ -48,6 +49,7 @@ Read more about Axon’s decision in Warzel’s piece here: [A Major Police Body
 ## Machine Learning Technology 🎛
 
 ![Figures from Machine Learning Testing: Survey, Landscapes and Horizons. (Zhang et al.)](https://s3.amazonaws.com/revue/items/images/004/766/792/mail/ce953ab95c1dfb9f69b5bfa6ab5de611.png?1562324430)
+
 _Figures from Machine Learning Testing: Survey, Landscapes and Horizons. (Zhang et al.)_
 
 **Zhang et al.
@@ -78,6 +80,7 @@ More:
 ## Cool Things ✨
 
 ![Drawing an octopus together; peach lines are me, yellow lines are the AI. (Stanford Department of Psychology)](https://s3.amazonaws.com/revue/items/images/004/766/718/mail/c38e36707557631ea229371297618f5e.png?1562322419)
+
 _Drawing an octopus together; peach lines are me, yellow lines are the AI. (Stanford Department of Psychology)_
 
 **Let’s draw together!

@@ -11,6 +11,7 @@ Final pre-thesis stretch!)_
 ## Productized Artificial Intelligence 🔌
 
 ![Live Caption will add subtitles to any video playing on an Android device. (Vjeran Pavic, The Verge)](https://s3.amazonaws.com/revue/items/images/004/575/072/mail/7b19818d41d642dfe1dcaf71a681b7da.jpeg?1557569545)
+
 _Live Caption will add subtitles to any video playing on an Android device. (Vjeran Pavic, The Verge)_
 
 **Google announced a slew of new features across their products at I/O, their yearly developer conference.**
@@ -83,6 +84,7 @@ Read about all the 20 grantees in this blog post by Google.org President Jacquel
 ## Cool Things ✨
 
 ![What OpenAI's medium-size GPT-2 model thinks I'm up to this year. (Adam King)](https://s3.amazonaws.com/revue/items/images/004/573/933/mail/391c400aa69ea519e2928d5e49765a13.png?1557528515)
+
 _What OpenAI's medium-size GPT-2 model thinks I'm up to this year. (Adam King)_
 
 **Adam King launched Talk to Transformer, an interactive website for OpenAI’s medium-sized language model.**

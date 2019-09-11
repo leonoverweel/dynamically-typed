@@ -12,6 +12,7 @@ Let’s dive in.
 ## Productized Artificial Intelligence 🔌
 
 ![Editing an audio file transcript with Descript's new speaker labels feature. (Descript)](https://s3.amazonaws.com/revue/items/images/004/817/126/mail/2191bb9cd47d1a36eed18187e5a2b362.png?1563631183)
+
 _Editing an audio file transcript with Descript's new speaker labels feature. (Descript)_
 
 **Audio transcription tool Descript launched a new feature called Speaker Detective.**
@@ -108,6 +109,7 @@ Check out the tool’s website: [Solar Forecast Arbiter](https://solarforecastar
 ## Cool Things ✨
 
 ![5,000 book covers, arranged by visual similarity using t-distributed stochastic neighbor embedding (t-SNE). (Jess Peter, The Pudding)](https://s3.amazonaws.com/revue/items/images/004/816/966/mail/d928dab8fdf553a4ad36fcbef0081429.png?1563627308)
+
 _5,000 book covers, arranged by visual similarity using t-distributed stochastic neighbor embedding (t-SNE). (Jess Peter, The Pudding)_
 
 **Jess Peter arranged the covers of 5000 top-selling books by visual similarity,** resulting in the mesmerizing interactive map above.

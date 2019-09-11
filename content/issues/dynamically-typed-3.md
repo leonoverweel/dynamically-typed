@@ -29,6 +29,7 @@ Definitely want to play around with this over the break: [Lobe](https://www.prod
 ## Machine Learning Tech 🎛
 
 ![Europe is the largest publisher of AI papers (2018 AI Index)](https://s3.amazonaws.com/revue/items/images/004/006/436/mail/Screenshot_2018-12-21_at_15.15.43.png?1545405365)
+
 _Europe is the largest publisher of AI papers (2018 AI Index)_
 
 According tot the 2018 AI Index, machine learning models are now solidly beating humans at many Computer Vision and Natural Language Processing tasks; some notable additions to the list since 2017 include skin cancer classification, prostate cancer grading, speech recognition, and Chinese-English translation.
@@ -52,6 +53,7 @@ Also via Wouter: ModelDepot is a great online resource for finding pre-trained m
 ## Tech and Startups 🚀
 
 ![Visualization of the GPS data the NYT analyzed (Richard Harris, NYT)](https://s3.amazonaws.com/revue/items/images/004/008/297/mail/Screenshot_2018-12-22_at_14.27.41.png?1545490516)
+
 _Visualization of the GPS data the NYT analyzed (Richard Harris, NYT)_
 
 Jennifer Valentino-DeVries (et al.) at the New York Times wrote a really great piece on the sketchy weather, parking, etc.
@@ -78,6 +80,7 @@ The workers disagree.](https://art19.com/shows/recode-decode/episodes/db68185b-2
 ## Fun Stuff ✨
 
 !["Pink", made in CSS (Diana Smith)](https://s3.amazonaws.com/revue/items/images/004/008/299/mail/Screenshot_2018-12-22_at_14.56.50.png?1545490628)
+
 _"Pink", made in CSS (Diana Smith)_
 
 The above picture is made entirely in CSS!

@@ -18,6 +18,7 @@ Let’s dive in.
 ## Productized Artificial Intelligence 🔌
 
 ![The new Create ML app. (Apple)](https://s3.amazonaws.com/revue/items/images/004/671/819/mail/29ee44a7b3b930535d3e3d209544293f.png?1559907660)
+
 _The new Create ML app. (Apple)_
 
 **Apple launched a new version of Create ML at WWDC,** its worldwide developers conference:
@@ -49,6 +50,7 @@ More:
 ## Artificial Intelligence for the Climate Crisis 🌍
 
 ![ Rajesh Jain taking a photo of a pest trap. (Photo/caption: Google.org)](https://s3.amazonaws.com/revue/items/images/004/671/411/mail/69de1c47a468f8d52137232e86206a6c.jpeg?1559904199)
+
 _ Rajesh Jain taking a photo of a pest trap. (Photo/caption: Google.org)_
 
 **Indian organization**[ **Wadhwani AI**](https://eng.wadhwaniai.org/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) **is using machine learning to identify crop pests from photos.**
@@ -67,6 +69,7 @@ Read more about Wadhwani AI’s work in Jen Harvey’s post for The Keyword: [Ho
 ## Machine Learning Technology 🎛
 
 ![Neural avatars; the face shape of the Target is projected onto the Source frame to create the Result. (Zakharov et al.)](https://s3.amazonaws.com/revue/items/images/004/665/429/mail/24373722e7ac906ac84ac29f2ede495b.png?1559765949)
+
 _Neural avatars; the face shape of the Target is projected onto the Source frame to create the Result. (Zakharov et al.)_
 
 **Samsung AI researchers have developed few-shot neural avatar technology,** allowing them to animate the position of one face onto another using just one or a few reference video frames.
@@ -105,6 +108,7 @@ Arm Research’s **SpArSe** looks like it could compete in this challenge: the a
 ## Cool Things ✨
 
 !['Migrant Mother' by Dorothea Lange (left) colorized a baseline algorithm (center) and by DeOldify (right). (Jason Antic, fast.ai)](https://s3.amazonaws.com/revue/items/images/004/671/745/mail/9665c34727f23e8d646bb82a6c786fea.png?1559906324)
+
 _'Migrant Mother' by Dorothea Lange (left) colorized a baseline algorithm (center) and by DeOldify (right). (Jason Antic, fast.ai)_
 
 **DeOldify is Jason Antic’s tool for colorizing black-and-white photos.**
@@ -117,6 +121,7 @@ More:
 ## My Stuff 😁
 
 ![My brand-new website!](https://s3.amazonaws.com/revue/items/images/004/665/167/mail/19a4af81c39f51d0f56f347bbb81dbb9.png?1559756300)
+
 _My brand-new website!_
 
 **I’ve launched a new version of my personal website!**

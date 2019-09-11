@@ -10,6 +10,7 @@ In other news, Microsoft released an update to its HoloLens AR headset, Google�
 ## OpenAI's Controversial Language Model 🦄
 
 ![A sample from the GPT-2 language model. A human wrote the italicized prompt and a computer wrote the rest. (OpenAI)](https://s3.amazonaws.com/revue/items/images/004/305/820/mail/Screenshot_2019-03-02_at_09.57.52.png?1551520801)
+
 _A sample from the GPT-2 language model. A human wrote the italicized prompt and a computer wrote the rest. (OpenAI)_
 
 **Just over two weeks ago, researchers at**[ **OpenAI released GPT-2**](https://blog.openai.com/better-language-models/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#sample3) **, a language model trained in an unsupervised way on 40GB of text from the Internet.**
@@ -59,6 +60,7 @@ Read more about GPT-2 here:
 ## Productized Artificial Intelligence 🔌
 
 ![Microsoft's HoloLens 2. (Vjeran Pavic, The Verge)](https://s3.amazonaws.com/revue/items/images/004/307/248/mail/vpavic_190131_3213_0029_%281%29.jpg?1551564652)
+
 _Microsoft's HoloLens 2. (Vjeran Pavic, The Verge)_
 
 **Microsoft has unveiled the second version of its augmented reality headset: the HoloLens 2.**
@@ -83,6 +85,7 @@ I’d love to work on a project like this one day.
 ## Machine Learning Technology 🎛
 
 ![The top Machine Learning projects on GitHub in 2018. (GitHub)](https://s3.amazonaws.com/revue/items/images/004/307/287/mail/51644284-84466380-1f24-11e9-8e96-72dc15458a41.png?1551565706)
+
 _The top Machine Learning projects on GitHub in 2018. (GitHub)_
 
 **GitHub published a report about the state of open source machine learning code,** featuring their analysis of contributions to public machine learning projects on the platform from January 1st to December 31st, 2018.
@@ -105,6 +108,7 @@ Chellapilla’s post goes into how they implement this, including four of the �
 ## Cool Things ✨
 
 ![Which of these is a real person, and which is a GAN-generated fake? (Which Face Is Real)](https://s3.amazonaws.com/revue/items/images/004/307/304/mail/Webp.net-resizeimage.png?1551566949)
+
 _Which of these is a real person, and which is a GAN-generated fake? (Which Face Is Real)_
 
 **I’m finishing today’s issue with Which Face Is Real, a site that shows you two faces and asks you to pick which one is real.**

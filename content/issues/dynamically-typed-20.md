@@ -13,6 +13,7 @@ Hopefully I’ll be able to post it publicly soon; I’ll also share a bit more 
 ## Productized Artificial Intelligence 🔌
 
 ![Socratic extracts the underlying concepts of solving and simplifying square root equations from a photo of a math problem. (The Keyword)](https://s3.amazonaws.com/revue/items/images/004/899/821/mail/8d40f47ddcb1ce0252330d183961ccd9.png?1566126063)
+
 _Socratic extracts the underlying concepts of solving and simplifying square root equations from a photo of a math problem. (The Keyword)_
 
 **Socratic is a mobile learning app for high school and university students.**
@@ -29,6 +30,7 @@ Ron Amadeo for Ars Technica: [Google Maps AR Navigation comes to iPhones and And
 ## Machine Learning Research 🎛
 
 ![The DeepMind podcast has 8 episodes that will be posted in the coming months. (DeepMind)](https://s3.amazonaws.com/revue/items/images/004/899/979/mail/1b4f249aadb2b260369350b76be43668.png?1566133064)
+
 _The DeepMind podcast has 8 episodes that will be posted in the coming months. (DeepMind)_
 
 **DeepMind launched its podcast, hosted by Hannah Fry.**
@@ -77,6 +79,7 @@ Read the post on Medium: [Crowdsourcing: Pricing Ethics and Best Practices](http
 ## Artificial Intelligence for the Climate Crisis 🌍
 
 ![Infographic explaining the sowing app. (ICRISAT)](https://s3.amazonaws.com/revue/items/images/004/899/796/mail/d1e2f5f97628efa2bae61a971e5eba03.jpeg?1566125748)
+
 _Infographic explaining the sowing app. (ICRISAT)_
 
 **The AI Sowing App is helping farmers in southeast India use their land more efficiently.**
@@ -102,6 +105,7 @@ You can read it and subscribe here: [Climate Change AI Newsletter](https://mailc
 ## Cool Things ✨
 
 ![A 40-nanometer slice of a fly brain with colored sections highlighted (left) and the corresponding 3D networks (right). (Neuroglancer)](https://s3.amazonaws.com/revue/items/images/004/899/414/mail/88180de1fac032b18d02c92eac2e8c92.png?1566113078)
+
 _A 40-nanometer slice of a fly brain with colored sections highlighted (left) and the corresponding 3D networks (right). (Neuroglancer)_
 
 **Researchers at Google AI built Neuroglancer, an interactive 3D visualization tool for a fruit fly brain.**

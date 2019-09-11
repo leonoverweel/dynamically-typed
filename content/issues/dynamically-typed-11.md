@@ -9,6 +9,7 @@ Let’s dive in.
 ## Productized Artificial Intelligence 🔌
 
 ![Adobe After Effects's new content-aware filling for videos. (Adobe)](https://s3.amazonaws.com/revue/items/images/004/475/603/mail/e2c16050fad6bd74f289348df1f820bf.png?1555199811)
+
 _Adobe After Effects's new content-aware filling for videos. (Adobe)_
 
 **Adobe After Effects now has a version of Photoshop’s content-aware fill feature for video.**
@@ -35,6 +36,7 @@ For more AI art, see Gavin’s article: [Artificial intelligence: the art world�
 ## Machine Learning Technology 🎛
 
 ![Images generated using StyleGAN, plotted by their HYPE score. (Stanford)](https://s3.amazonaws.com/revue/items/images/004/475/491/mail/7dfa2c3cedf9b2dc4a11b431782be61a.jpeg?1555195140)
+
 _Images generated using StyleGAN, plotted by their HYPE score. (Stanford)_
 
 **Sharon Zhou et al.
@@ -92,6 +94,7 @@ Just like the competing initiatives by SpaceX and OneWeb (see [DT #9](https://dy
 ## Cool Things ✨
 
 ![Talk to Books' response to "Who is Harry Potter's mother?" (Google)](https://s3.amazonaws.com/revue/items/images/004/476/407/mail/f613619bd486760daf9b177ede8b94e8.png?1555238478)
+
 _Talk to Books' response to "Who is Harry Potter's mother?" (Google)_
 
 **Google’s Talk to Books tool answers your questions using passages from books.**

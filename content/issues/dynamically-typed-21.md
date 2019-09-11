@@ -10,6 +10,7 @@ For climate-related AI, I’m covering some meta news about Green AI and carbon 
 ## Productized Artificial Intelligence 🔌
 
 ![A folded-up protein. (DeepMind)](https://s3.amazonaws.com/revue/items/images/004/940/790/mail/a1779b2d975251b03c8491fd62fe14ce.png?1567324051)
+
 _A folded-up protein. (DeepMind)_
 
 **DeepMind “stunned” scientists with their neural network-based protein folding results.**
@@ -36,6 +37,7 @@ Although this practical AI application is still mostly in the research phase, th
 ## Machine Learning Research 🎛
 
 !["Performance of RAdam, Adam and SGD with different learning rates on CIFAR10," showing RAdam's robustness to learning rate selection. (Liu et al.)](https://s3.amazonaws.com/revue/items/images/004/937/508/mail/512b946bbc6fdb5bf673182d2a69f2f9.jpeg?1567186845)
+
 _"Performance of RAdam, Adam and SGD with different learning rates on CIFAR10," showing RAdam's robustness to learning rate selection. (Liu et al.)_
 
 **Liu et al.
@@ -103,6 +105,7 @@ More:
 ## Cool Things ✨
 
 ![Illustration of how the nanophotonic neural medium (NNM) recognizes hand-written digits. (Khoram et al.))](https://s3.amazonaws.com/revue/items/images/004/940/854/mail/0e25e750fbef7696285fe824cf4d2678.png?1567325919)
+
 _Illustration of how the nanophotonic neural medium (NNM) recognizes hand-written digits. (Khoram et al.))_
 
 **Researchers at the University of Wisconsin, MIT, and Columbia developed glass-based neural network.**
