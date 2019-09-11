@@ -1,0 +1,85 @@
+# #1: Hello, World! 
+
+Hi!
+A few weeks ago, a friend of mine (👋 Wouter) asked why I don’t collect the links and articles I tweet out in a newsletter.
+This seemed like a great idea to push myself to write a bit more, and I really like the idea of having an archive of stuff I’ve read and enjoyed that’s a bit more organized than my Pocket archive.
+
+So here goes!
+
+I’ll be adding links about anything I’ve found interesting, usually about tech, machine learning and media.
+My (first) goal is to send out this newsletter **every two weeks** on **Sunday** for **ten issues**.
+Let’s jump in.
+
+**Machine Learning 📱**
+
+Cade Metz at The New York Times published a great article about state of the art natural language processing: [Finally, a Machine That Can Finish Your Sentence](https://www.nytimes.com/2018/11/18/technology/artificial-intelligence-language.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+
+Katherine Bailey wrote a blog post about the future of work in an AI world.
+I really like how she differentiates “the task” (e.g.
+identifying tumors in MRI scans) from “the job” (e.g.
+being a radiologist who interprets results and communicates them).
+Read it here: [AI and the Future of Work](https://katbailey.github.io/post/ai-and-the-future-of-work/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+
+Janelle Shane’s thread on machine learning systems completing a task in funny, unintended ways is hilarious:
+
+- [Shane’s thread](https://twitter.com/JanelleCShane/status/1060563586789982208?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+- [An even longer list of examples](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Google Docs)
+
+**Media 🗞**
+
+After [Blendle](http://blendle.com?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (the pay-per-article “premium journalism” aggregator) went international, another Dutch news media company, De Correspondent, is now launching beyond the Netherlands.
+The Correspondent’s aim is to “#unbreaknews” through 100% ad-free paid journalism.
+Links:
+
+- Founder Rob Wijnberg: [What fast food is to the body, news is to the mind. Time to break that habit](https://medium.com/de-correspondent/what-fast-food-is-to-the-body-news-is-to-the-mind-time-to-break-that-habit-cac66fb5b2ba?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
+- Wijnberg: [Thread of The Correspondent’s 10 founding principles](https://twitter.com/robwijnberg/status/1065014501265813505?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+- If you become a “founding member” (like I did; you can pay what you want for a one year subscription), [they’ll write your name on their wall](https://thecorrespondent.com/founding-members-wall?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). Cool. (Web)
+
+The New York Times published a big story about how executives handled the Russian social media manipulation crisis in the last two years.
+It’s not pretty.
+
+- New York times: [Delay, Deny and Deflect: How Facebook’s Leaders Fought Through Crisis](https://www.nytimes.com/2018/11/14/technology/facebook-data-russia-election-racism.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+- Ex-Chief Security Officer at Facebook, Alex Stamos: [Russia has been quiet ahead of the 2018 midterm elections. Here’s what it may be planning for Election Day](https://www.nbcnews.com/think/opinion/russia-has-been-quiet-ahead-2018-midterm-elections-here-s-ncna931716?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+- Kara Swisher: [Lean Out](https://www.nytimes.com/2018/11/24/opinion/sheryl-sandberg-mark-zuckerberg-facebook.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+
+WikiTribune (Wikipedia founder Jimmy Wales’ project for community-driven news) has run out of funding and laid off its journalist staff; it’s going to focus on community-generated content now.
+I’ve contributed (a tiny bit) to WikiTribune before and I like the idea of the project a lot.
+But I’m not super optimistic that it’ll be around a year from now.
+Mathew Ingram: [Wikipedia’s co-founder wanted to let readers edit the news.
+What went wrong?](https://www.cjr.org/analysis/jimmy-wales-wikitribune.php?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+
+**Tech** 📱
+
+Benedict Evans’ presentation on the current state and next wave of tech.
+Must watch, as always: [The end of the beginning](https://www.ben-evans.com/benedictevans/2018/11/16/the-end-of-the-beginning?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web / YouTube)
+
+Lots of people in the Apple podcast sphere have been talking about iPad as a productivity platform.
+iOS has a few obvious flaws on the iPad.
+The big one right now is that you can plug in a USB-C drive but only see the pictures and videos on it; in spite of iOS’s new Files app, you can’t take files off a drive.
+But for people who can get around these flaws, like Frederico Viticci, the platform looks pretty incredible:[ My Markdown Writing and Collaboration Workflow, Powered by Working Copy 3.6, iCloud Drive, and GitHub](https://www.macstories.net/ios/my-markdown-writing-and-collaboration-workflow-powered-by-working-copy-3-6-icloud-drive-and-github/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+
+I identify with a lot in this post about Facebook’s path toward irrelevance.
+I never post to my feed anymore; all I use is groups (mostly to get my rowing work out schedules) and events (event discovery is where Facebook definitely rules for me).
+Gina Bianchini: [The Facebook Era is Over](https://www.linkedin.com/pulse/facebook-era-over-gina-bianchini/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (LinkedIn)
+
+**Other Things ✨**
+
+“If you wish to not get stuck, seek to perceive what you have not yet perceived.” Great blog post by John Salvatier about the hidden complexity of pretty much everything and why we get stuck on problems: [Reality has a surprising amount of detail](http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+
+In your head, is South America mostly east of Florida?
+Is two-thirds of Africa in the northern hemisphere?
+National Geographic debunks your mental map: [Why your mental map of the world is (probably) wrong](https://www.nationalgeographic.com/culture/2018/11/all-over-the-map-mental-mapping-misconceptions/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+
+**My Stuff 😁**
+
+I published one of my Machine Learning Practical courseworks, on exploring different neural net training techniques for handwritten digit recognition on EMNIST.
+I’m pretty proud of how it turned out:
+
+- [My tweet with screenshots of some of the prettier graphs](https://twitter.com/layon_overwhale/status/1062069749486563328?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+- [The full technical report](https://github.com/leonoverweel/resume/blob/master/attachments/technical-reports/uoe-mlp-1.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+
+Alright, that’s it for the first issue!
+Let me know what you liked and didn’t like via WhatsApp or Messenger :)
+
+PS: The name, Dynamically Typed, comes from [my Medium blog ](https://dynamicallytyped.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)that I don’t use nearly enough.
+I’ll see if it sticks or if I think of something else.

@@ -1,0 +1,118 @@
+# #21: DeepMind's ML for drug discovery, security leaks in neural networks, and Green AI 
+
+Hey everyone, welcome to Dynamically Typed #21!
+The past two summer weeks have been light on productized AI, so today’s newsletter is a bit more on the technical side than usual.
+
+A few articles came out about DeepMind’s push into using machine learning for medical drug discovery, which is also becoming a hot area for startups.
+On the research side, a new neural network optimizer called RAdam has been making the rounds, and researchers at UC Berkeley showed that it’s possible to recover sensitive information like credit card numbers from the training data of natural language processing models.
+For climate-related AI, I’m covering some meta news about Green AI and carbon offsets that are making machine learning research itself more sustainable.
+
+## Productized Artificial Intelligence 🔌
+
+![A folded-up protein. (DeepMind)](https://s3.amazonaws.com/revue/items/images/004/940/790/mail/a1779b2d975251b03c8491fd62fe14ce.png?1567324051)
+_A folded-up protein. (DeepMind)_
+
+**DeepMind “stunned” scientists with their neural network-based protein folding results.**
+In computational biology, protein folding is the task to predict the three-dimensional structure of a protein given its sequence.
+Knowing how a protein folds is important for medical drug development, but for larger proteins this structure is difficult to predict.
+Robert Langreth for Bloomberg:
+
+> Artificial intelligence is a chic catchphrase in health care, often trotted out as a cure-all for whatever ails the industry.
+> It has been held up as a potential solution to fix cumbersome electronic medical records, speed up diagnosis and make surgery more precise.
+> DeepMind’s victory points to a possible practical application for the technology in one of the most expensive and failure-prone parts of the pharmaceutical business.
+
+Machine learning-based drug discovery is becoming a big deal in Silicon Valley, with medical AI startups like Recursion Pharmaceuticals, Insitro, BenevolentAI and others raising over $1 billion in 2018 alone.
+Big tech labs, like Google’s and Facebook’s, have also started published papers on protein folding recently.
+All this work is going toward simulating the effects of drugs without having to test them clinically:
+
+> An aerospace company “won’t build and fly a plane without building it on the computer first and simulating it under many conditions,” said Colin Hill of GNS Healthcare, a startup using AI to model disease, whose investors include [Amgen Inc.](https://www.bloomberg.com/quote/AMGN:US?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) In the future, drugmakers won’t begin clinical trials without a virtual dry run, Hill said.
+
+Although this practical AI application is still mostly in the research phase, these recent articles are a good indication that we’ll probably start seeing it being productized (or, in this case, used to develop medicine) in the coming years:
+
+- Robert Langreth for Bloomberg: [AI Drug Hunters Could Give Big Pharma a Run for Its Money](https://www.bloomberg.com/news/features/2019-07-15/google-ai-could-challenge-big-pharma-in-drug-discovery?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+- DeepMind blog by the lab’s team that focuses completely on protein folding: [AlphaFold: Using AI for scientific discovery](https://deepmind.com/blog/article/alphafold?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+- Greg Williams wrote a deep dive for Wired: [Inside DeepMind’s epic mission to solve science’s trickiest problem](https://www.wired.co.uk/article/deepmind-protein-folding?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+
+## Machine Learning Research 🎛
+
+!["Performance of RAdam, Adam and SGD with different learning rates on CIFAR10," showing RAdam's robustness to learning rate selection. (Liu et al.)](https://s3.amazonaws.com/revue/items/images/004/937/508/mail/512b946bbc6fdb5bf673182d2a69f2f9.jpeg?1567186845)
+_"Performance of RAdam, Adam and SGD with different learning rates on CIFAR10," showing RAdam's robustness to learning rate selection. (Liu et al.)_
+
+**Liu et al.
+introduced RAdam, a new rectified variant of Adam.**
+Adam is a gradient-based optimizer for neural networks that uses the estimates of a gradient’s lower-order moments to beat standard stochastic gradient descent (SGD) in terms of accuracy and epochs to convergence.
+It was originally developed by [Kingma and Ba (2014)](https://arxiv.org/abs/1412.6980?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), and it has since become a go-to optimizer for ML researchers and practitioners alike (and for students too—I had to implement Adam it for [a practical ML course](https://www.inf.ed.ac.uk/teaching/courses/mlp?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
+
+A new paper by [Liu et al.
+(2019)](https://arxiv.org/abs/1412.6980?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) has been making the rounds in the machine learning community because it investigates and extends Adam.
+The authors’ key insight is that adaptive learning rates cause a problematically large variance in early stages of training when using Adam.
+As a solution, they propose _RAdam_ with a term to rectify this variance, and experimentally show that it is more robust to learning rate choices across different types of neural network architectures.
+It’s getting [a lot of buzz on Twitter](https://twitter.com/jeremyphoward/status/1162118545095852032?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), and it has potential to become the go-to optimizer: having to worry less about fine-tuning the learning rate hyperparameter is a big win when training models.
+More on RAdam:
+
+- Paper by Liu et al. on arXiv: [On the Variance of the Adaptive Learning Rate and Beyond](https://arxiv.org/abs/1908.03265?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+- Implemenration on GitHub: [LiyuanLucasLiu/RAdam](https://github.com/LiyuanLucasLiu/RAdam?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+- Less Wright’s writeup of RAdam on Medium: [New State of the Art AI Optimizer: Rectified Adam (RAdam). Improve your AI accuracy instantly versus Adam, and why it works.](https://medium.com/@lessw/new-state-of-the-art-ai-optimizer-rectified-adam-radam-5d854730807b?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+- [Fast.ai](https://www.fast.ai?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) forums discussion, including comparisons with other state-of-the-art optimizers like Lookahead, Novograd, and Ranger (RAdam + Lookagead): [Meet RAdam](https://forums.fast.ai/t/meet-radam-imo-the-new-state-of-the-art-ai-optimizer/52656?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+
+**Carlini et al.
+showed that neural networks can extensively memorize their training data.**
+This is a concern from a security perspective: if a generative machine learning models is trained on sensitive user data it might, prompted with the right input, accidentally spit out users’ secrets.
+(Relevant [XKCD](https://xkcd.com/2169/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).) Indeed:
+
+> [Given] access to a language model trained on the Penn Treebank with _one_ credit card number inserted, it is possible to _completely extract_ this credit card number from the model.
+
+Carlini’s wonderfully-written post goes into the details of how they quantify memorization, when memorization happens during training, and how hyperparameters affect its severity.
+He finally explains how they were able to extract secrets like the above using a novel combination of beam search and Dijkstra’s algorithm, and how training using differentially-private SGD prevents memorization.
+Read the full post here: [Evaluating and Testing Unintended Memorization in Neural Networks](https://bair.berkeley.edu/blog/2019/08/13/memorization/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+
+**Quick ML resource links ⚡️** ([see all 39](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4)):
+
+- OpenSpiel is DeepMind’s framework for reinforcement learning in games, with 25+ games and 20+ algorithms built in, along with visualization and evaluation tools. GitHub link: [deepmind/open_spiel](https://github.com/deepmind/open_spiel?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+
+## Artificial Intelligence for the Climate Crisis 🌍
+
+Today’s news in this section is a bit meta: instead of projects that are using AI to battle the climate crisis directly, I’m covering projects that make AI research _itself_ more climate-friendly.
+(Via the [CCAI newsletter](https://us3.campaign-archive.com/?id=ef22a3426e&u=a5463f28627a77a4b2a79e7d0&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).)
+
+**Green AI is a movement to make AI both greener and more inclusive** originating from the [Allen Institute for AI](https://allenai.org?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (AI2).
+[Schwartz et al.
+(2019)](https://arxiv.org/abs/1907.10597?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) show that the of computational power required to do machine learning research has been doubling every few months, with the cost of training cutting-edge ML models rising to hundreds of thousands of dollars—an environmentally-unfriendly and uninclusive trend that the authors refer to as _Red AI_.
+
+_Green AI_ is meant to oppose this trend by encouraging researchers to build their models with efficiency in mind, focussing on carbon emissions, electricity usage, training time, number of parameters, and floating point operation counts.
+The authors advocate for major conferences to require that researchers report these efficiency measures in their papers.
+I think that’s a great idea, and hope to see conferences implement it.
+More:
+
+- Position paper by Schwartz et al. (2019): [Green AI](https://arxiv.org/abs/1907.10597?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+- A recent example of Green AI by [Hugging Face](https://huggingface.co/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) that’s making the rounds [on Twitter](https://twitter.com/SanhEstPasMoi/status/1166726434343333888?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter): achieving 95% of BERT’s GLUE performance, with a fraction of the parameters: [Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT](https://medium.com/huggingface/distilbert-8cf3380435b5?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+
+**ICLR and other ML conferences are going to buy carbon offsets for their participants’ flights.**
+Yoshua Bengio posted about it [on Facebook](https://www.facebook.com/yoshua.bengio/posts/1980384698733127?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
+
+> We in the ICLR executive (which manages the ICLR conference) just voted to buy offsets for the estimated air travel of participants to the conference.
+> I do not think that the increased registration fees which will eventually result from this will deter much travel, but at least we can invest in planting trees and other means to neutralize the impact somewhat.
+
+His last point has been a source of debate in the climate activism community for a long time now: if we merely offset the emissions of our flights by paying 10-20% more for our tickets, this may do more to ease over our [flykskam](https://www.independent.co.uk/travel/news-and-advice/flygskam-anti-flying-flight-shaming-sweden-greta-thornberg-environment-air-travel-train-brag-a8945196.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) than to actually help the planet.
+However, I think doing it on an organizational level like this is a good step for pushing the awareness needed for the international governmental change we need (kerosene and emissions taxes).
+More:
+
+- SIGPLAN blog: [ACM Conferences and the Cost of Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). All ACM conferences are now required to publicly report its carbon footprint and SIGPLAN is exploring carbon offsets.
+- I still fly quite a lot more than I’m comfortable with myself—I’m writing today’s DT at the airport—, so this topic is something I plan to think and write more about in the coming months.
+
+## Cool Things ✨
+
+![Illustration of how the nanophotonic neural medium (NNM) recognizes hand-written digits. (Khoram et al.))](https://s3.amazonaws.com/revue/items/images/004/940/854/mail/0e25e750fbef7696285fe824cf4d2678.png?1567325919)
+_Illustration of how the nanophotonic neural medium (NNM) recognizes hand-written digits. (Khoram et al.))_
+
+**Researchers at the University of Wisconsin, MIT, and Columbia developed glass-based neural network.**
+Simply by shining an image of a handwritten-digit from the MNIST dataset through their “nanophotonic” pane of glass, they can detect which digit it is with 79% accuracy by looking at how the light propagates.
+See [their paper](https://www.osapublishing.org/prj/abstract.cfm?uri=prj-7-8-823&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) here.
+
+**Thanks for reading!**
+As usual, you can let me know what you thought of today’s issue using the buttons below or by replying to this email.
+If you’re new here, check out the [Dynamically Typed archives](https://dynamicallytyped.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) or subscribe below to get a new issues in your inbox every second Sunday.
+
+**If you enjoyed this issue of Dynamically Typed, why not forward it to a friend?**
+It’s by far the best thing you can do to help me grow this newsletter.
+🚲
