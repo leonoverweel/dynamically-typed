@@ -1,0 +1,137 @@
+# #24: Descript's new podcast studio, TensorFlow and PyTorch updates, and more climate resources 
+
+Hey everyone, welcome to Dynamically Typed #24.
+Today marks the end of my second week at Plumerai (see [DT #22](https://dynamicallytyped.com/issues/22-mobile-apps-that-identify-plant-species-ai-powered-posture-correction-and-my-new-job-197292?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), and so far I’m loving it!
+My work there mostly involves implementing and experimenting with different architectures and training methods for binarized neural networks; the Amsterdam team is a lovely group of super smart people; and remotely working together on projects with the London team has been really cool.
+Hopefully I’ll be able to share some specifics soon, once my work hits our open source libraries [Larq](https://larq.dev/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [Larq Zoo](https://github.com/larq/zoo?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+(One [small addition](https://github.com/larq/larq/pull/281?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) already made it into the codebase!)
+
+Anyway, let’s dive into the news.
+On the productized AI side, Descript launched a new podcast studio, and a16z’s Benedict Evans wrote an essay about the four waves of machine learning deployment.
+On the research side, the team behind Papers with Code has launched a new tool for tracking open-source ML models called sotabenchmark, and ML libraries TensorFlow and PyTorch both had big new updates.
+Finally, CCAI and others launched some useful new resources for AI researchers and engineers looking to make an impact on the climate crisis.
+
+## Productized Artificial Intelligence 🔌
+
+![The all-new Descript podcast studio. (Descript)](https://s3.amazonaws.com/revue/items/images/005/094/425/mail/c4c2a8032c62e5f43d9f3227efde212c.png?1570817604)
+
+_The all-new Descript podcast studio. (Descript)_
+
+**Descript launched their podcast studio app.**
+As I wrote in [DT #18](https://dynamicallytyped.com/issues/18-runway-ml-s-app-store-for-ai-google-s-new-youtube-dataset-and-a-trippy-gan-journey-188184?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), Descript is a great example of a productized AI company:
+
+> Descript takes an audio file (like a podcast or conference talk recording) as input and transcribes it using machine learning.
+> Then, it lets you edit the transcript and audio in synchrony, automatically moving audio clips around as you cut, paste, and shuffle around bits of text.
+
+The team has now launched a multitrack podcast production app using this same technology.
+As they put it, it’s “the version of Descript we’ve dreamed of since conceiving of the company.” The podcast studio allows you to edit multiple speakers’ audio tracks by editing the transcribed text of what they said; Descript takes care of splicing and syncing all the audio.
+
+It also comes with some crazy new (beta) functionality called _Overdub_.
+The feature lets you replace a few words of a transcript and then uses your newly inserted text to generate an audio version of what you typed _in your own voice_.
+
+Sounds amazing!
+But also dangerous—what if someone has a recording of your voice?
+Can they just make a convincing audio clip of you saying whatever they want?
+Nope.
+Lyrebird, the team behind the feature, has built in safeguards to prevent that from happening:
+
+> Invariably, to first experience Overdub is to experience wunderschrecken—a simultaneous feeling of wonder and dread.
+> Rest assured, you can only use Overdub on your own voice.
+> We built this feature to save you the tedium of re-recording/splicing time every time you make an editorial change, not as a way make deep fakes.
+
+> The Lyrebird team deserves credit for figuring this out — in order to train a voice model, you need to record yourself speaking randomly generated sentences, preventing others from using pre-existing recordings to create a model of your voice.
+
+Read all about the new podcast studio and Overdub in Descript CEO Andrew Mason’s Medium post: [Introducing Descript Podcast Studio & Overdub](https://medium.com/descript/introducing-descript-podcast-studio-13b8da53311b?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+
+**Benedict Evans of Andreessen Horowitz wrote about the four waves of AI deployment,** starting with the deep learning explosion that began when AlexNet proved that neural networks are useful for solving computer vision problems.
+He breaks the subsequent rollout of AI-powered companies into four waves:
+
+The third-wave companies—like Descript above!—are the ones I try to cover most in this newsletter.
+Evans describes these companies as follows:
+
+> There are lots of really cool new companies like this, generally solving a very specific problem you didn’t know existed in an industry you know almost nothing about, and very often that doesn’t look like an ‘AI problem’.
+> Quite often, they’re also using vision to solve something that doesn’t look like a vision problem, or audio to solve something that doesn’t look like an audio problem.
+
+Another great example of this is DT-favorite [remove.bg](https://www.remove.bg?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which automatically removes the background from photos for free, or in HD for a small fee (see [DT #3](https://dynamicallytyped.com/issues/3-happy-holidays-149573?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [#5](https://dynamicallytyped.com/issues/5-hey-google-what-s-a-golden-kitty-153366?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [#6](https://dynamicallytyped.com/issues/6-deep-reinforcement-learning-from-an-atari-zoo-to-a-self-driving-car-in-20-minutes-155882?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [#12](https://dynamicallytyped.com/issues/12-openai-introduces-mozart-to-lady-gaga-and-google-takes-your-best-duck-face-selfies-for-you-173114?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), and [#16](https://dynamicallytyped.com/issues/16-finding-whales-with-ai-and-97-pages-of-ml-for-climate-change-183400?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
+Anyway, as usual, Evans’s post is an insightful, approachable analysis of how the tech industry has been touched by these waves of AI deployment.
+Read it here for specific examples of some of the companies involved: [Machine learning deployment](https://www.ben-evans.com/benedictevans/2019/10/4/machine-learning-deployment?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+
+## Machine Learning Research 🎛
+
+![The sotabench homepage. (sotabench)](https://s3.amazonaws.com/revue/items/images/005/094/126/mail/040ec11d29f0de972b7a8123ca1517ec.png?1570813096)
+
+_The sotabench homepage. (sotabench)_
+
+**The team behind Papers with Code has launched sotabench.**
+The name derives from “state of the art (sota)” + “benchmark”, and its mission is precisely that: to _benchmark every open source model_ —for free!
+
+This is super cool.
+A researcher just needs to implement a small Python file that specifies how to run their model on some given test data.
+They can then submit their repository to sotabench, which tracks it and runs the model on standardized test data for every commit to the master branch.
+This way, it independently keeps track of whether models achieve the performance claimed by the authors (within some benchmark-specific error range).
+
+The project is run by Atlas ML, a company whose mission is to “advance _open source_ deep learning” (emphasis mine).
+
+> We believe the software of the future should be accessible to everyone, not just large technology companies.
+> We are realising this future by building breakthrough tooling that allows the world to build and collaborate on ambitious deep learning projects.
+
+Atlas ML was co-founded by [Robert Stojnic](https://twitter.com/rbstojnic?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), one of the first Wikipedia engineers.
+It’s therefore not surprising that the team’s main objective is to push the open and collaborative values that also drive Wikipedia.
+The meta dataset resulting from sotabench will also surely lead to lots of interesting research on reproducibility and model characteristics vs.
+performance.
+Check out the project at [sotabench.com](https://sotabench.com?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+
+**TensorFlow 2.0 has been released.**
+TensorFlow 1.x was notoriously unintuitive for first-time users compared to other machine learning frameworks.
+Version 2.0 has therefore been built with a focus on “simplicity and ease of use.” Highlights from the [release notes](https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
+
+> \- Easy model building with Keras and eager execution.
+
+> \- Robust model deployment in production on any platform.
+
+> \- Powerful experimentation for research.
+
+> \- API simplification by reducing duplication and removing deprecated endpoints.
+
+I’ve been using TensorFlow 2.0 at work (its release coincided with my first day!), and so far it’s been great.
+(But I haven’t used 1.x a lot, so I don’t have much to compare it to.) More here:
+
+- The full release notes on GitHub: [tensorflow/tensorflow release 2.0.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+- Keras creator François Chollet made a crash course Colab notebook that I highly recommend: [TensorFlow 2.0 + Keras Overview for Deep Learning Researchers](https://colab.research.google.com/drive/1UCJt8EYjlzCs1H1d1X0iDGYJsHKwu-NO?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#scrollTo=zoDjozMFREDU).
+
+**PyTorch 1.3 has also been released.**
+These are the highlights:
+
+> We are now advancing the platform further with the release of PyTorch 1.3, which includes experimental support for features such as seamless model deployment to mobile devices, model quantization for better performance at inference time, and front-end improvements, like the ability to name tensors and create clearer code with less need for inline comments.
+> We’re also launching a number of additional tools and libraries to support model interpretability and bringing multimodal research to production.
+
+PyTorch is the library I used for most of my MSc coursework, and it has also been more popular than TensorFlow on the research side of the machine learning community.
+It’ll be interesting to see whether that changes with both of their recent launches, as TensorFlow is positioning itself as an allround platform and PyTorch is pushing hard on its deployability side.
+Check out the full release notes for PyTorch here: [PyTorch 1.3 adds mobile, privacy, quantization, and named tensors](https://ai.facebook.com/blog/pytorch-13-adds-mobile-privacy-quantization-and-named-tensors/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+
+**Quick ML resource links ⚡️** ([see all 43](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
+
+- Polyaxon is a tool easily train machine learning models in the cloud, supporting all major libraries and cloud providers. The open source version has been a game changer for me: [polyaxon/polyaxon](https://github.com/polyaxon/polyaxon?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+
+## Artificial Intelligence for the Climate Crisis 🌍
+
+**Paul Strobel has broken down the June CCAI paper into six easy-to-digest blog posts.**
+_Tackling Climate Change with Machine Learning,_ the 97-page paper released by 22 machine learning researchers released earlier this year (see [DT #16](https://dynamicallytyped.com/issues/16-finding-whales-with-ai-and-97-pages-of-ml-for-climate-change-183400?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), has since sparked the creation of workshops at major conferences [ICML](https://www.climatechange.ai/ICML2019_workshop?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#schedule), [NeurIPS](https://www.climatechange.ai/NeurIPS2019_workshop.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), and [AMLD](https://www.climatechange.ai/AMLD2020_workshop.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+Strobel has now also taken the contents of the original paper and turned them into six highly-detailed, hyperlink-packed, illustrated blog posts.
+They’re organized by topic:
+
+If you’re interested in applying your machine learning skills to solve the climate crisis, these blog posts are a great place to start!
+
+**More new resources!**
+Some other resources for ML scientists and engineers hoping to help fight the climate crisis also went live:
+
+- CCAI has added a new [resources page](https://www.climatechange.ai/resources.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). It’s organized by topic (from _Buildings and Cities_ to _CO2 Removal_ ) and each section includes links to background reading, datasets and tools, and related journal and conference articles.
+- Jack Kelly of Open Climate Fix published an open-source blog post full of resources here: [Using computing to fix climate change](http://jack-kelly.com/blog/2019-10-03-using-computing-to-fix-climate-change?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). He encourages pull requests, so if you have any other resources, he’d love to include them!
+
+**Thanks for reading!**
+As usual, you can let me know what you thought of today’s issue using the buttons below or by replying to this email.
+If you’re new here, check out the [Dynamically Typed archives](https://dynamicallytyped.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) or subscribe below to get a new issues in your inbox every second Sunday.
+
+**If you enjoyed this issue of Dynamically Typed, why not forward it to a friend?**
+It’s by far the best thing you can do to help me grow this newsletter.
+🍓
