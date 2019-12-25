@@ -42,11 +42,11 @@ Finally, in [The Wrong Classroom](https://katbailey.github.io/post/the-wrong-cla
 It’s been interesting seeing this debate unfold over the past few weeks, and I think I agree mostly with Brooks and Bailey.
 I’d love to know what you all think, so here’s all the posts I mentioned above one more time if you’d like to read them all:
 
-- Rich Sutton: [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Shimon Whiteson: [Twitter thread](https://twitter.com/shimon8282/status/1106534178676506624?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Rodney Brooks: [A Better Lesson](https://rodneybrooks.com/a-better-lesson/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Andy Kitchen: [A Meta Lesson](http://andy.kitchen/a-meta-lesson.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Katherine Bailey: [The Wrong Classroom](https://katbailey.github.io/post/the-wrong-classroom/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Rich Sutton: [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Shimon Whiteson: [Twitter thread](https://twitter.com/shimon8282/status/1106534178676506624?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Rodney Brooks: [A Better Lesson](https://rodneybrooks.com/a-better-lesson/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Andy Kitchen: [A Meta Lesson](http://andy.kitchen/a-meta-lesson.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Katherine Bailey: [The Wrong Classroom](https://katbailey.github.io/post/the-wrong-classroom/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Productized Artificial Intelligence 🔌
 
@@ -60,10 +60,10 @@ GauGAN then feeds your drawing through a Generative Adversarial Network (GAN) to
 Nvidia trained the GAN on a million images from Flicker to achieve this result and hopes to make the tool available in its [AI playground website](https://www.nvidia.com/en-us/research/ai-playground/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) soon.
 Read more about GauGAN here:
 
-- TechCrunch: [Nvidia AI turns sketches into photorealistic landscapes in seconds](https://techcrunch.com/2019/03/18/nvidia-ai-turns-sketches-into-photorealistic-landscapes-in-seconds/?guccounter=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- An in-depth explanation of how GauGAN works by Adam D. King: [Photos from Crude Sketches: NVIDIA’s GauGAN Explained Visually](https://adamdking.com/blog/gaugan/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Google demonstrated doing something similar in real time for games. Engadget: [Google Stadia can use AI to change a game’s art in real-time](https://www.engadget.com/2019/03/19/google-stadia-style-transfer/?guccounter=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Another simular tool from a few years ago: [Neural Doodle](https://github.com/alexjc/neural-doodle?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub)
+* TechCrunch: [Nvidia AI turns sketches into photorealistic landscapes in seconds](https://techcrunch.com/2019/03/18/nvidia-ai-turns-sketches-into-photorealistic-landscapes-in-seconds/?guccounter=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* An in-depth explanation of how GauGAN works by Adam D. King: [Photos from Crude Sketches: NVIDIA’s GauGAN Explained Visually](https://adamdking.com/blog/gaugan/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Google demonstrated doing something similar in real time for games. Engadget: [Google Stadia can use AI to change a game’s art in real-time](https://www.engadget.com/2019/03/19/google-stadia-style-transfer/?guccounter=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Another simular tool from a few years ago: [Neural Doodle](https://github.com/alexjc/neural-doodle?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub)
 
 **For Vogue Business, Maghan McDowell wrote about how physical retail is using AI.**
 Luxury goods conglomerate Kering used an algorithm to identify likely repeat-customers based on their transactional data and gave those customers coupons to come back to the store, an approach that startup [Custora](https://www.custora.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) says helped them boost the number of “valuable customers” in stores by 20% over last year’s holiday period.
@@ -104,7 +104,7 @@ _Update: the council has been disbanded; see_[ _DT #11_](https://dynamicallytype
 
 **Quick ML resource links ⚡️**
 
-- Netron is a viewer that can visualize machine learning models from common model specification file types: [Netron](https://github.com/lutzroeder/netron?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub).
+* Netron is a viewer that can visualize machine learning models from common model specification file types: [Netron](https://github.com/lutzroeder/netron?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub).
 
 ## People in AI 👩‍💻
 
@@ -130,9 +130,9 @@ _Gen Studio in action (The Met, Microsoft, and MIT)_
 
 **Microsoft, MIT and the Metropolitan Museum of Art did a joint hackathon that resulted in some cool projects:**
 
-- _Gen Studio_ is super cool. You select a piece of art from The Met’s collection, and the website finds five pieces of related art and plots them on a map. You can then click any point on the map to generate a new piece of art that has a mix of the abstract features of the existing art works, weighted by how close you place the point to each of them. It’s quite fast and super fun to play with, so I recommend you check it out at [gen.studio](https://gen.studio?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
-- _My Life, My Met_ “[turns] an Instagram feed into a work of art” by finding works in the Met that closely resemble the photos in someone’s Instagram. Check out [their pitch](https://www.microsoft.com/inculture/uploads/prod/2019/02/mylife-my-met.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF).
-- _Artwork of the Day_ analyzes a user’s location, weather, news and historical data to present a personalized piece of art from The Met’s collection each day. It’s sadly not available yet.
+* _Gen Studio_ is super cool. You select a piece of art from The Met’s collection, and the website finds five pieces of related art and plots them on a map. You can then click any point on the map to generate a new piece of art that has a mix of the abstract features of the existing art works, weighted by how close you place the point to each of them. It’s quite fast and super fun to play with, so I recommend you check it out at [gen.studio](https://gen.studio?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* _My Life, My Met_ “[turns] an Instagram feed into a work of art” by finding works in the Met that closely resemble the photos in someone’s Instagram. Check out [their pitch](https://www.microsoft.com/inculture/uploads/prod/2019/02/mylife-my-met.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF).
+* _Artwork of the Day_ analyzes a user’s location, weather, news and historical data to present a personalized piece of art from The Met’s collection each day. It’s sadly not available yet.
 
 Check out the full post on Microsoft’s culture website for more projects: [Making art accessible to global audiences through artificial intelligence](https://www.microsoft.com/inculture/arts/met-microsoft-mit-ai-open-access-hack/?ocid=AID825421_QSG_PD_SCL_318673&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 

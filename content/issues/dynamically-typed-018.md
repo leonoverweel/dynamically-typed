@@ -28,23 +28,23 @@ Using this approach, it populates autocomplete pop-ups for languages like Python
 TabNine offers a cloud code editor for individual developers and a self-hosted model for enterprises that must ensure the security of their code.
 More:
 
-- TabNine’s blog post: [Autocompletion with deep learning](https://tabnine.com/blog/deep?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Demo tweets by [Andrej Karpathy](https://twitter.com/karpathy/status/1151887984691576833?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [Gerald de Melo](https://twitter.com/gdm3000/status/1151469462614368256?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Thanks for the link, [Steinar](https://twitter.com/SteinarLaenen?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)!)
+* TabNine’s blog post: [Autocompletion with deep learning](https://tabnine.com/blog/deep?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Demo tweets by [Andrej Karpathy](https://twitter.com/karpathy/status/1151887984691576833?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [Gerald de Melo](https://twitter.com/gdm3000/status/1151469462614368256?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Thanks for the link, [Steinar](https://twitter.com/SteinarLaenen?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)!)
 
 **Runway ML is an “app store” of easy-to-use machine learning models for creators.**
 It allows you to browse through a directory of pre-trained models, experiment with giving your own inputs to the models, integrate the outputs into popular creative tools, and (soon) even retrain models on your own data, all in a user interface that requires zero coding.
 Some models available on Runway ML include:
 
-- _Motion capture:_ Posenet (skeletal tracking), Face Landmarks (identifying facial key points), Mask RCNN (cutting out image backgrounds), and DensePose (generative 3D surface models from 2D photos of people)
-- _Image synthesis:_ StyleGAN + BigGAN (generating faces, landscapes, etc.), Fast Style Transfer (stylizing images after famous painters), and AttnGAN (synthesizing images from text descriptions)
-- _Object recognition:_ DenseCap + Im2Txt (generating image descriptions), COCO (finding bounding boxes), and Face Recognition
-- _Other:_ GPT-2 (text generation), DeOldify (image colorization and restoration), and more.
+* _Motion capture:_ Posenet (skeletal tracking), Face Landmarks (identifying facial key points), Mask RCNN (cutting out image backgrounds), and DensePose (generative 3D surface models from 2D photos of people)
+* _Image synthesis:_ StyleGAN + BigGAN (generating faces, landscapes, etc.), Fast Style Transfer (stylizing images after famous painters), and AttnGAN (synthesizing images from text descriptions)
+* _Object recognition:_ DenseCap + Im2Txt (generating image descriptions), COCO (finding bounding boxes), and Face Recognition
+* _Other:_ GPT-2 (text generation), DeOldify (image colorization and restoration), and more.
 
 I’ve been following Runway for a while, and they seem to be adding new models every few weeks to what is by now already a very full-featured suite.
 More:
 
-- [Runway ML’s website](https://runwayml.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- James Vincent for The Verge: [Runway ML puts AI tools in the hands of creators everywhere](https://www.theverge.com/platform/amp/2019/7/10/20682307/ai-machine-learning-easy-to-use-models-creatives-runway-ml?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* [Runway ML’s website](https://runwayml.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* James Vincent for The Verge: [Runway ML puts AI tools in the hands of creators everywhere](https://www.theverge.com/platform/amp/2019/7/10/20682307/ai-machine-learning-easy-to-use-models-creatives-runway-ml?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Machine Learning Research 🎛
 
@@ -89,10 +89,10 @@ Read Vi Hart’s essay at The Art of Research here: [Changing my Mind about AI, 
 
 **Quick ML resource links ⚡️** ([see all 31](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- IBM’s differential privacy library, which includes a Jupyter notebook to explore the effect of differential privacy on machine learning accuracy using basic classification and clustering models. Link: [IBM/differential-privacy-library](https://github.com/IBM/differential-privacy-library?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- PyTorch Transformers is a library of state-of-the-art pre-trained models for natural language processing, including BERT, GPT, GPT-2, Transformer-XL, XLNet, and XLM. Link: [huggingface/pytorch-transformers](https://github.com/huggingface/pytorch-transformers?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- I made a repository of BibTeX citations for common Python packages, to make it easier to give credit to the software we use for machine learning research in papers. Link: [leonoverweel/bibtex-python-package-citations](https://github.com/leonoverweel/bibtex-python-package-citations?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- fast.ai has several high-quality free online machine learning courses, from practical deep learning for coders, to cutting edge deep learning from the foundations, to NLP. Link: [fast.ai](https://www.fast.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* IBM’s differential privacy library, which includes a Jupyter notebook to explore the effect of differential privacy on machine learning accuracy using basic classification and clustering models. Link: [IBM/differential-privacy-library](https://github.com/IBM/differential-privacy-library?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* PyTorch Transformers is a library of state-of-the-art pre-trained models for natural language processing, including BERT, GPT, GPT-2, Transformer-XL, XLNet, and XLM. Link: [huggingface/pytorch-transformers](https://github.com/huggingface/pytorch-transformers?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* I made a repository of BibTeX citations for common Python packages, to make it easier to give credit to the software we use for machine learning research in papers. Link: [leonoverweel/bibtex-python-package-citations](https://github.com/leonoverweel/bibtex-python-package-citations?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* fast.ai has several high-quality free online machine learning courses, from practical deep learning for coders, to cutting edge deep learning from the foundations, to NLP. Link: [fast.ai](https://www.fast.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 

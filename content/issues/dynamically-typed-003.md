@@ -20,8 +20,8 @@ Google has fixed that now: [Providing Gender-Specific Translations in Google Tra
 Something cool that popped up on Product Hunt this week: remove.bg, a free service that uses ML to remove the background from photographs of people.
 For now, it only outputs small (500 pixel wide) images, but I wouldn’t be surprised to see a full-quality paid version of the service soon.
 
-- Try it for free yourself:[ remove.bg](https://www.remove.bg/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- [remove.bg discussion on Product Hunt](https://www.producthunt.com/posts/remove-bg?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Product Hunt)
+* Try it for free yourself:[ remove.bg](https://www.remove.bg/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [remove.bg discussion on Product Hunt](https://www.producthunt.com/posts/remove-bg?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Product Hunt)
 
 My friend [Wouter](https://twitter.com/wouterraateland?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) also sent me this cool AI product I hadn’t seen before: Lobe is a tool that lets you visually build custom deep learning models.
 Definitely want to play around with this over the break: [Lobe](https://www.producthunt.com/posts/lobe?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Product Hunt)
@@ -36,8 +36,8 @@ According tot the 2018 AI Index, machine learning models are now solidly beating
 The report also has a lot of up-and-to-the-right graphs, from enrolment in AI majors at university and research publications, to job openings and startup funding.
 More here:
 
-- [2018 AI Index](http://aiindex.org/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web, PDF)
-- [Nine charts that really bring home just how fast AI is growing](https://www.technologyreview.com/s/612582/data-that-illuminates-the-ai-boom/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [2018 AI Index](http://aiindex.org/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web, PDF)
+* [Nine charts that really bring home just how fast AI is growing](https://www.technologyreview.com/s/612582/data-that-illuminates-the-ai-boom/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
 
 Tom Simonite at Wired interviewed “Godfather of Deep Learning” Geoff Hinton.
 On AI regulation, Hinton thinks the focus should be on its performance, not on explainability, since there’s not much you can explain about the billion weights in a deep neural net.
@@ -87,8 +87,8 @@ The above picture is made entirely in CSS!
 I’ve come across Diana Smith’s work before, but this is definitely my favorite so far.
 It’s really fun to inspect-element different parts (like the hair) and toggle CSS properties off and on to see how the image changes.
 
-- [Smith’s tweet](https://twitter.com/cyanharlow/status/1071989185379131392?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter) 
-- The original artwork: [Pink](http://diana-adrianne.com/purecss-pink/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [Smith’s tweet](https://twitter.com/cyanharlow/status/1071989185379131392?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter) 
+* The original artwork: [Pink](http://diana-adrianne.com/purecss-pink/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
 
 The NYT also had a nice profile on Donald Knuth, the author of The Art of Computer Programming, and creator of LaTeX (?!) this week.
 One of my favorite quotes of his is “Premature optimization is the root of all evil.” Check it out: [The Yoda of Silicon Valley](https://www.nytimes.com/2018/12/17/science/donald-knuth-computers-algorithms-programming.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)

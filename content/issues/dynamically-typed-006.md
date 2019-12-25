@@ -16,9 +16,9 @@ It’s free for personal and non-profit use, and cities around the world are alr
 As with any crowd-sourced product, it’ll be interesting whether Mapillary can reach critical mass and how it’ll incentivize contributors (who don’t get paid) to help them get there.
 More:
 
-- Browse around the map yourself: [Mapillary](https://www.mapillary.com/app/?focus=map&lat=52.35310195496024&lng=4.883763916141675&menu=false&pKey=psvLqgY-VhkVViZDlgMrkg&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&x=0.6216437437477728&y=0.5139292283493687&z=11.345079927556345&zoom=0)
-- Charlotte Jee at MIT Technology Review: [Crowdsourced maps should help driverless cars navigate our cities more safely](https://www.technologyreview.com/s/612825/open-source-maps-should-help-driverless-cars-navigate-our-cities-more-safely/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Mapillary isn’t alone in this field: [The Golden Age of HD Mapping for Autonomous Driving](https://medium.com/syncedreview/the-golden-age-of-hd-mapping-for-autonomous-driving-b2a2ec4c11d?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
+* Browse around the map yourself: [Mapillary](https://www.mapillary.com/app/?focus=map&lat=52.35310195496024&lng=4.883763916141675&menu=false&pKey=psvLqgY-VhkVViZDlgMrkg&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&x=0.6216437437477728&y=0.5139292283493687&z=11.345079927556345&zoom=0)
+* Charlotte Jee at MIT Technology Review: [Crowdsourced maps should help driverless cars navigate our cities more safely](https://www.technologyreview.com/s/612825/open-source-maps-should-help-driverless-cars-navigate-our-cities-more-safely/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Mapillary isn’t alone in this field: [The Golden Age of HD Mapping for Autonomous Driving](https://medium.com/syncedreview/the-golden-age-of-hd-mapping-for-autonomous-driving-b2a2ec4c11d?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
 
 **Waymo has received approval to build a factory for its self-driving cars in Michigan.**
 The factory won’t be building cars from scratch, but rather retrofitting existing models from other manufacturers with the sensors etc.
@@ -65,9 +65,9 @@ They worked together with Google Brain and OpenAI (famous for [their RL gym](htt
 Their post includes two case studies on the sorts of questions that can be explored using this “zoo” of trained agents: creating high-level visualizations of deep RL algorithms, and examining whether different deep RL algorithms learn different game strategies.
 They hope the zoo will encourage more research into understanding deep RL.
 
-- Uber’s blog post: [Creating a Zoo of Atari-Playing Agents to Catalyze the Understanding of Deep Reinforcement Learning](https://eng.uber.com/atari-zoo-deep-reinforcement-learning/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- The accompanying paper on arXiv: [An Atari Model Zoo for Analyzing, Visualizing, and Comparing Deep Reinforcement Learning Agents](https://arxiv.org/pdf/1812.07069?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
-- The repository on GitHub: [uber-research/atari-model-zoo](https://github.com/uber-research/atari-model-zoo?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Uber’s blog post: [Creating a Zoo of Atari-Playing Agents to Catalyze the Understanding of Deep Reinforcement Learning](https://eng.uber.com/atari-zoo-deep-reinforcement-learning/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* The accompanying paper on arXiv: [An Atari Model Zoo for Analyzing, Visualizing, and Comparing Deep Reinforcement Learning Agents](https://arxiv.org/pdf/1812.07069?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+* The repository on GitHub: [uber-research/atari-model-zoo](https://github.com/uber-research/atari-model-zoo?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **DeepMind’s AlphaStar has mastered StarCraft II:** in a demonstration game, DeepMind’s software beat one of the strongest players of the game 5-0.
 StarCraft is considered more difficult than other games (from Chess and Go to Atari games and Dota) because of its long-term planning, real time, and game theory aspects, and because it provides the player with incomplete information and a large action space.
@@ -96,9 +96,9 @@ Cities should be building cycling infrastructure, which will further enable tran
 This intersection of micromobility and cycling infrastructure is something that’s been both fascinating and frustrating to me in the past year, so I might write more about it in the future.
 In the mean time, check out these posts (especially the first):
 
-- Florent Crivello (product manager at Uber, which owns Jump): [Five Promises of Micromobility](https://florentcrivello.com/index.php/2019/01/28/five-promises-of-micromobility/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Horace Dediu’s blog posts: [Micromobility, an Introduction](https://micromobility.io/latest-news/2019/1/21/micromobility-an-introduction?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [Part 2: Disruption](https://micromobility.io/latest-news/2019/1/22/part-2-disruptionnbsp?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter); also see the [Micromobility.io’s vision](https://micromobility.io/about/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Michal Naka: [Micromobility conference 2017 vs. 2019](https://twitter.com/michalnaka/status/1091062602866671616?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+* Florent Crivello (product manager at Uber, which owns Jump): [Five Promises of Micromobility](https://florentcrivello.com/index.php/2019/01/28/five-promises-of-micromobility/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Horace Dediu’s blog posts: [Micromobility, an Introduction](https://micromobility.io/latest-news/2019/1/21/micromobility-an-introduction?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [Part 2: Disruption](https://micromobility.io/latest-news/2019/1/22/part-2-disruptionnbsp?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter); also see the [Micromobility.io’s vision](https://micromobility.io/about/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Michal Naka: [Micromobility conference 2017 vs. 2019](https://twitter.com/michalnaka/status/1091062602866671616?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
 
 **Sony’s 3D cameras might be in the next iPhone.**
 The 3D smartphone cameras that are coming to Huawai’s next generation of phones (see [DT #4](https://www.getrevue.co/profile/dynamically-typed/issues/4-gan-you-feel-the-love-tonight-151860?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) are now rumored to be coming to Apple’s next flagship phones too.

@@ -51,15 +51,15 @@ There are 400 tasks to train on and 600 tasks to test on, of which 200 are secre
 
 **I’ve barely scratched the surface of the paper here,** and I highly recommend reading it in full and trying out ARC for yourself!
 
-- The Measure of Intelligence on arXiv: [Chollet (2019)](https://arxiv.org/abs/1911.01547?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- The Abstraction and Reasoning Corpus on GitHub, including a version you can test yourself on: [fchollet/ARC](https://github.com/fchollet/ARC?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Chollet’s [twitter thread](https://twitter.com/fchollet/status/1192121587467784192?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) with some more background about how the paper came to be.
+* The Measure of Intelligence on arXiv: [Chollet (2019)](https://arxiv.org/abs/1911.01547?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* The Abstraction and Reasoning Corpus on GitHub, including a version you can test yourself on: [fchollet/ARC](https://github.com/fchollet/ARC?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Chollet’s [twitter thread](https://twitter.com/fchollet/status/1192121587467784192?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) with some more background about how the paper came to be.
 
 **Quick ML resource links ⚡️** ([see all 47](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- arXiv Vanity renders papers from arXiv into HTML pages instead of PDFs, making them easier to read in your browser. Link: [arxiv-vanity.com](https://www.arxiv-vanity.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Gradient Community Notebooks lets you run PyTorch, TensorFlow and Keras models on cloud GPUs for free, similar to Colab. Link: [Gradient Community Notebooks](https://gradient.paperspace.com/free-gpu?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Hypothesis GU Funcs is Uber’s open-source Python package that “allows property-based testing of vectorized NumPy functions” for ML models. GitHub link: [uber/hypothesis-gufunc](https://github.com/uber/hypothesis-gufunc?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* arXiv Vanity renders papers from arXiv into HTML pages instead of PDFs, making them easier to read in your browser. Link: [arxiv-vanity.com](https://www.arxiv-vanity.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Gradient Community Notebooks lets you run PyTorch, TensorFlow and Keras models on cloud GPUs for free, similar to Colab. Link: [Gradient Community Notebooks](https://gradient.paperspace.com/free-gpu?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Hypothesis GU Funcs is Uber’s open-source Python package that “allows property-based testing of vectorized NumPy functions” for ML models. GitHub link: [uber/hypothesis-gufunc](https://github.com/uber/hypothesis-gufunc?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 

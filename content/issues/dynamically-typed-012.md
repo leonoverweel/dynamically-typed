@@ -49,17 +49,17 @@ This allowed them to attack problems with larger data sizes (like images and aud
 Although this is an impressive improvement, the authors think it can be taken further in combination with multi-scale approaches.
 More:
 
-- Rewon Child and Scott Gray on the OpenAI blog: [Generative Modeling with Sparse Transformers](https://openai.com/blog/sparse-transformer/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Paper by Child et al. (2019): [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
-- Code: [openai/sparse_attention](https://github.com/openai/sparse_attention?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub)
+* Rewon Child and Scott Gray on the OpenAI blog: [Generative Modeling with Sparse Transformers](https://openai.com/blog/sparse-transformer/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper by Child et al. (2019): [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+* Code: [openai/sparse_attention](https://github.com/openai/sparse_attention?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub)
 
 **Google has open-sourced a TensorFlow implementation of MorphNet,** a tool that “takes an existing neural network as input and produces a new neural network that is smaller, faster, and yields better performance tailored to a new problem.” MorphNet works in a cycle of two phases: a _shrinking_ phase that prunes inefficient neurons from the network, and an _expanding_ phase that uniformly grows all layers using a width multiplier.
 Together, these two phases result in computation (in terms of FLOPs or model size) being reallocated to places where it is most effective.
 When applied to the [Inception V2 network](https://arxiv.org/abs/1502.03167?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) trained on [Imagenet](http://www.image-net.org/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), MorphNet reduces FLOPs per inference by 11-15% without degrading the accuracy.
 More:
 
-- Andrew Poon on the Google AI Blog: [MorphNet: Towards Faster and Smaller Neural Networks](http://ai.googleblog.com/2019/04/morphnet-towards-faster-and-smaller.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Paper by Gordon et al. (2018): [MorphNet: Fast & Simple Resource-Constrained Structure Learning of Deep Networks](https://arxiv.org/pdf/1711.06798.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+* Andrew Poon on the Google AI Blog: [MorphNet: Towards Faster and Smaller Neural Networks](http://ai.googleblog.com/2019/04/morphnet-towards-faster-and-smaller.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper by Gordon et al. (2018): [MorphNet: Fast & Simple Resource-Constrained Structure Learning of Deep Networks](https://arxiv.org/pdf/1711.06798.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
 
 **Adam King wrote an in-depth explanation of how GauGAN works.**
 NVIDIA’s GauGAN tool that can automatically transform sketches into photorealistic landscapes (see [DT #10](https://dynamicallytyped.com/issues/10-a-turing-award-for-deep-learning-and-a-bitter-lesson-for-ai-research-166903?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) is powered by a recent Generative Adversarial Network (GAN) architecture called SPADE.
@@ -68,8 +68,8 @@ Read it here: [Photos from Crude Sketches: NVIDIA’s GauGAN Explained Visually]
 
 **Quick ML resource links ⚡️**
 
-- Andrej Karpathy (director of AI + Autopilot Vision at Tesla) shared some practical deep learning tips: [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
-- Rachel Thomas (cofounder of [fast.ai](https://www.fast.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) shared two sets of pragmatic tips for improving AI ethics in your organization: [16 Things You Can Do to Make Tech More Ethical, part 1](https://www.fast.ai/2019/04/22/ethics-action-1/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter); [part 2](https://www.fast.ai/2019/04/25/ethics-action-2/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* Andrej Karpathy (director of AI + Autopilot Vision at Tesla) shared some practical deep learning tips: [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* Rachel Thomas (cofounder of [fast.ai](https://www.fast.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) shared two sets of pragmatic tips for improving AI ethics in your organization: [16 Things You Can Do to Make Tech More Ethical, part 1](https://www.fast.ai/2019/04/22/ethics-action-1/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter); [part 2](https://www.fast.ai/2019/04/25/ethics-action-2/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 
 ## Cool Things ✨
 
@@ -80,8 +80,8 @@ _My favorite clip generated by MuseNet: Lady Gaga's Poker Face, continued in the
 **Christine Payne (OpenAI) released MuseNet, “a deep neural network that can generate 4-minute musical compositions with 10 different instruments,** and can combine styles from country to Mozart to the Beatles.” It uses the same unsupervised technology as OpenAI’s GPT-2 language model (see [DT #8](https://dynamicallytyped.com/issues/8-should-openai-open-source-their-impressive-new-language-model-161119?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) and it’s super fun to play around with.
 Check it out here:
 
-- The main interactive site on OpenAI’s blog: [MuseNet](https://openai.com/blog/musenet/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- A “concert” of things generated using the model, live streamed on the day MuseNet was released: [MuseNet Concert](https://www.twitch.tv/videos/416276005?t=&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitch)
+* The main interactive site on OpenAI’s blog: [MuseNet](https://openai.com/blog/musenet/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* A “concert” of things generated using the model, live streamed on the day MuseNet was released: [MuseNet Concert](https://www.twitch.tv/videos/416276005?t=&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitch)
 
 **@eukaryote trained OpenAI’s GPT-2 language model on r/ShowerThoughts,** where Reddit users share odd realizations they’ve had in the shower, and set up a site that generates new such thoughts.
 Some of my favorites:

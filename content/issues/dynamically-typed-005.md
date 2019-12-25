@@ -18,9 +18,9 @@ The winner is [OneSoil Map](https://www.producthunt.com/posts/onesoil-map-2?utm_
 It’s super cool to scroll around – make sure you zoom in!
 More:
 
-- In 2nd place: [remove.bg](https://www.producthunt.com/posts/remove-bg?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (ProductHunt), the image background removal site [I wrote about last month](https://www.getrevue.co/profile/dynamically-typed/issues/3-happy-holidays-149573?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Revue)
-- In 3rd place: [Facehub](https://www.producthunt.com/posts/facehub?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (ProductHunt), a real time face-to-face swap app on iPhone
-- The full list of the year’s ProductHunt awards: [Winners of the 2018 Golden Kitty Awards are revealed](https://blog.producthunt.com/winners-of-the-2018-golden-kitty-awards-are-revealed-881c205a1e1f?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
+* In 2nd place: [remove.bg](https://www.producthunt.com/posts/remove-bg?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (ProductHunt), the image background removal site [I wrote about last month](https://www.getrevue.co/profile/dynamically-typed/issues/3-happy-holidays-149573?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Revue)
+* In 3rd place: [Facehub](https://www.producthunt.com/posts/facehub?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (ProductHunt), a real time face-to-face swap app on iPhone
+* The full list of the year’s ProductHunt awards: [Winners of the 2018 Golden Kitty Awards are revealed](https://blog.producthunt.com/winners-of-the-2018-golden-kitty-awards-are-revealed-881c205a1e1f?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
 
 **Jeremy Hermann and Mike Del Balso posted a deep dive on how ML is used at Uber.**
 Use cases include personalized Uber Eats rankings, driver/rider marketplace forecasting, customer support automation, crash detection using drivers’ phones, ETAs, “one-click” chat replies for drivers, and self-driving cars.
@@ -55,8 +55,8 @@ at Uber Engineering** blogged about their paper speeding up convolutional neural
 Their main insight is that (1) the bottom few layers of a typical CNN mostly transforms an image from pixels to a frequency representation and (2) the last steps of JPEG decompression do the exact opposite – so you could strip these both out and feed JPEG’s internal frequency representation straight into the CNN!
 Gueguen’s approach yields a slight accuracy improvement on the standard ImageNet classification task, but, amazingly, also a _1.8x speed improvement_.
 
-- [Their post on the Uber Engineering blog](https://eng.uber.com/neural-networks-jpeg/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- [Their paper at NeurIPS](https://papers.nips.cc/paper/7649-faster-neural-networks-straight-from-jpeg.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+* [Their post on the Uber Engineering blog](https://eng.uber.com/neural-networks-jpeg/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [Their paper at NeurIPS](https://papers.nips.cc/paper/7649-faster-neural-networks-straight-from-jpeg.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
 
 ## Tech and Startups 🚀
 
@@ -68,9 +68,9 @@ _LG's rollable TV, showed off at CES, hides itself in its speaker bar when you'r
 Lots of companies showed off their vision for the future, from the coming year’s television sets all the way to far-out visions for self-driving car interiors.
 There’s always a lot of coverage of CES, and I’ve collected the best of it right here so you don’t have to dig through the cynical hot takes yourself:
 
-- As usual, Steven Sinofsky of Andreessen Horowitz (a16z) wrote up an extensive show report. Lots of internet-connected home stuff, most of it now capable of talking to voice assistants, and lots of things that call themselves AI but aren’t. Read it here, and scroll about 80% down for the amazing “just have to share” section:[ CES 2019: A Show Report ](https://medium.learningbyshipping.com/ces-85ca9f07c08a?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)(Medium)
-- Samuel Axon at Ars Technica has a a good run-down of products announced at CES that will actually come on the market in 2019. From laptops and TVs to smart clocks and VR, it’s mostly iterative improvements on already good products: [The best PCs, gadgets, and future tech of CES 2019](https://arstechnica.com/gadgets/2019/01/the-best-pcs-gadgets-and-future-tech-of-ces-2019/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- LG’s rollable TVs looks really cool. A lot of people don’t like the look of a big black screen in their living room, and this looks like a much better solution than those TVs that try to pretend a wall when they’re off. Check out Marques Brownlee’s video: [The Rollable OLED TV: The Potential is Real!](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=D1pa3UX89GA) (YouTube)
+* As usual, Steven Sinofsky of Andreessen Horowitz (a16z) wrote up an extensive show report. Lots of internet-connected home stuff, most of it now capable of talking to voice assistants, and lots of things that call themselves AI but aren’t. Read it here, and scroll about 80% down for the amazing “just have to share” section:[ CES 2019: A Show Report ](https://medium.learningbyshipping.com/ces-85ca9f07c08a?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)(Medium)
+* Samuel Axon at Ars Technica has a a good run-down of products announced at CES that will actually come on the market in 2019. From laptops and TVs to smart clocks and VR, it’s mostly iterative improvements on already good products: [The best PCs, gadgets, and future tech of CES 2019](https://arstechnica.com/gadgets/2019/01/the-best-pcs-gadgets-and-future-tech-of-ces-2019/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* LG’s rollable TVs looks really cool. A lot of people don’t like the look of a big black screen in their living room, and this looks like a much better solution than those TVs that try to pretend a wall when they’re off. Check out Marques Brownlee’s video: [The Rollable OLED TV: The Potential is Real!](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=D1pa3UX89GA) (YouTube)
 
 **Benedict Evans at a16z wrote a post on the promise of 5G,** the successor standard to the 4G we currently have in our phones.
 It’ll mostly have lower latency for phones at long distances, and higher speed at short distances (to replace your internet cable).

@@ -23,8 +23,8 @@ Google annotated clips from a collection public videos with labels like “blowi
 The app then presents these to users as shareable animations, [such as these example gifs](https://2.bp.blogspot.com/-yURtmQgME0w/XKTohaYt8wI/AAAAAAAAEBI/P_YosDG9M74-z4mDTQYxkC-xtGz2TRw3ACEwYBhgL/s640/image3.gif?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 More:
 
-- Google AI blog: [Capturing Special Video Moments with Google Photos](https://ai.googleblog.com/2019/04/capturing-special-video-moments-with.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Research paper by Yu-Wei Chao et al.: [Rethinking the Faster R-CNN Architecture for Temporal Action Localization](https://arxiv.org/abs/1804.07667?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
+* Google AI blog: [Capturing Special Video Moments with Google Photos](https://ai.googleblog.com/2019/04/capturing-special-video-moments-with.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Research paper by Yu-Wei Chao et al.: [Rethinking the Faster R-CNN Architecture for Temporal Action Localization](https://arxiv.org/abs/1804.07667?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
 
 **Francesca Gavin wrote about how the art community is embracing—and paying for—AI-generated art.**
 She mentions GAN-generated pieces like Obvious’ _Edmond de Belamy_ , which was ([controversially](https://www.theverge.com/2018/10/23/18013190/ai-art-portrait-auction-christies-belamy-obvious-robbie-barrat-gans?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) auctioned off for $432,500 last year, and Mario Klingemann’s _Memories of Passersby I_ , which I featured in [DT #9](https://dynamicallytyped.com/issues/9-openai-and-google-s-activation-atlases-a16z-s-ml-startup-investments-and-microsoft-s-ai-pipeline-163609?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
@@ -46,8 +46,8 @@ One problem, however, is that “there is currently no standardized, validated e
 Zhou proposes Human eYe Perceptual Eveluation, or HYPE (an amazing name for a metric in this space), which is a measure of how quickly human evaluators can tell that a generated image is fake (HYPE-Time), and whether they can tell if it’s fake at all (HYPE-Infinity).
 More:
 
-- Official whitepaper: [HYPE: Human eYe Perceptual Evaluation of Generative Models](https://arxiv.org/abs/1904.01121?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
-- Stanford’s website for HYPE, which mentions that code is coming soon: [hype.stanford.edu](https://hype.stanford.edu/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Official whitepaper: [HYPE: Human eYe Perceptual Evaluation of Generative Models](https://arxiv.org/abs/1904.01121?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
+* Stanford’s website for HYPE, which mentions that code is coming soon: [hype.stanford.edu](https://hype.stanford.edu/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Wayve demonstrated their self-driving car in an urban environment.**
 A few months ago the company showed off an autonomous vehicle that used end-to-end deep learning to translate video inputs directly to driving commands (see [DT #6](https://dynamicallytyped.com/issues/6-deep-reinforcement-learning-from-an-atari-zoo-to-a-self-driving-car-in-20-minutes-155882?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), driving on a simple rural road.
@@ -56,8 +56,8 @@ Their car initially learns policies by imitating human drivers, and then uses re
 With only 20 hours of non-simulated training, their results are very impressive.
 More here:
 
-- Wayve’s blog post: [Learning to Drive like a Human](https://wayve.ai/blog/driving-like-human?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Mike Butcher for TechCrunch: [Wayve claims ‘world first’ in driving a car autonomously with only its AI and a SatNav](https://techcrunch.com/2019/04/03/wayve-claims-world-first-in-driving-a-car-autonomously-with-only-its-ai-and-a-satnav/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Wayve’s blog post: [Learning to Drive like a Human](https://wayve.ai/blog/driving-like-human?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Mike Butcher for TechCrunch: [Wayve claims ‘world first’ in driving a car autonomously with only its AI and a SatNav](https://techcrunch.com/2019/04/03/wayve-claims-world-first-in-driving-a-car-autonomously-with-only-its-ai-and-a-satnav/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Li Yuan at the New York Times did a feature on Chinese data labeling companies.**
 A lot of modern machine learning is done in a supervised setting, requiring labeling enormous datasets.
@@ -82,9 +82,9 @@ More by Jilian D'Onfro for Forbes: [Google Scraps Its AI Ethics Board Less Than 
 
 **Quick ML resource links ⚡️**
 
-- tf-encrypted is an experimental layer on top of TensorFlow to do machine learning on encrypted data. Links: [code](https://github.com/mortendahl/tf-encrypted?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub); [paper](https://arxiv.org/abs/1810.08130?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
-- Dragonfly is a library for Bayesian optimization, or as they call it, “tuning hyperparameters without grad students.” Links: [code](https://github.com/dragonfly/dragonfly?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub); [paper](https://arxiv.org/abs/1903.06694v1?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
-- Dent Reality is a company that does indoor augmented reality positioning and wayfinding without the need for additional hardware; they are now ready to deploy their tech. Links: [Dent Reality](https://www.dentreality.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter); [demo](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=lRQu71VPl2s) (YouTube)
+* tf-encrypted is an experimental layer on top of TensorFlow to do machine learning on encrypted data. Links: [code](https://github.com/mortendahl/tf-encrypted?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub); [paper](https://arxiv.org/abs/1810.08130?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
+* Dragonfly is a library for Bayesian optimization, or as they call it, “tuning hyperparameters without grad students.” Links: [code](https://github.com/dragonfly/dragonfly?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub); [paper](https://arxiv.org/abs/1903.06694v1?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (arXiv)
+* Dent Reality is a company that does indoor augmented reality positioning and wayfinding without the need for additional hardware; they are now ready to deploy their tech. Links: [Dent Reality](https://www.dentreality.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter); [demo](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=lRQu71VPl2s) (YouTube)
 
 ## Tech and Startups 🚀
 

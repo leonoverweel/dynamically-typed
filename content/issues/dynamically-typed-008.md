@@ -17,9 +17,9 @@ _A sample from the GPT-2 language model. A human wrote the italicized prompt and
 A language model is any algorithm that takes some words as input (“the coffee is …”) and tries to predict the most likely next word as output (“… hot”); it is one of the most fundamental tools in Natural Language Processing (NLP) research.
 OpenAI’s GPT-2 model can do some pretty cool stuff:
 
-- Given a sentence or two of prompt text, GPT-2 can write a realistic-sounding news article—complete with made-up persons, quotes, and concepts—such as the one about the discovery of unicorns in South America above. [See more examples on OpenAI’s blog](https://blog.openai.com/better-language-models/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#sample1).
-- Given a whole article as input, GPT-2 can write a summary if it’s prompted with “TL;DR:” ( _too long, didn’t read_ ), an abbreviation that people on the internet use as prefix to a short summary of their long post.
-- Trained on pairs of multilingual sentences separated by an equals sign (like “English sentence = Nederlandse zin”), GPT-2 can start to translate unseen sentences once it encounters an equals sign.
+* Given a sentence or two of prompt text, GPT-2 can write a realistic-sounding news article—complete with made-up persons, quotes, and concepts—such as the one about the discovery of unicorns in South America above. [See more examples on OpenAI’s blog](https://blog.openai.com/better-language-models/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#sample1).
+* Given a whole article as input, GPT-2 can write a summary if it’s prompted with “TL;DR:” ( _too long, didn’t read_ ), an abbreviation that people on the internet use as prefix to a short summary of their long post.
+* Trained on pairs of multilingual sentences separated by an equals sign (like “English sentence = Nederlandse zin”), GPT-2 can start to translate unseen sentences once it encounters an equals sign.
 
 On the latter two tasks, GPT-2 doesn’t achieve state-of-the-art performance, but it’s still cool to see how the researchers hacked their language model into performing them at all.
 
@@ -52,10 +52,10 @@ What do you all think?
 
 Read more about GPT-2 here:
 
-- OpenAI blog: [Better Language Models and Their Implications](https://blog.openai.com/better-language-models/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#sample1)
-- James Vincent at The Verge: [OpenAI’s new multitalented AI writes, translates, and slanders](https://www.theverge.com/2019/2/14/18224704/ai-machine-learning-language-models-read-write-openai-gpt2?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Hugh Zhang of Stanford University, writing for The Gradient: [OpenAI: Please Open Source Your Language Model](https://thegradient.pub/openai-please-open-source-your-language-model/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- A related piece about digital signatures by Oren Etzioni at Harvard Business Review: [How Will We Prevent AI-Based Forgery?](https://hbr.org/2019/03/how-will-we-prevent-ai-based-forgery?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* OpenAI blog: [Better Language Models and Their Implications](https://blog.openai.com/better-language-models/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#sample1)
+* James Vincent at The Verge: [OpenAI’s new multitalented AI writes, translates, and slanders](https://www.theverge.com/2019/2/14/18224704/ai-machine-learning-language-models-read-write-openai-gpt2?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Hugh Zhang of Stanford University, writing for The Gradient: [OpenAI: Please Open Source Your Language Model](https://thegradient.pub/openai-please-open-source-your-language-model/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* A related piece about digital signatures by Oren Etzioni at Harvard Business Review: [How Will We Prevent AI-Based Forgery?](https://hbr.org/2019/03/how-will-we-prevent-ai-based-forgery?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Productized Artificial Intelligence 🔌
 
@@ -72,7 +72,7 @@ It can now also take the spatial map from the built-in Kinect sensor and semanti
 Although the HoloLens 2 is exclusively aimed at businesses, I’m excited to see the technology trickle down to consumer products in the coming few years.
 (Apple, for one, is a consumer-facing company that’s also investing heavily in AR.)
 
-- Dieter Bohn got a demo of HoloLens 2 and wrote a great in-depth piece about it for The Verge: [Microsoft’s HoloLens 2: A $3,500 mixed reality headset for the factory, not the living room](https://www.theverge.com/2019/2/24/18235460/microsoft-hololens-2-price-specs-mixed-reality-ar-vr-business-work-features-mwc-2019?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Dieter Bohn got a demo of HoloLens 2 and wrote a great in-depth piece about it for The Verge: [Microsoft’s HoloLens 2: A $3,500 mixed reality headset for the factory, not the living room](https://www.theverge.com/2019/2/24/18235460/microsoft-hololens-2-price-specs-mixed-reality-ar-vr-business-work-features-mwc-2019?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Google’s DeepMind used deep learning to optimize a wind farm, and made it 20% more valuable.**
 Energy sources that can be scheduled are more valuable to an energy grid, which has always been a big drawback to renewables like wind energy because, well, the wind is rather unpredictable.
@@ -80,7 +80,7 @@ DeepMind trained a model to predict power output 36 hours in advance, so the win
 This increased the value of the wind energy by 20% compared to a baseline of no time-based commitments.
 I’d love to work on a project like this one day.
 
-- Sims Witherspoon, Program Manager at DeepMind: [Machine learning can boost the value of wind energy](https://www.blog.google/technology/ai/machine-learning-can-boost-value-wind-energy/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Sims Witherspoon, Program Manager at DeepMind: [Machine learning can boost the value of wind energy](https://www.blog.google/technology/ai/machine-learning-can-boost-value-wind-energy/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Machine Learning Technology 🎛
 
@@ -96,14 +96,14 @@ I don’t think any of these are particularly surprising, but it’s nice to kno
 **Kumar Chellapilla at ride-hailing company Lyft shared the principles their Level 5 team is using to build maps for self-driving cars.**
 Lots of companies in the automated vehicle (AV) space are currently trying to work out exactly what level of detail such maps need to get a network of self-driving taxis online; since no standard has emerged yet, it’s interesting to see what Lyft thinks is most important:
 
-- _Mapping as pre-computation:_ besides the obvious static objects like roads and street signs that can be in a map, it can also include probability distributions for things like speed profiles and unmarked parking spaces; these partial / intermediate results can make the on-car computation easier.
-- _Mapping to improve safety:_ these are things like speed profiles of how Lyft’s human drivers drive on a particular stretch of road.
-- _Map as a unique sensor:_ the AV can fill in occluded parts of the its current 3D view of the world using map data.
-- _Map as global shared state:_ the map is where cars can note down things like “there’s a construction site here!” for other cars.
+* _Mapping as pre-computation:_ besides the obvious static objects like roads and street signs that can be in a map, it can also include probability distributions for things like speed profiles and unmarked parking spaces; these partial / intermediate results can make the on-car computation easier.
+* _Mapping to improve safety:_ these are things like speed profiles of how Lyft’s human drivers drive on a particular stretch of road.
+* _Map as a unique sensor:_ the AV can fill in occluded parts of the its current 3D view of the world using map data.
+* _Map as global shared state:_ the map is where cars can note down things like “there’s a construction site here!” for other cars.
 
 Chellapilla’s post goes into how they implement this, including four of the “layers” of their maps, from geography to real-time knowledge.
 
-- Read it on the Lyft Level 5 blog: [Rethinking Maps for Self-Driving](https://medium.com/@LyftLevel5/https-medium-com-lyftlevel5-rethinking-maps-for-self-driving-a147c24758d6?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
+* Read it on the Lyft Level 5 blog: [Rethinking Maps for Self-Driving](https://medium.com/@LyftLevel5/https-medium-com-lyftlevel5-rethinking-maps-for-self-driving-a147c24758d6?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
 
 ## Cool Things ✨
 
@@ -115,8 +115,8 @@ _Which of these is a real person, and which is a GAN-generated fake? (Which Face
 It’s a project by the University of Washington’s [Calling Bullshit Project](http://callingbullshit.org/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which wants people to think critically about the information in front of them.
 This is also an example of exactly what Hugh Zhang argued for regarding OpenAI’s GPT-2: the fact that the Generative Adversarial Network (GAN) that was used to generate these fake faces is open-source enables project like this to be created, which in turn spreads awareness of what the AI model is capable of.
 
-- Give it a try here: [whichfaceisreal.com](http://www.whichfaceisreal.com/index.php?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- In a similar vein, This Person Does Not Exist shows a new computer-generated face on every refresh, powered by the same GAN: [thispersondoesnotexist.com](https://thispersondoesnotexist.com?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Give it a try here: [whichfaceisreal.com](http://www.whichfaceisreal.com/index.php?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* In a similar vein, This Person Does Not Exist shows a new computer-generated face on every refresh, powered by the same GAN: [thispersondoesnotexist.com](https://thispersondoesnotexist.com?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Thanks for reading!**
 As always, let me know what you thought of this issue using the buttons below or by sending me a message.

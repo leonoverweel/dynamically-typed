@@ -46,6 +46,11 @@ Read all about the new podcast studio and Overdub in Descript CEO Andrew Mason�
 **Benedict Evans of Andreessen Horowitz wrote about the four waves of AI deployment,** starting with the deep learning explosion that began when AlexNet proved that neural networks are useful for solving computer vision problems.
 He breaks the subsequent rollout of AI-powered companies into four waves:
 
+1. Companies that created low-level “primitives” for things like image classification and voice recognition, which have now mostly been commoditized by Big Tech.
+2. Companies that added features powered by these primitives to their existing products or to existing product categories.
+3. Companies solving “complete problems in new ways.”
+4. Companies beyond tech that now use AI to automate small parts of their process (like fault detection in production lines), with solutions built by consultants.
+
 The third-wave companies—like Descript above!—are the ones I try to cover most in this newsletter.
 Evans describes these companies as follows:
 
@@ -96,8 +101,8 @@ Version 2.0 has therefore been built with a focus on “simplicity and ease of u
 I’ve been using TensorFlow 2.0 at work (its release coincided with my first day!), and so far it’s been great.
 (But I haven’t used 1.x a lot, so I don’t have much to compare it to.) More here:
 
-- The full release notes on GitHub: [tensorflow/tensorflow release 2.0.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Keras creator François Chollet made a crash course Colab notebook that I highly recommend: [TensorFlow 2.0 + Keras Overview for Deep Learning Researchers](https://colab.research.google.com/drive/1UCJt8EYjlzCs1H1d1X0iDGYJsHKwu-NO?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#scrollTo=zoDjozMFREDU).
+* The full release notes on GitHub: [tensorflow/tensorflow release 2.0.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Keras creator François Chollet made a crash course Colab notebook that I highly recommend: [TensorFlow 2.0 + Keras Overview for Deep Learning Researchers](https://colab.research.google.com/drive/1UCJt8EYjlzCs1H1d1X0iDGYJsHKwu-NO?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#scrollTo=zoDjozMFREDU).
 
 **PyTorch 1.3 has also been released.**
 These are the highlights:
@@ -111,7 +116,7 @@ Check out the full release notes for PyTorch here: [PyTorch 1.3 adds mobile, pri
 
 **Quick ML resource links ⚡️** ([see all 43](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- Polyaxon is a tool easily train machine learning models in the cloud, supporting all major libraries and cloud providers. The open source version has been a game changer for me: [polyaxon/polyaxon](https://github.com/polyaxon/polyaxon?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* Polyaxon is a tool easily train machine learning models in the cloud, supporting all major libraries and cloud providers. The open source version has been a game changer for me: [polyaxon/polyaxon](https://github.com/polyaxon/polyaxon?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 
@@ -120,13 +125,20 @@ _Tackling Climate Change with Machine Learning,_ the 97-page paper released by 2
 Strobel has now also taken the contents of the original paper and turned them into six highly-detailed, hyperlink-packed, illustrated blog posts.
 They’re organized by topic:
 
+1. [Electricity Systems](https://blog.codecentric.de/en/2019/09/how-to-tackle-climate-change-with-machine-learning-electricity-systems/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#post-69396)
+2. [Transportation](https://blog.codecentric.de/en/2019/09/how-to-tackle-climate-change-with-machine-learning-transportation?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#post-69735)
+3. [Buildings & Cities](https://blog.codecentric.de/en/2019/09/tackling-climate-change-with-machine-learning-buildings-cities?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#post-69738)
+4. [Farms & Forests](https://blog.codecentric.de/en/2019/09/tackling-climate-change-with-machine-learning-farms-forests?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#post-69740)
+5. [Industry & Carbon Dioxide Removal](https://blog.codecentric.de/en/2019/09/tackling-climate-change-with-machine-learning-industry-carbon-dioxide-removal?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#post-69742)
+6. [Datasets & further resources](https://blog.codecentric.de/en/2019/09/tackling-climate-change-with-machine-learning-datasets-further-resources?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#post-69744)
+
 If you’re interested in applying your machine learning skills to solve the climate crisis, these blog posts are a great place to start!
 
 **More new resources!**
 Some other resources for ML scientists and engineers hoping to help fight the climate crisis also went live:
 
-- CCAI has added a new [resources page](https://www.climatechange.ai/resources.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). It’s organized by topic (from _Buildings and Cities_ to _CO2 Removal_ ) and each section includes links to background reading, datasets and tools, and related journal and conference articles.
-- Jack Kelly of Open Climate Fix published an open-source blog post full of resources here: [Using computing to fix climate change](http://jack-kelly.com/blog/2019-10-03-using-computing-to-fix-climate-change?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). He encourages pull requests, so if you have any other resources, he’d love to include them!
+* CCAI has added a new [resources page](https://www.climatechange.ai/resources.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). It’s organized by topic (from _Buildings and Cities_ to _CO2 Removal_ ) and each section includes links to background reading, datasets and tools, and related journal and conference articles.
+* Jack Kelly of Open Climate Fix published an open-source blog post full of resources here: [Using computing to fix climate change](http://jack-kelly.com/blog/2019-10-03-using-computing-to-fix-climate-change?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). He encourages pull requests, so if you have any other resources, he’d love to include them!
 
 **Thanks for reading!**
 As usual, you can let me know what you thought of today’s issue using the buttons below or by replying to this email.

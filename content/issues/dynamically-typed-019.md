@@ -34,8 +34,8 @@ I’d love to hear your thoughts, so use that reply button!)
 
 Read more about OpenAI + Microsoft here:
 
-- OpenAI press release: [Microsoft Invests In and Partners with OpenAI to Support Us Building Beneficial AGI](https://openai.com/blog/microsoft/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Tom Simonite for Wired: [To Compete With Google, OpenAI Seeks Investors—and Profits](https://www.wired.com/story/compete-google-openai-seeks-investorsand-profits/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* OpenAI press release: [Microsoft Invests In and Partners with OpenAI to Support Us Building Beneficial AGI](https://openai.com/blog/microsoft/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Tom Simonite for Wired: [To Compete With Google, OpenAI Seeks Investors—and Profits](https://www.wired.com/story/compete-google-openai-seeks-investorsand-profits/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Ben Evans of Andreessen Horowitz wrote a post about the potential of computer vision to touch almost everything.**
 On the back of imaging sensors that have become ridiculously cheap in recent years (because of the efficiency of the smartphone supply chain), Evans argues that “imaging plus ML” will power a lot more AI computing [on the edge](https://dynamicallytyped.com/issues/15-neural-avatars-ai-on-the-edge-and-apple-s-new-create-ml-app-180967?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
@@ -70,9 +70,9 @@ Finally, she introduces FlashTorch, which implements saliency maps to show what 
 As someone who isn’t too deep into computer vision (yet 🤫), I learned a lot from this post.
 More:
 
-- Misa Ogura for Towards Data Science: [Uncovering what neural nets “see” with FlashTorch](https://towardsdatascience.com/feature-visualisation-in-pytorch-saliency-maps-a3f99d08f78a?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- GitHub repository: [MisaOgura/flashtorch](https://github.com/MisaOgura/flashtorch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Colab notebook: [Visualise image-specific class saliency with backpropagation](https://colab.research.google.com/github/MisaOgura/flashtorch/blob/master/examples/visualise_saliency_with_backprop_colab.ipynb?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Misa Ogura for Towards Data Science: [Uncovering what neural nets “see” with FlashTorch](https://towardsdatascience.com/feature-visualisation-in-pytorch-saliency-maps-a3f99d08f78a?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* GitHub repository: [MisaOgura/flashtorch](https://github.com/MisaOgura/flashtorch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Colab notebook: [Visualise image-specific class saliency with backpropagation](https://colab.research.google.com/github/MisaOgura/flashtorch/blob/master/examples/visualise_saliency_with_backprop_colab.ipynb?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Lyft has open-sourced its autonomous driving dataset.**
 It includes 55,000 human-labeled frames of 3D imagery, each taken from 7 cameras and 3 lidars:
@@ -86,7 +86,7 @@ Either way, check out Lyft’s page for the dataset on their Level 5 site, which
 
 **Quick ML resource links ⚡️** ([see all 32](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- SHapley Additive exPlanations (SHAP) is a unified approach to explain the output of any machine learning model using seven different methods. Link: [slundberg/shap](https://github.com/slundberg/shap?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* SHapley Additive exPlanations (SHAP) is a unified approach to explain the output of any machine learning model using seven different methods. Link: [slundberg/shap](https://github.com/slundberg/shap?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 
@@ -102,9 +102,9 @@ Either way, check out Lyft’s page for the dataset on their Level 5 site, which
 
 The article then goes deeper into three specific areas where machine learning researchers can help in mitigating the climate crisis:
 
-- _Better climate predictions,_ including an ensemble learning method being developed by University of Colorado professor [Claire Monteleoni](https://www.colorado.edu/faculty/claire-monteleoni/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), who co-founded the [Climate Informatics workshop series](http://climateinformatics.org/?q=node%2F2&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (in 2011!) and [presented about climate change + AI at NeurIPS](http://research.microsoft.com/apps/video/?id=238888&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (in 2014!).
-- _Showing the effects of extreme weather_ , including work by Victor Schmidt who used GANs to visualize what effect extreme weather (intensified by climate change) can have on peoples’ homes (see [DT #14](https://dynamicallytyped.com/issues/14-artificial-intelligence-for-medicine-and-the-climate-crisis-178557?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
-- _Measuring where carbon is coming from,_ including Carbon Tracker, which uses computer vision to analyze where polution comes from using satellite photos.
+* _Better climate predictions,_ including an ensemble learning method being developed by University of Colorado professor [Claire Monteleoni](https://www.colorado.edu/faculty/claire-monteleoni/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), who co-founded the [Climate Informatics workshop series](http://climateinformatics.org/?q=node%2F2&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (in 2011!) and [presented about climate change + AI at NeurIPS](http://research.microsoft.com/apps/video/?id=238888&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (in 2014!).
+* _Showing the effects of extreme weather_ , including work by Victor Schmidt who used GANs to visualize what effect extreme weather (intensified by climate change) can have on peoples’ homes (see [DT #14](https://dynamicallytyped.com/issues/14-artificial-intelligence-for-medicine-and-the-climate-crisis-178557?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
+* _Measuring where carbon is coming from,_ including Carbon Tracker, which uses computer vision to analyze where polution comes from using satellite photos.
 
 For in-depth views into each of these projects, check out Jackie Snow’s article for National Geographic: [How artificial intelligence can tackle climate change](https://www.nationalgeographic.com/environment/2019/07/artificial-intelligence-climate-change/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 

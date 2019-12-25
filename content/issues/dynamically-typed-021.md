@@ -30,9 +30,9 @@ All this work is going toward simulating the effects of drugs without having to 
 
 Although this practical AI application is still mostly in the research phase, these recent articles are a good indication that we’ll probably start seeing it being productized (or, in this case, used to develop medicine) in the coming years:
 
-- Robert Langreth for Bloomberg: [AI Drug Hunters Could Give Big Pharma a Run for Its Money](https://www.bloomberg.com/news/features/2019-07-15/google-ai-could-challenge-big-pharma-in-drug-discovery?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- DeepMind blog by the lab’s team that focuses completely on protein folding: [AlphaFold: Using AI for scientific discovery](https://deepmind.com/blog/article/alphafold?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Greg Williams wrote a deep dive for Wired: [Inside DeepMind’s epic mission to solve science’s trickiest problem](https://www.wired.co.uk/article/deepmind-protein-folding?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Robert Langreth for Bloomberg: [AI Drug Hunters Could Give Big Pharma a Run for Its Money](https://www.bloomberg.com/news/features/2019-07-15/google-ai-could-challenge-big-pharma-in-drug-discovery?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* DeepMind blog by the lab’s team that focuses completely on protein folding: [AlphaFold: Using AI for scientific discovery](https://deepmind.com/blog/article/alphafold?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Greg Williams wrote a deep dive for Wired: [Inside DeepMind’s epic mission to solve science’s trickiest problem](https://www.wired.co.uk/article/deepmind-protein-folding?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Machine Learning Research 🎛
 
@@ -52,10 +52,10 @@ As a solution, they propose _RAdam_ with a term to rectify this variance, and ex
 It’s getting [a lot of buzz on Twitter](https://twitter.com/jeremyphoward/status/1162118545095852032?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), and it has potential to become the go-to optimizer: having to worry less about fine-tuning the learning rate hyperparameter is a big win when training models.
 More on RAdam:
 
-- Paper by Liu et al. on arXiv: [On the Variance of the Adaptive Learning Rate and Beyond](https://arxiv.org/abs/1908.03265?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Implemenration on GitHub: [LiyuanLucasLiu/RAdam](https://github.com/LiyuanLucasLiu/RAdam?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Less Wright’s writeup of RAdam on Medium: [New State of the Art AI Optimizer: Rectified Adam (RAdam). Improve your AI accuracy instantly versus Adam, and why it works.](https://medium.com/@lessw/new-state-of-the-art-ai-optimizer-rectified-adam-radam-5d854730807b?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- [Fast.ai](https://www.fast.ai?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) forums discussion, including comparisons with other state-of-the-art optimizers like Lookahead, Novograd, and Ranger (RAdam + Lookagead): [Meet RAdam](https://forums.fast.ai/t/meet-radam-imo-the-new-state-of-the-art-ai-optimizer/52656?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper by Liu et al. on arXiv: [On the Variance of the Adaptive Learning Rate and Beyond](https://arxiv.org/abs/1908.03265?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Implemenration on GitHub: [LiyuanLucasLiu/RAdam](https://github.com/LiyuanLucasLiu/RAdam?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Less Wright’s writeup of RAdam on Medium: [New State of the Art AI Optimizer: Rectified Adam (RAdam). Improve your AI accuracy instantly versus Adam, and why it works.](https://medium.com/@lessw/new-state-of-the-art-ai-optimizer-rectified-adam-radam-5d854730807b?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* [Fast.ai](https://www.fast.ai?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) forums discussion, including comparisons with other state-of-the-art optimizers like Lookahead, Novograd, and Ranger (RAdam + Lookagead): [Meet RAdam](https://forums.fast.ai/t/meet-radam-imo-the-new-state-of-the-art-ai-optimizer/52656?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Carlini et al.
 showed that neural networks can extensively memorize their training data.**
@@ -70,7 +70,7 @@ Read the full post here: [Evaluating and Testing Unintended Memorization in Neur
 
 **Quick ML resource links ⚡️** ([see all 39](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4)):
 
-- OpenSpiel is DeepMind’s framework for reinforcement learning in games, with 25+ games and 20+ algorithms built in, along with visualization and evaluation tools. GitHub link: [deepmind/open_spiel](https://github.com/deepmind/open_spiel?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* OpenSpiel is DeepMind’s framework for reinforcement learning in games, with 25+ games and 20+ algorithms built in, along with visualization and evaluation tools. GitHub link: [deepmind/open_spiel](https://github.com/deepmind/open_spiel?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 
@@ -86,8 +86,8 @@ The authors advocate for major conferences to require that researchers report th
 I think that’s a great idea, and hope to see conferences implement it.
 More:
 
-- Position paper by Schwartz et al. (2019): [Green AI](https://arxiv.org/abs/1907.10597?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- A recent example of Green AI by [Hugging Face](https://huggingface.co/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) that’s making the rounds [on Twitter](https://twitter.com/SanhEstPasMoi/status/1166726434343333888?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter): achieving 95% of BERT’s GLUE performance, with a fraction of the parameters: [Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT](https://medium.com/huggingface/distilbert-8cf3380435b5?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Position paper by Schwartz et al. (2019): [Green AI](https://arxiv.org/abs/1907.10597?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* A recent example of Green AI by [Hugging Face](https://huggingface.co/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) that’s making the rounds [on Twitter](https://twitter.com/SanhEstPasMoi/status/1166726434343333888?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter): achieving 95% of BERT’s GLUE performance, with a fraction of the parameters: [Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT](https://medium.com/huggingface/distilbert-8cf3380435b5?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **ICLR and other ML conferences are going to buy carbon offsets for their participants’ flights.**
 Yoshua Bengio posted about it [on Facebook](https://www.facebook.com/yoshua.bengio/posts/1980384698733127?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
@@ -99,8 +99,8 @@ His last point has been a source of debate in the climate activism community for
 However, I think doing it on an organizational level like this is a good step for pushing the awareness needed for the international governmental change we need (kerosene and emissions taxes).
 More:
 
-- SIGPLAN blog: [ACM Conferences and the Cost of Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). All ACM conferences are now required to publicly report its carbon footprint and SIGPLAN is exploring carbon offsets.
-- I still fly quite a lot more than I’m comfortable with myself—I’m writing today’s DT at the airport—, so this topic is something I plan to think and write more about in the coming months.
+* SIGPLAN blog: [ACM Conferences and the Cost of Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). All ACM conferences are now required to publicly report its carbon footprint and SIGPLAN is exploring carbon offsets.
+* I still fly quite a lot more than I’m comfortable with myself—I’m writing today’s DT at the airport—, so this topic is something I plan to think and write more about in the coming months.
 
 ## Cool Things ✨
 

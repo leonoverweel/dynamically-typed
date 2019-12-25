@@ -19,18 +19,18 @@ _Tackling Climate Change with Machine Learning (Rolnick et al.)_
 Researchers from several big AI institutions (see the author list above) have published **a 97-page paper on tackling the climate crisis with machine learning.**
 It came out of its [namesake workshop](https://www.climatechange.ai/ICML2019_workshop.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) at the [2019 International Conference on Machine Learning](https://icml.cc/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (ICML), but it is aimed at a much broader audience than just AI researchers:
 
-- Entrepreneurs and investors (to fill this “wide-open space” with companies)
-- Corporate leaders (to make their companies greener)
-- Local and national governments (to help decision-making)
-- Researchers and engineers (to solve outstanding problems)
+* Entrepreneurs and investors (to fill this “wide-open space” with companies)
+* Corporate leaders (to make their companies greener)
+* Local and national governments (to help decision-making)
+* Researchers and engineers (to solve outstanding problems)
 
 The paper is organized in sections for different application domains in which machine learning may be able to impact climate change, from electricity systems and transportation to tools for individuals and society.
 Each solution is labeled as _high leverage_ , _long-term_ , and/or _high-risk_ , and includes references to relevant previous research that can be used to implement it.
 More:
 
-- Paper by Rolnick et al. on arXiv: [Tackling Climate Change with Machine Learning](https://arxiv.org/abs/1906.05433?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Website for the project: [Climate Change + AI](https://www.climatechange.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- The workshop talks on SlidesLive: [Climate Change: How can AI Help?](https://slideslive.com/38917142/climate-change-how-can-ai-help?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper by Rolnick et al. on arXiv: [Tackling Climate Change with Machine Learning](https://arxiv.org/abs/1906.05433?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Website for the project: [Climate Change + AI](https://www.climatechange.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* The workshop talks on SlidesLive: [Climate Change: How can AI Help?](https://slideslive.com/38917142/climate-change-how-can-ai-help?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 _Are you working on any of these solutions, or do you know a company that is?_[ _Please reach out!_](https://leonoverweel.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -75,13 +75,17 @@ It contains three Football Benchmarks to pit an agent against hand-engineered ea
 This looks like it’ll be much nicer to use than the deprecated football environment I had to use in my RL course this year ([HFO](https://github.com/LARG/HFO?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
 More:
 
-- Karol Kurach and Olivier Bachem for the Google AI blog: [Introducing Google Research Football: A Novel Reinforcement Learning Environment](https://ai.googleblog.com/2019/06/introducing-google-research-football.html?m=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Code on GitHub: [google-research/football](https://github.com/google-research/football?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Karol Kurach and Olivier Bachem for the Google AI blog: [Introducing Google Research Football: A Novel Reinforcement Learning Environment](https://ai.googleblog.com/2019/06/introducing-google-research-football.html?m=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Code on GitHub: [google-research/football](https://github.com/google-research/football?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 Thanks for the link, [Art](https://www.linkedin.com/in/atharvadeshmukh/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)!
 
 **Chris Olah wrote a post about collaboration in ML research.**
 The TL;DR biggest actionable items are:
+
+1. Be generous.
+2. Use author contribution statements.
+3. Put “author order not finalized” if it hasn’t been.
 
 Beyond that, it’s also a very good read that touches on the links between credit issues and privilege/power, and that goes deeper into Olah’s own core collaboration principles.
 This one seems especially useful:
@@ -95,9 +99,9 @@ Read Olah’s full post here for more tips: [Collaboration & Credit Principles](
 
 **Quick ML resource links ⚡️** ([see all 20](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- _The Matrix Calculus You Need For Deep Learning_ is a 33-page reference PDF that does exactly what it says on the can. Link: [arXiv abstract](https://arxiv.org/abs/1802.01528?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Texar is a TensorFlow toolkit designed for fast prototyping of a broad set of machine learning text generation tasks like translation, dialog, summarization, and language modelling. Link: [asyml/texar](https://github.com/asyml/texar?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- PyTorch Hub is an API and workflow that can be used to improve machine learning research reproducibility, with support for Colab and Papers With Code. Link: [PyTorch docs](https://pytorch.org/hub?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* _The Matrix Calculus You Need For Deep Learning_ is a 33-page reference PDF that does exactly what it says on the can. Link: [arXiv abstract](https://arxiv.org/abs/1802.01528?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Texar is a TensorFlow toolkit designed for fast prototyping of a broad set of machine learning text generation tasks like translation, dialog, summarization, and language modelling. Link: [asyml/texar](https://github.com/asyml/texar?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* PyTorch Hub is an API and workflow that can be used to improve machine learning research reproducibility, with support for Colab and Papers With Code. Link: [PyTorch docs](https://pytorch.org/hub?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Cool Things ✨
 
@@ -110,9 +114,9 @@ By pattern matching on a spectrogram of the recording, an interactive site hosti
 The site also contains guided tours through the audio, which are really cool to explore as the scientists explain aspects of different clips.
 More:
 
-- The website: [Pattern Radio: Whale Songs](https://patternradio.withgoogle.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Google video about the project on YouTube: [Whale Songs and AI, for everyone to explore](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=JE3-LkMqBfM)
-- In-depth, pun-filled post on how the project came to be, by Ann Allen for NOAA Fisheries: [OK Google: Find the Humpback Whales](https://www.fisheries.noaa.gov/science-blog/ok-google-find-humpback-whales?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* The website: [Pattern Radio: Whale Songs](https://patternradio.withgoogle.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Google video about the project on YouTube: [Whale Songs and AI, for everyone to explore](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=JE3-LkMqBfM)
+* In-depth, pun-filled post on how the project came to be, by Ann Allen for NOAA Fisheries: [OK Google: Find the Humpback Whales](https://www.fisheries.noaa.gov/science-blog/ok-google-find-humpback-whales?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Thanks for reading!**
 As usual, you can let me know what you thought of today’s issue using the buttons below or by replying to this email.

@@ -22,8 +22,8 @@ Read it here: [AI and the Future of Work](https://katbailey.github.io/post/ai-an
 
 Janelle Shane’s thread on machine learning systems completing a task in funny, unintended ways is hilarious:
 
-- [Shane’s thread](https://twitter.com/JanelleCShane/status/1060563586789982208?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
-- [An even longer list of examples](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Google Docs)
+* [Shane’s thread](https://twitter.com/JanelleCShane/status/1060563586789982208?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+* [An even longer list of examples](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Google Docs)
 
 **Media 🗞**
 
@@ -31,16 +31,16 @@ After [Blendle](http://blendle.com?utm_campaign=Dynamically%20Typed&utm_medium=e
 The Correspondent’s aim is to “#unbreaknews” through 100% ad-free paid journalism.
 Links:
 
-- Founder Rob Wijnberg: [What fast food is to the body, news is to the mind. Time to break that habit](https://medium.com/de-correspondent/what-fast-food-is-to-the-body-news-is-to-the-mind-time-to-break-that-habit-cac66fb5b2ba?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
-- Wijnberg: [Thread of The Correspondent’s 10 founding principles](https://twitter.com/robwijnberg/status/1065014501265813505?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
-- If you become a “founding member” (like I did; you can pay what you want for a one year subscription), [they’ll write your name on their wall](https://thecorrespondent.com/founding-members-wall?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). Cool. (Web)
+* Founder Rob Wijnberg: [What fast food is to the body, news is to the mind. Time to break that habit](https://medium.com/de-correspondent/what-fast-food-is-to-the-body-news-is-to-the-mind-time-to-break-that-habit-cac66fb5b2ba?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Medium)
+* Wijnberg: [Thread of The Correspondent’s 10 founding principles](https://twitter.com/robwijnberg/status/1065014501265813505?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+* If you become a “founding member” (like I did; you can pay what you want for a one year subscription), [they’ll write your name on their wall](https://thecorrespondent.com/founding-members-wall?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter). Cool. (Web)
 
 The New York Times published a big story about how executives handled the Russian social media manipulation crisis in the last two years.
 It’s not pretty.
 
-- New York times: [Delay, Deny and Deflect: How Facebook’s Leaders Fought Through Crisis](https://www.nytimes.com/2018/11/14/technology/facebook-data-russia-election-racism.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- Ex-Chief Security Officer at Facebook, Alex Stamos: [Russia has been quiet ahead of the 2018 midterm elections. Here’s what it may be planning for Election Day](https://www.nbcnews.com/think/opinion/russia-has-been-quiet-ahead-2018-midterm-elections-here-s-ncna931716?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- Kara Swisher: [Lean Out](https://www.nytimes.com/2018/11/24/opinion/sheryl-sandberg-mark-zuckerberg-facebook.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* New York times: [Delay, Deny and Deflect: How Facebook’s Leaders Fought Through Crisis](https://www.nytimes.com/2018/11/14/technology/facebook-data-russia-election-racism.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* Ex-Chief Security Officer at Facebook, Alex Stamos: [Russia has been quiet ahead of the 2018 midterm elections. Here’s what it may be planning for Election Day](https://www.nbcnews.com/think/opinion/russia-has-been-quiet-ahead-2018-midterm-elections-here-s-ncna931716?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* Kara Swisher: [Lean Out](https://www.nytimes.com/2018/11/24/opinion/sheryl-sandberg-mark-zuckerberg-facebook.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
 
 WikiTribune (Wikipedia founder Jimmy Wales’ project for community-driven news) has run out of funding and laid off its journalist staff; it’s going to focus on community-generated content now.
 I’ve contributed (a tiny bit) to WikiTribune before and I like the idea of the project a lot.
@@ -75,8 +75,8 @@ National Geographic debunks your mental map: [Why your mental map of the world i
 I published one of my Machine Learning Practical courseworks, on exploring different neural net training techniques for handwritten digit recognition on EMNIST.
 I’m pretty proud of how it turned out:
 
-- [My tweet with screenshots of some of the prettier graphs](https://twitter.com/layon_overwhale/status/1062069749486563328?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
-- [The full technical report](https://github.com/leonoverweel/resume/blob/master/attachments/technical-reports/uoe-mlp-1.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+* [My tweet with screenshots of some of the prettier graphs](https://twitter.com/layon_overwhale/status/1062069749486563328?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+* [The full technical report](https://github.com/leonoverweel/resume/blob/master/attachments/technical-reports/uoe-mlp-1.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
 
 Alright, that’s it for the first issue!
 Let me know what you liked and didn’t like via WhatsApp or Messenger :)

@@ -20,10 +20,10 @@ Using the software, you can take an input image of something like a kitchen or a
 You can then tell it to draw extra chairs or windows, or different rooftops or trees, and GANPaint Studio will do its best to realistically fill the areas you marked with your desired objects.
 More:
 
-- Demonstration video on YouTube: [GANPaint Studio (SIGGRAPH 2019)](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=q1K4QWrbCRM)
-- Project website: [ganpaint.io](http://ganpaint.io/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Paper to appear at SIGGRAPH 2019: [Semantic Photo Manipulation with a Generative Image Prior](http://ganpaint.io/Bau_et_al_Semantic_Photo_Manipulation_preprint.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
-- Kyle Wiggers for VentureBeat: [GAN Paint Studio uses AI to add, delete, and modify objects in photos](https://venturebeat.com/2019/06/30/gan-paint-studio-uses-ai-to-add-delete-and-modify-objects-in-photos/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Demonstration video on YouTube: [GANPaint Studio (SIGGRAPH 2019)](https://www.youtube.com/watch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=q1K4QWrbCRM)
+* Project website: [ganpaint.io](http://ganpaint.io/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper to appear at SIGGRAPH 2019: [Semantic Photo Manipulation with a Generative Image Prior](http://ganpaint.io/Bau_et_al_Semantic_Photo_Manipulation_preprint.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+* Kyle Wiggers for VentureBeat: [GAN Paint Studio uses AI to add, delete, and modify objects in photos](https://venturebeat.com/2019/06/30/gan-paint-studio-uses-ai-to-add-delete-and-modify-objects-in-photos/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Police body camera company Axon has banned the use of facial recognition technology on its cameras.**
 This is the less shiny side of productized artificial intelligence: biased AI systems are being deployed in sensitive areas like policing, where they are likely to reinforce existing societal inequalities and (racial, gender, sexual orientation, …) discrimination.
@@ -56,9 +56,9 @@ _Figures from Machine Learning Testing: Survey, Landscapes and Horizons. (Zhang 
 published a comprehensive survey of machine learning testing research on arXiv.**
 The paper is a collaboration between CREST (University College London), FAIR (Facebook), Kyushu Univeristy, and Nanyang Technological University, and it covers “any activity aimed at detecting differences between existing and required behaviours of machine learning systems.” This includes:
 
-- Testing workflows (how to test), such as test generation, analysis, reporting and debugging.
-- Testing components (where and what to test), such as data, model, and framework testing.
-- Testing properties (what to test), such as correctness, overfitting, robustness, efficiency, fairness, and interpretability.
+* Testing workflows (how to test), such as test generation, analysis, reporting and debugging.
+* Testing components (where and what to test), such as data, model, and framework testing.
+* Testing properties (what to test), such as correctness, overfitting, robustness, efficiency, fairness, and interpretability.
 
 It looks like a very useful reference resource for both researchers and industry practitioners.
 Read the paper on arXiv: [Machine Learning Testing: Survey, Landscapes and Horizons](https://arxiv.org/abs/1906.10742?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
@@ -68,14 +68,14 @@ Modern systems for these natural language tasks use an encoder-attention-decoder
 MASS uses masking to pre-train the two sides jointly, which significantly boosts performance on the aforementioned tasks.
 More:
 
-- Xu Tan wrote an in-depth (but easy to follow) explanation of MASS for Microsoft’s AI blog: [Introducing MASS – A pre-training method that outperforms BERT and GPT in sequence to sequence language generation tasks](https://www.microsoft.com/en-us/research/blog/introducing-mass-a-pre-training-method-that-outperforms-bert-and-gpt-in-sequence-to-sequence-language-generation-tasks/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Paper by Song et al. on arXiv: [MASS: Masked Sequence to Sequence Pre-training for Language Generation](https://arxiv.org/abs/1905.02450?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Xu Tan wrote an in-depth (but easy to follow) explanation of MASS for Microsoft’s AI blog: [Introducing MASS – A pre-training method that outperforms BERT and GPT in sequence to sequence language generation tasks](https://www.microsoft.com/en-us/research/blog/introducing-mass-a-pre-training-method-that-outperforms-bert-and-gpt-in-sequence-to-sequence-language-generation-tasks/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper by Song et al. on arXiv: [MASS: Masked Sequence to Sequence Pre-training for Language Generation](https://arxiv.org/abs/1905.02450?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Quick ML resource links ⚡️** ([see all 25](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- Jay Alammar created a great visual introduction to NumPy and data representation; wish I had this when I was trying to wrap my head around ndarrays. Link: [visual intro to NumPy](https://jalammar.github.io/visual-numpy/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Steve Grunwell wrote a nice introduction to regular expressions, which I’ve started using more and more for things like data cleaning. Link: [Demystifying regular expressions](https://stevegrunwell.com/blog/demystifying-regular-expressions/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Related, RegExr is an online tool to build and test regular expressions. Link: [RegExr](https://regexr.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Jay Alammar created a great visual introduction to NumPy and data representation; wish I had this when I was trying to wrap my head around ndarrays. Link: [visual intro to NumPy](https://jalammar.github.io/visual-numpy/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Steve Grunwell wrote a nice introduction to regular expressions, which I’ve started using more and more for things like data cleaning. Link: [Demystifying regular expressions](https://stevegrunwell.com/blog/demystifying-regular-expressions/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Related, RegExr is an online tool to build and test regular expressions. Link: [RegExr](https://regexr.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Cool Things ✨
 

@@ -40,10 +40,10 @@ _A raspberry picking robot by Fieldwork Robotics. (CNN Business)_
 Robots that pick fruit and vegetables are a good example of productized AI because they use computer vision to see where a piece of fruit is, to decide whether it’s ripe enough to pick, and to figure out how it’s oriented before harvesting it.
 Lewis’ piece covers four robots in different stages of production:
 
-- A strawberry-picking robot that is currently used in production in Belgium and the Netherlands, by Belgian company Octinion
-- An apple-picking robot currently used in California, by Abundant Robotics
-- A raspberry-picking robot that it expects to go into production with Hall Hunter growers next year, by Fieldwork Robotics
-- Vegabot, a robot that picks iceberg lettuce and is currently still in development, by the University of Cambridge
+* A strawberry-picking robot that is currently used in production in Belgium and the Netherlands, by Belgian company Octinion
+* An apple-picking robot currently used in California, by Abundant Robotics
+* A raspberry-picking robot that it expects to go into production with Hall Hunter growers next year, by Fieldwork Robotics
+* Vegabot, a robot that picks iceberg lettuce and is currently still in development, by the University of Cambridge
 
 As the world population and food demand grows, and as farming becomes more difficult in the face of climate change and shifting labor interests, I can see the agri-robots industry becoming huge in the coming decades.
 Read Lewis’ CNN Business story for more: [Why robots will soon be picking soft fruits and salad](https://edition.cnn.com/2019/09/04/business/robot-farmers/index.html?_hsenc=p2ANqtz-8HCoir0GLOsl4_Q5PLUpJ1-xl2yf3Wr4xrJV-ZIEV_C-vbm_tSsPwLYZEK4P3pD3LGw7RKs36NUYTD5t_sWi-hyQhWxg&_hsmi=77004961&utm_campaign=The%20Batch&utm_content=77004961&utm_medium=email&utm_source=hs_email).
@@ -53,9 +53,9 @@ This is the primary takeaway from Google’s 47-page report on their AI Impact C
 Google received 2,602 proposal from 119 countries and analyzed them for “a view of the AI for social good landscape,” which they present in the report.
 Assuming grant proposals are an unbiased estimator:
 
-- The most common area for social good AI projects is health (27% of proposals), followed by environment, conservation, and energy (16%), and education (12%).
-- The most common AI capability for such projects is computer vision (41%), followed by general “analytics” (26%) and deep learning (18%); noticeably, reinforcement learning, which is a big focus of Alphabet’s DeepMind research group, is used by very few real-world projects (2%).
-- Academic institutions are most likely to already be using AI in some way (85%), where not-for-profit organizations are least likely (44%).
+* The most common area for social good AI projects is health (27% of proposals), followed by environment, conservation, and energy (16%), and education (12%).
+* The most common AI capability for such projects is computer vision (41%), followed by general “analytics” (26%) and deep learning (18%); noticeably, reinforcement learning, which is a big focus of Alphabet’s DeepMind research group, is used by very few real-world projects (2%).
+* Academic institutions are most likely to already be using AI in some way (85%), where not-for-profit organizations are least likely (44%).
 
 Digging deeper, Google noted that for many social impact projects, machine learning just isn’t applicable.
 Hopefully this report will help poke a hole in the “sprinkle some AI on top and call it a day” enterprise hype that has been growing in the past few years:
@@ -66,10 +66,18 @@ Hopefully this report will help poke a hole in the “sprinkle some AI on top an
 That definitely corroborates the notion that the current AI hype is giving a lot of people wrong ideas about the usefulness of machine learning in their domains.
 The report’s overall seven main insights are:
 
+1. Machine learning is not always the answer.
+2. Data accessibility challenges vary by sector.
+3. Demand for technical talent has expanded from specialized AI expertise to data and engineering expertise.
+4. Transforming AI insights into real-world social impact requires advance planning.
+5. Most projects require partnerships to access both technical ability and sector expertise.
+6. Many organizations are working on similar projects and could benefit from shared resources.
+7. Organizations want to prioritize responsibility but don’t know how.
+
 I’m not going to dig into all of these here, so check out the full report for detailed descriptions and specific recommendations for funders, organizations using AI, and policymakers:
 
-- Brigitte Hoyer Gosselink (Head of Product Impact, Google.org) and Carla Bromberg (Program Lead, Google AI) for Google’s The Keyword blog: [2,602 uses of AI for social good, and what we learned from them](https://www.blog.google/outreach-initiatives/google-org/2602-uses-ai-social-good-and-what-we-learned-them/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- The full report (PDF): [Accelerating social good with artificial intelligence: Insights from the Google AI Impact Challenge](https://services.google.com/fh/files/misc/accelerating_social_good_with_artificial_intelligence_google_ai_impact_challenge.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Brigitte Hoyer Gosselink (Head of Product Impact, Google.org) and Carla Bromberg (Program Lead, Google AI) for Google’s The Keyword blog: [2,602 uses of AI for social good, and what we learned from them](https://www.blog.google/outreach-initiatives/google-org/2602-uses-ai-social-good-and-what-we-learned-them/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* The full report (PDF): [Accelerating social good with artificial intelligence: Insights from the Google AI Impact Challenge](https://services.google.com/fh/files/misc/accelerating_social_good_with_artificial_intelligence_google_ai_impact_challenge.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Machine Learning Research 🎛
 
@@ -83,8 +91,8 @@ A central server then transcribes and combines this data to produce a more accur
 The method by [Yoshioka et al.
 (2019)](https://www.microsoft.com/en-us/research/publication/meeting-transcriptions-using-virtual-microphone-arrays/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which outperforms single-phone transcripts by 14.8% or 22.4% respectively with three or seven microphones, is part of [Project Denmark](https://www.microsoft.com/en-us/research/project/project-denmark/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), Microsoft’s longer-term project “to move beyond the need for traditional microphone arrays.” More:
 
-- Takuya Yoshioka (Principal Researcher) et al. for the Microsoft Research Blog: [Bring your phones to the conference table: creating ad hoc microphone arrays from personal devices](https://www.microsoft.com/en-us/research/blog/bring-your-phones-to-the-conference-table-creating-ad-hoc-microphone-arrays-from-personal-devices/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Paper by Yoshioka et al. (2019): [Meeting Transcription Using Asynchronous Distant Microphones](https://www.microsoft.com/en-us/research/publication/meeting-transcription-using-asynchronous-distant-microphones/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Takuya Yoshioka (Principal Researcher) et al. for the Microsoft Research Blog: [Bring your phones to the conference table: creating ad hoc microphone arrays from personal devices](https://www.microsoft.com/en-us/research/blog/bring-your-phones-to-the-conference-table-creating-ad-hoc-microphone-arrays-from-personal-devices/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper by Yoshioka et al. (2019): [Meeting Transcription Using Asynchronous Distant Microphones](https://www.microsoft.com/en-us/research/publication/meeting-transcription-using-asynchronous-distant-microphones/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **_Aloha Phone_ , was there any related research this month?**
 Yes!
@@ -100,8 +108,8 @@ They’ve previously been used to create fake nudes of celebrities and to make p
 If social media sites can robustly detect that a photo or video has been deepfaked, they could alert their users of this fact, but this is a very difficult problem.
 Now, seemingly independently and in parallel, two initiatives have popped up to push this research forward:
 
-- Facebook and Microsoft have launched the [Deepfake Detection Challenge](https://deepfakedetectionchallenge.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which starts next month and “invites people around the world to build innovative new technologies that can help detect deepfakes and tampered media.”
-- Google has [released](https://ai.googleblog.com/2019/09/contributing-data-to-deepfake-detection.html?m=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) a [dataset of deepfakes](https://github.com/ondyari/FaceForensics/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) generated using different techniques, along with the [FaceForensics benchmark](http://kaldir.vc.in.tum.de/faceforensics_benchmark/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* Facebook and Microsoft have launched the [Deepfake Detection Challenge](https://deepfakedetectionchallenge.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which starts next month and “invites people around the world to build innovative new technologies that can help detect deepfakes and tampered media.”
+* Google has [released](https://ai.googleblog.com/2019/09/contributing-data-to-deepfake-detection.html?m=1&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) a [dataset of deepfakes](https://github.com/ondyari/FaceForensics/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) generated using different techniques, along with the [FaceForensics benchmark](http://kaldir.vc.in.tum.de/faceforensics_benchmark/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 
 As nation states and other actors are putting increasing effort into spreading fake news on these companies’ platforms, it’s good to see them putting resources into this problem.
 Especially with the U.S.
@@ -119,9 +127,9 @@ Some (statistically significant) results I found interesting:
 The AI reproducibility crisis has been making headlines recently ([WIRED](https://www.wired.com/story/artificial-intelligence-confronts-reproducibility-crisis/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [BBC](https://www.bbc.com/news/science-environment-47267081?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), so this new data-based analysis is an interesting new insight: much ado about nothing, or has ML research just never been peer reviewed critically enough?
 More:
 
-- Paper by Raff (2019) on arXiv: [A Step Toward Quantifying Independently Reproducible Machine Learning Research](https://arxiv.org/abs/1909.06674?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- NeurIPS poster (PDF) on GitHub: [Quantifying Reproducible Machine Learning Research](https://github.com/EdwardRaff/Quantifying-Independently-Reproducible-ML/blob/master/QIRML_NeurIPS_poster.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Data on GitHub: [EdwardRaff/Quantifying-Independently-Reproducible-ML](https://github.com/EdwardRaff/Quantifying-Independently-Reproducible-ML?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper by Raff (2019) on arXiv: [A Step Toward Quantifying Independently Reproducible Machine Learning Research](https://arxiv.org/abs/1909.06674?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* NeurIPS poster (PDF) on GitHub: [Quantifying Reproducible Machine Learning Research](https://github.com/EdwardRaff/Quantifying-Independently-Reproducible-ML/blob/master/QIRML_NeurIPS_poster.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Data on GitHub: [EdwardRaff/Quantifying-Independently-Reproducible-ML](https://github.com/EdwardRaff/Quantifying-Independently-Reproducible-ML?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 

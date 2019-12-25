@@ -14,8 +14,8 @@ _Pikachu teaches users how to use the Pixel 4's new Motion Sense features. (The 
 **Google’s Pixel 4 launched with a bunch of new AI-powered features.**
 The biggest two are Motion Sense and on-device ML:
 
-- _Motion Sense_ is powered by a front-facing radar chip that can recognize hand gestures. This means the phone can, for example, turn its screen on (or lower the volume of your morning alarm!) when it senses that you’re reaching for it, before you even touch it. Although you can also use gestures to control audio playback, Google says it has plans to add a lot more functionality to Motion Sense in the future.
-- _On-device transcription_ is another super cool feature. Google has embedded an entire model for recognizing English-language on its Neural Core chip, enabling things like captioning any audio playing anywhere in the system (like a podcast or your own videos) and a voice memos app that instantly transcribes the audio it’s recording. Check out [this demo](https://twitter.com/ihnatko/status/1186038075920650242?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) by Andy Ihnatko on Twitter.
+* _Motion Sense_ is powered by a front-facing radar chip that can recognize hand gestures. This means the phone can, for example, turn its screen on (or lower the volume of your morning alarm!) when it senses that you’re reaching for it, before you even touch it. Although you can also use gestures to control audio playback, Google says it has plans to add a lot more functionality to Motion Sense in the future.
+* _On-device transcription_ is another super cool feature. Google has embedded an entire model for recognizing English-language on its Neural Core chip, enabling things like captioning any audio playing anywhere in the system (like a podcast or your own videos) and a voice memos app that instantly transcribes the audio it’s recording. Check out [this demo](https://twitter.com/ihnatko/status/1186038075920650242?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) by Andy Ihnatko on Twitter.
 
 Besides cameras, I think that these kinds of on-device machine learning applications will become one of the biggest aspects that phone makers (especially Google and Apple) will be competing on over the next few years.
 Read all about the Pixel 4 in Dieter Bohn’s piece for The Verge: [Google Pixel 4 and 4 XL hands-on](https://www.theverge.com/2019/10/15/20908071/google-pixel-4-xl-photos-video-hands-on-camera-screen-specs-price?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
@@ -41,8 +41,8 @@ The actual solving (deciding which turns need to be made) is done by an existing
 This has led to [some controversy on Twitter](https://twitter.com/garymarcus/status/1185679169360809984?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), but I think that’s a bit overblown: the scope of the project—object manipulation—was pretty clear to me from the blog post.
 More here:
 
-- OpenAI blog post: [Solving a Rubik’s Cube with a Robot Hand](https://openai.com/blog/solving-rubiks-cube/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Paper on arXiv: [Solving Rubik’s Cube with a Robot Hand](https://arxiv.org/abs/1910.07113?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* OpenAI blog post: [Solving a Rubik’s Cube with a Robot Hand](https://openai.com/blog/solving-rubiks-cube/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Paper on arXiv: [Solving Rubik’s Cube with a Robot Hand](https://arxiv.org/abs/1910.07113?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Horace He analyzed the 2019 state of machine learning frameworks in research and production,** following the releases of TensorFlow 2.0 and PyTorch 1.3 earlier this month (see [DT #24](https://dynamicallytyped.com/issues/24-descript-s-new-podcast-studio-tensorflow-and-pytorch-updates-and-more-climate-resources-202035?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
 He scraped papers from major AI conferences and counted how many mentioned the two frameworks by name.
@@ -76,8 +76,8 @@ They can even detect early signs of illegal deforestation operations, as Aniek S
 Protecting and sustaining the world’s forests will be an important aspect of our fight against the climate crisis, so seeing conservation-focused startups like 20tree.ai pop up is very encouraging.
 Read more about 20tree.ai’s work on their blog:
 
-- Aniek Schouten: [How can machine learning help to feed 9.8 billion people in 2050?](https://medium.com/20tree-ai/how-can-machine-learning-help-to-feed-9-8-billion-people-in-2050-d4ea9dea28a6?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Indra den Bakker: [From Kaggle competition to start-up and tracking 2 million km² of forest](https://medium.com/20tree-ai/from-kaggle-competition-to-start-up-and-tracking-2-million-km-of-forest-67444e2b21cc?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Aniek Schouten: [How can machine learning help to feed 9.8 billion people in 2050?](https://medium.com/20tree-ai/how-can-machine-learning-help-to-feed-9-8-billion-people-in-2050-d4ea9dea28a6?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Indra den Bakker: [From Kaggle competition to start-up and tracking 2 million km² of forest](https://medium.com/20tree-ai/from-kaggle-competition-to-start-up-and-tracking-2-million-km-of-forest-67444e2b21cc?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 !["Topher White installing a solar-powered listening unit in a rainforest on the Indonesian island of Sumatra in July." (Ulet Ifansasti for The New York Times)](https://s3.amazonaws.com/revue/items/images/005/145/063/mail/d0b46c0b9701e23b5306343fd5bf611b.jpeg?1572021955)
 

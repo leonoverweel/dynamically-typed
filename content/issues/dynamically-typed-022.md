@@ -21,8 +21,8 @@ For those times when they didn’t remember what a particular one was called, th
 It’s a good example of productized AI because it uses image classification models to try to figure out what plant you’re pointing your phone camera at.
 More:
 
-- The app’s website has download links for iOS and Android: [PictureThis - Botanist in your pocket](https://www.picturethisai.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (free 7 day trial and $19.99/year after that).
-- iNaturalist is a free alternative (also featuring automatic identification) supported by National Geographic and the California Academy of Sciences. It even allows you to contribute your observations back to scientific data repositories, and it’s what I’m using on my phone now. Link: [A community for Naturalists - iNaturalist.org](https://www.inaturalist.org?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* The app’s website has download links for iOS and Android: [PictureThis - Botanist in your pocket](https://www.picturethisai.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (free 7 day trial and $19.99/year after that).
+* iNaturalist is a free alternative (also featuring automatic identification) supported by National Geographic and the California Academy of Sciences. It even allows you to contribute your observations back to scientific data repositories, and it’s what I’m using on my phone now. Link: [A community for Naturalists - iNaturalist.org](https://www.inaturalist.org?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 
 **Pixar used “AI spiders” to create the background cobwebs for _Toy Story 4,_ **which features a number of scenes in an antiques store that had to feel old and abandoned.
 Beside adding a layer of dust on top of all the objects in the store and sprinkling around some “miscellaneous debris, hair and fur,” the animators wanted to fill the background of the set with cobwebs.
@@ -40,8 +40,8 @@ Or are they “AI” in that they learned their behavior by abstracting it from 
 Only the latter qualifies as something I’d like to cover in this newsletter, but nonetheless I thought this was a fun story to highlight.
 More:
 
-- The Walt Disney Company blog: [Setting the Scene: How Technology Created a Richer Playset in ‘Toy Story 4’](https://www.thewaltdisneycompany.com/setting-the-scene-how-technology-created-a-richer-playset-in-toy-story-4/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Jason Kottke for Kottke.org: [Pixar’s AI Spiders](https://kottke.org/19/09/pixars-ai-spiders?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* The Walt Disney Company blog: [Setting the Scene: How Technology Created a Richer Playset in ‘Toy Story 4’](https://www.thewaltdisneycompany.com/setting-the-scene-how-technology-created-a-richer-playset-in-toy-story-4/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Jason Kottke for Kottke.org: [Pixar’s AI Spiders](https://kottke.org/19/09/pixars-ai-spiders?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Machine Learning Research 🎛
 
@@ -64,9 +64,9 @@ At the time, I called for them to release the full model to raise public awarene
 Instead, over the past half year, OpenAI has been doing a staged release of progressively larger versions of the model (see [DT #13](https://dynamicallytyped.com/issues/13-caption-this-new-ai-powered-features-at-google-i-o-and-openai-s-staged-gpt-2-release-175669?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), opening it up first to trusted research institutions and then to the public at large.
 With their latest release a little over two weeks ago, they also published some of their findings about this approach:
 
-- _Coordination is difficult, but possible:_ OpenAI has worked closely with over five other groups that have replicated GPT-2 and ensured that no one has released a full-size model yet.
-- _Humans can be convinced by synthetic text:_ As they feared, fake news written by GPT-2 can be extremely effective; propaganda written by similar language model called GROVER actually seems more “plausible” to humans than human-written propaganda.
-- _Detection isn’t that simple:_ The automated systems to detect text written by GPT-2 or similar models are only around 90% effective, not enough to stop potential bad actors.
+* _Coordination is difficult, but possible:_ OpenAI has worked closely with over five other groups that have replicated GPT-2 and ensured that no one has released a full-size model yet.
+* _Humans can be convinced by synthetic text:_ As they feared, fake news written by GPT-2 can be extremely effective; propaganda written by similar language model called GROVER actually seems more “plausible” to humans than human-written propaganda.
+* _Detection isn’t that simple:_ The automated systems to detect text written by GPT-2 or similar models are only around 90% effective, not enough to stop potential bad actors.
 
 So what’s next?
 
@@ -80,8 +80,8 @@ For more analysis and a full timeline, see OpenAI’s blog post: [GPT-2: 6-Month
 
 **Quick ML resource links ⚡️** ([see all 41](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- Turbo is a color map for visualizing depth images (common in computer vision research) that’s more perceptually uniform, interpretable, and accessible to color blind people. Link: [Turbo](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- _Fairness and machine learning_ is a free online textbook that approaches ML from an anti-discriminatory perspective. Link: [fairmlbook.org](https://fairmlbook.org/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* Turbo is a color map for visualizing depth images (common in computer vision research) that’s more perceptually uniform, interpretable, and accessible to color blind people. Link: [Turbo](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* _Fairness and machine learning_ is a free online textbook that approaches ML from an anti-discriminatory perspective. Link: [fairmlbook.org](https://fairmlbook.org/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 
@@ -116,9 +116,9 @@ I had a lot of fun playing around with this, and Chernyavskaya’s site also inc
 **Gene Kogan launched an exhibit of interactive AI art at the Futurium in Berlin.**
 Here’s a rundown of the installations, with links to Kogan’s demo videos / tweets:
 
-- [Invisible Berlin](https://twitter.com/genekogan/status/1170689180890017792?s=20&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is a sandbox where you can place colored shapes representing water, buildings, greenery, etc on a surface. An overhead camera feeds that into a generative adversarial network, and a computer renders and displays what a satellite view of an area with that layout would look like.
-- [AI Drawing Studio](https://twitter.com/genekogan/status/1170689184954224640?s=20&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is a replica of NVIDIA’s GauGAN (see [DT #10](https://dynamicallytyped.com/issues/10-a-turing-award-for-deep-learning-and-a-bitter-lesson-for-ai-research-166903?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) where you can draw shapes on a touchscreen and see them transform into a landscape painting.
-- [Cubist Mirror](https://twitter.com/genekogan/status/1170689187894452224?s=20&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is a big projection that applies style transfer (generating a version of an image in the style of a particular artists’ paintings) to a live camera feed of the crowd. (You can do this online yourself using sites like [Deep Dream Generator](https://deepdreamgenerator.com?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which I used to create the purple hero image at the top of this email.)
+* [Invisible Berlin](https://twitter.com/genekogan/status/1170689180890017792?s=20&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is a sandbox where you can place colored shapes representing water, buildings, greenery, etc on a surface. An overhead camera feeds that into a generative adversarial network, and a computer renders and displays what a satellite view of an area with that layout would look like.
+* [AI Drawing Studio](https://twitter.com/genekogan/status/1170689184954224640?s=20&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is a replica of NVIDIA’s GauGAN (see [DT #10](https://dynamicallytyped.com/issues/10-a-turing-award-for-deep-learning-and-a-bitter-lesson-for-ai-research-166903?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) where you can draw shapes on a touchscreen and see them transform into a landscape painting.
+* [Cubist Mirror](https://twitter.com/genekogan/status/1170689187894452224?s=20&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is a big projection that applies style transfer (generating a version of an image in the style of a particular artists’ paintings) to a live camera feed of the crowd. (You can do this online yourself using sites like [Deep Dream Generator](https://deepdreamgenerator.com?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), which I used to create the purple hero image at the top of this email.)
 
 If you’re near Berlin, this would definitely make for a fun afternoon!
 

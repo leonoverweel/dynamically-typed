@@ -5,9 +5,9 @@ Take the task of searching images based on detected objects, for example, like f
 If you use Google Photos, your pictures are uploaded to the cloud, where Google’s servers process and tag them, potentially as “dog” or “cat.” If you use Apple’s Photos app, on the other hand, your phone does this processing and tagging itself (usually at night, when it’s plugged in).
 Apple’s implementation is an example of edge intelligence, and it has several advantages:
 
-- The whole process can work offline, without an internet connection.
-- Apple never gets to see your (unencrypted) images, which is great for privacy.
-- Apple saves on server costs, offloading the expensive machine learning computations and electricity bill to your iPhone.
+* The whole process can work offline, without an internet connection.
+* Apple never gets to see your (unencrypted) images, which is great for privacy.
+* Apple saves on server costs, offloading the expensive machine learning computations and electricity bill to your iPhone.
 
 This week, there were quite a few announcements around edge intelligence: on the product side, Apple launched new versions of Create ML and Core ML at WWDC, and Nvidia launched its EGX Platform; on the research side, there was the MicroNet Challenge, SpArSe, and EfficientNet.
 
@@ -32,8 +32,8 @@ App developers can take these trained models and deploy them inside their apps u
 The latter can now also train models on-device, enabling personalized machine learning models for iOS app users.
 More:
 
-- Apple Developer site: [Training Models with Create ML](https://developer.apple.com/machine-learning/create-ml/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Khari Johnson for VentureBeat: [Apple debuts Core ML 3 with on-device machine learning](https://venturebeat.com/2019/06/03/apple-debuts-core-ml-3-with-on-device-machine-learning/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Apple Developer site: [Training Models with Create ML](https://developer.apple.com/machine-learning/create-ml/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Khari Johnson for VentureBeat: [Apple debuts Core ML 3 with on-device machine learning](https://venturebeat.com/2019/06/03/apple-debuts-core-ml-3-with-on-device-machine-learning/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Related, Nvidia launched its own edge intelligence platform, EGX.**
 These new low-cost, low-power chips can be deployed “from factory floors to store aisles” to analyze data without having to send it to a central server farm:
@@ -44,8 +44,8 @@ These new low-cost, low-power chips can be deployed “from factory floors to st
 I’m super excited for the future that chips like this will enable: for example, imagine hundreds low-cost video cameras that can be deployed throughout an area to detect anomalies (fires, leaks, break-ins, etc.), with the advantages of preserving privacy (the raw video never has to be centrally stored) and needing only a weak network connection (the device can just send an “I detected this!” signal instead of a full video stream for server-side analysis).
 More:
 
-- Dean Takahashi for VentureBeat: [Nvidia EGX takes AI computing to the edge of the network](https://venturebeat.com/2019/05/27/nvidia-egx-takes-ai-computing-to-the-edge-of-the-network/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Nvidia product page: [Real-Time AI at the Edge](https://www.nvidia.com/en-us/data-center/products/egx-edge-computing/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#source=pr)
+* Dean Takahashi for VentureBeat: [Nvidia EGX takes AI computing to the edge of the network](https://venturebeat.com/2019/05/27/nvidia-egx-takes-ai-computing-to-the-edge-of-the-network/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Nvidia product page: [Real-Time AI at the Edge](https://www.nvidia.com/en-us/data-center/products/egx-edge-computing/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter#source=pr)
 
 ## Artificial Intelligence for the Climate Crisis 🌍
 
@@ -82,9 +82,9 @@ In the description of [their demo video](https://www.youtube.com/watch?utm_campa
 I do agree with them; the pros and cons are similar to the debate around open-sourcing OpenAI’s GPT-2 (see [DT #8](https://dynamicallytyped.com/issues/8-should-openai-open-source-their-impressive-new-language-model-161119?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
 (Notably, however, there’s no ethics section in the actual paper.) More:
 
-- Devin Coldewey for TechCrunch: [Mona Lisa frown: Machine learning brings old paintings and photos to life](https://techcrunch.com/2019/05/22/mona-lisa-frown-machine-learning-brings-old-paintings-and-photos-to-life/?guccounter=1&guce_referrer_cs=mGLUlMr5gLeikmd-OuUV-Q&guce_referrer_us=aHR0cHM6Ly90LmNvL2xKclJRQUdvU00_YW1wPTE&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Zakharov et al. on arXiv: [Few-Shot Adversarial Learning of Realistic Neural Talking Head Models](https://arxiv.org/abs/1905.08233?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Related, here’s another new impressive GAN from DeepMind that focuses on creating more diverse outputs on arXiv: [Generating Diverse High-Fidelity Images with VQ-VAE-2](https://arxiv.org/abs/1906.00446?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Devin Coldewey for TechCrunch: [Mona Lisa frown: Machine learning brings old paintings and photos to life](https://techcrunch.com/2019/05/22/mona-lisa-frown-machine-learning-brings-old-paintings-and-photos-to-life/?guccounter=1&guce_referrer_cs=mGLUlMr5gLeikmd-OuUV-Q&guce_referrer_us=aHR0cHM6Ly90LmNvL2xKclJRQUdvU00_YW1wPTE&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Zakharov et al. on arXiv: [Few-Shot Adversarial Learning of Realistic Neural Talking Head Models](https://arxiv.org/abs/1905.08233?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Related, here’s another new impressive GAN from DeepMind that focuses on creating more diverse outputs on arXiv: [Generating Diverse High-Fidelity Images with VQ-VAE-2](https://arxiv.org/abs/1906.00446?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 **Edge intelligence research has heated up in the past few weeks.**
 Here’s a few recent announcements around making neural networks much smaller:
@@ -101,9 +101,9 @@ Arm Research’s **SpArSe** looks like it could compete in this challenge: the a
 
 **Quick ML resource links ⚡️** ([see all 16](https://www.notion.so/adab36fecaea4306880898f41dcb9cb3?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter&v=cb3a74562c914234ac171931dad6c2e4))
 
-- Microsoft’s TensorWatch embeds real-time visualizations for deep learning and reinforcement learning models in Jupyter notebooks, plus a bunch more. Link: [microsoft/tensorwatch](https://github.com/microsoft/tensorwatch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Google’s TensorNetwork is an open-source library for efficient tensor calculations. Link: [google/tensornetwork](https://github.com/google/tensornetwork?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Google launched Dataset Search, a companion to Google Scholar for finding datasets along with their metadata. Links: [blog post](https://www.blog.google/products/search/making-it-easier-discover-datasets/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [Dataset Search](https://toolbox.google.com/datasetsearch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Microsoft’s TensorWatch embeds real-time visualizations for deep learning and reinforcement learning models in Jupyter notebooks, plus a bunch more. Link: [microsoft/tensorwatch](https://github.com/microsoft/tensorwatch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Google’s TensorNetwork is an open-source library for efficient tensor calculations. Link: [google/tensornetwork](https://github.com/google/tensornetwork?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Google launched Dataset Search, a companion to Google Scholar for finding datasets along with their metadata. Links: [blog post](https://www.blog.google/products/search/making-it-easier-discover-datasets/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [Dataset Search](https://toolbox.google.com/datasetsearch?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## Cool Things ✨
 
@@ -115,8 +115,8 @@ _'Migrant Mother' by Dorothea Lange (left) colorized a baseline algorithm (cente
 It’s based on a self-attention generative adversarial network (SAGAN) written in [fast.ai](https://docs.fast.ai/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) on PyTorch, impressively trained on just “a Linux box in a dining room … using only a single consumer GPU.” Together with collaborators Jeremy Howard and Uri Manor, Antic have now also extended the method into colorizing videos, using a different type of GAN to reduce flicker.
 More:
 
-- Antic, Howard, and Manor’s deep dive for the fast.ai blog: [Decrappification, DeOldification, and Super Resolution](https://www.fast.ai/2019/05/03/decrappify/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
-- Try DeOldify yourself online in this Google Colab notebook: [ImageColorizerColab.ipynb](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Antic, Howard, and Manor’s deep dive for the fast.ai blog: [Decrappification, DeOldification, and Super Resolution](https://www.fast.ai/2019/05/03/decrappify/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
+* Try DeOldify yourself online in this Google Colab notebook: [ImageColorizerColab.ipynb](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ## My Stuff 😁
 

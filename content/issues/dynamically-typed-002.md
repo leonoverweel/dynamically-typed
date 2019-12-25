@@ -16,14 +16,14 @@ The fourth-generation Apple Watch has a feature that detects irregular heart rhy
 It took less than a day for someone to use the feature to find out they may suffer from atrial fibrillation and post about it online.
 This kind of productized AI, in the hands of millions of users, will save lives:
 
-- [ECG app and irregular heart rhythm notification available today on Apple Watch](https://www.apple.com/newsroom/2018/12/ecg-app-and-irregular-heart-rhythm-notification-available-today-on-apple-watch/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- [/r/AppleWatch: Heading to a cardiologist…](https://www.reddit.com/r/AppleWatch/comments/a40qm5/heading_to_a_cardiologist/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Reddit)
+* [ECG app and irregular heart rhythm notification available today on Apple Watch](https://www.apple.com/newsroom/2018/12/ecg-app-and-irregular-heart-rhythm-notification-available-today-on-apple-watch/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [/r/AppleWatch: Heading to a cardiologist…](https://www.reddit.com/r/AppleWatch/comments/a40qm5/heading_to_a_cardiologist/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Reddit)
 
 The Pixel 3 phone is receiving a lot of praise for its camera, which has incredible low-light performance.
 Google posted two blog posts about their computational photography + machine learning approach that enable this:
 
-- [Night Sight: Seeing in the Dark on Pixel Phones](http://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- [Learning to Predict Depth on the Pixel 3 Phones](http://ai.googleblog.com/2018/11/learning-to-predict-depth-on-pixel-3.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [Night Sight: Seeing in the Dark on Pixel Phones](http://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [Learning to Predict Depth on the Pixel 3 Phones](http://ai.googleblog.com/2018/11/learning-to-predict-depth-on-pixel-3.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
 
 **Machine Learning Tech 🎛**
 
@@ -45,8 +45,8 @@ The work won the best paper award at CVPR2018, and their landing page is amazing
 One of the biggest ML / AI conferences, NeurIPS, was this week.
 Google and Apple both wrote up what they presented at the conference:
 
-- [Google at NeurIPS 2018](https://ai.googleblog.com/2018/12/google-at-neurips-2018.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
-- [Apple at NeurIPS 2018](https://machinelearning.apple.com/2018/11/29/apple-at-neurips-2018.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [Google at NeurIPS 2018](https://ai.googleblog.com/2018/12/google-at-neurips-2018.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
+* [Apple at NeurIPS 2018](https://machinelearning.apple.com/2018/11/29/apple-at-neurips-2018.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Web)
 
 **Tech and Startups 🚀**
 
@@ -84,9 +84,9 @@ My favorite: “In a year of royal celebrations, let’s also toast the fact tha
 
 Here’s the second project I did for my MSc AI: using data from the Nederlandse Spoorwegen, I modeled which cities are best to commute from if you work in Amsterdam but don’t want to pay Amsterdam rent, based on factors like travel time, train crowdedness, and punctuality.
 
-- [My Tweet about the project](https://twitter.com/layon_overwhale/status/1069595534330142720?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
-- [Full report](https://github.com/leonoverweel/infr-11124-stn/blob/master/project/stn-report.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
-- [Code](https://github.com/leonoverweel/infr-11124-stn/tree/master/project?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub)
+* [My Tweet about the project](https://twitter.com/layon_overwhale/status/1069595534330142720?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Twitter)
+* [Full report](https://github.com/leonoverweel/infr-11124-stn/blob/master/project/stn-report.pdf?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (PDF)
+* [Code](https://github.com/leonoverweel/infr-11124-stn/tree/master/project?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (GitHub)
 
 **Thanks for reading!**
 Please let me know what you thought of this issue using the buttons below, by replying to this email, or by dropping me a message on your preferred platform!
