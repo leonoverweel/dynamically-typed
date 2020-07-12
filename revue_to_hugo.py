@@ -148,13 +148,16 @@ def revue_to_md(issue_id):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print(
-            "Usage: `python revue_to_md.py issue_id`, where the latter is the 6-digit ID in the URL."
-        )
-        exit()
+        exit("Usage: `python revue_to_hugo.py issue_id` (6-digit ID in the URL)")
 
-    issue_number, markdown = revue_to_md(sys.argv[1])
+    issue_id = sys.argv[1]
+    issue_number, markdown = revue_to_md(issue_id)
     issue_name = f"dynamically-typed-{int(issue_number):03}"
 
+    # Write new issue
     with open(f"content/issues/{issue_name}.md", "w") as out_file:
         out_file.write(markdown)
+
+    # Append issue ID to list of IDs
+    with open("issue_ids.txt", "a") as ids_file:
+        ids_file.write(issue_id + "\n")
