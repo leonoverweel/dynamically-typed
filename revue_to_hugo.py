@@ -1,3 +1,4 @@
+import html
 import sys
 import textwrap
 from urllib import request
@@ -124,7 +125,7 @@ def revue_to_md(issue_id):
     )
 
     # Transform content
-    title = soup.title.text.split("|")[0]
+    title = html.escape(soup.title.text.split("|")[0])
     date = soup.find("time").attrs["datetime"].split("T")[0]
     revue_link = soup.find("link", {"rel": "canonical"}).get("href")
     number = title.split(":")[0].strip("#")
