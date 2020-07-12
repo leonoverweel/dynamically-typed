@@ -152,10 +152,9 @@ if __name__ == "__main__":
 
     issue_id = sys.argv[1]
     issue_number, markdown = revue_to_md(issue_id)
-    issue_name = f"dynamically-typed-{int(issue_number):03}"
 
     # Write new issue
-    with open(f"content/issues/{issue_name}.md", "w") as out_file:
+    with open(f"content/issues/{issue_number}.md", "w") as out_file:
         out_file.write(markdown)
 
     # Append issue ID to list of IDs
