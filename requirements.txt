@@ -1,2 +1,3 @@
 beautifulsoup4==4.9.0
 html2text==2020.1.16
+pyyaml==5.3.1
