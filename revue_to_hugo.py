@@ -1,4 +1,5 @@
 import sys
+import textwrap
 from urllib import request
 
 from bs4 import BeautifulSoup
@@ -124,12 +125,25 @@ def revue_to_md(issue_id):
 
     # Transform content
     title = soup.title.text.split("|")[0]
-    markdown = f"# {title}\n\n"
-    markdown += "".join(transform_element(tag) for tag in content).strip()
-
+    date = soup.find("time").attrs["datetime"].split("T")[0]
+    revue_link = soup.find("link", {"rel": "canonical"}).get("href")
     number = title.split(":")[0].strip("#")
+    markdown = "".join(transform_element(tag) for tag in content).strip()
 
-    return number, markdown
+    # Add Hugo info
+    hugo_info = textwrap.dedent(
+        f"""
+        ---
+        title: "{title}"
+        date: {date}
+        number: {number}
+        aliases:
+          - {revue_link}
+        ---
+        """
+    ).strip()
+
+    return number, hugo_info + "\n\n" + markdown
 
 
 if __name__ == "__main__":
