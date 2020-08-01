@@ -50,7 +50,10 @@ def extract_issue_contents(issue_path):
         category = categories[name]
         print(f"\nExtracting section `{category}`...")
 
-        stories_raw, quick_links_raw = text_raw.split("**Quick")
+        if "**Quick" in text_raw:
+            stories_raw, quick_links_raw = text_raw.split("**Quick")
+        else:
+            stories_raw = text_raw
 
         # Extract stories
         stories_raw = stories_raw.strip()
