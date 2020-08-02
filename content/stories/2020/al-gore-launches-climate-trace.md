@@ -1,0 +1,28 @@
+---
+category: climate-ai
+data: 2020-08-02
+issue_number: 45
+title: Al Gore launches Climate TRACE
+---
+
+Former vice president Al Gore and Gavin McCormick of WattTime launched **Climate TRACE, a project for Tracking Real-time Atmospheric Carbon Emissions.**
+From the coalition’s [launch post](https://medium.com/@algore/we-can-solve-the-climate-crisis-by-tracing-pollution-back-to-its-sources-4f535f91a8dd?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
+
+> Our first-of-its-kind global coalition will leverage advanced AI, satellite image processing, machine learning, and land- and sea-based sensors to do what was previously thought to be nearly impossible: monitor GHG emissions from every sector and in every part of the world.
+> Our work will be extremely granular in focus — down to specific power plants, ships, factories, and more.
+> Our goal is to actively track and verify all significant human-caused GHG emissions worldwide with unprecedented levels of detail and speed.
+
+Extracting information from satellite imagery is shaping up to be the killer app for climate change AI: we’ve previously seen it used for predicting electrical grid resilience (see [DT #14](https://dynamicallytyped.com/issues/14-artificial-intelligence-for-medicine-and-the-climate-crisis-178557?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), locating solar panels ([#29](https://dynamicallytyped.com/issues/29-bnns-and-visual-abstractions-at-neurips-2019-and-petabytes-of-climate-data-on-google-cloud-214870?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), tracking deforestation ([#25](https://dynamicallytyped.com/issues/25-ai-powered-rainforest-monitoring-google-s-pixel-4-and-openai-s-rubik-s-cube-solving-robot-hand-204685?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [#28](https://dynamicallytyped.com/issues/28-ocr-for-latex-equations-night-sight-for-astrophotography-and-a-gpt-2-powered-text-adventure-212704?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [#39](https://dynamicallytyped.com/issues/39-cloudflare-s-ml-to-block-bad-bots-3x-satellite-based-environmental-monitoring-and-ar-face-doodles-243752?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), and classifying farming land use ([#41](https://dynamicallytyped.com/issues/41-black-lives-matter-highlighting-ml-ai-products-research-and-climate-projects-by-black-creators-251381?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
+At the NeurIPS 2019 panel on AI for climate change research ([#30](https://dynamicallytyped.com/issues/30-climate-change-ai-at-neurips-2019-special-edition-217578?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), former head of Google Brain Andrew Ng also mentioned that the ability to train models on small satellite datasets is one of the machine learning advances he was most excited about for climate projects.
+
+All this is to say: I’m extremely excited to see such a broad coalition—its founding members include “Blue Sky Analytics, CarbonPlan, Carbon Tracker, Earthrise Alliance, Hudson Carbon, Hypervine, OceanMind, and Rocky Mountain Institute"—launch as an independent observer of greenhouse gas emissions.
+Their goals are certainly ambitious:
+
+> Through Climate TRACE, we will equip business leaders and investors, NGOs and climate activists, as well as international, domestic, and local policy leaders with an essential tool to fully realize the economic and societal benefits of a clean energy future, while ensuring that no one — corporation, country, or otherwise — will ever again have the ability to hide or fake their emissions data.
+> Next year, every country in the world will gather in Glasgow, Scotland, to enhance their commitments to the Paris Agreement and raise collective ambition in line with what the world’s scientists tell us is necessary.
+> We at the Climate TRACE coalition hope to support these COP26 climate talks with the most thorough and reliable data on emissions the world has ever seen.
+
+The rest of the [launch post](https://medium.com/@algore/we-can-solve-the-climate-crisis-by-tracing-pollution-back-to-its-sources-4f535f91a8dd?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) goes a bit into how their GHG emissions observation will work, but beyond mentioning that they’ll do sensor fusion on visible + infrared imagery and satellite + radar measurements, Gore and McCormick don’t go into much technical detail yet.
+They mention that this will follow in future posts, which I’ll be sure to link to here when they come out.
+
+For now, they’ve set up a number of online profiles to follow for updates ([website](https://www.climatetrace.org?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [Twitter](https://www.getrevue.co/app/issues/current?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [GitHub](https://github.com/climatetrace?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [LinkedIn](https://www.linkedin.com/company/climate-trace/about/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)); David Roberts at Vox also wrote [a nice feature about how the coalition came to be](https://www.vox.com/energy-and-environment/2020/7/16/21324662/climate-change-air-pollution-tracking-greenhouse-gas-emissions-trace-coalition?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
