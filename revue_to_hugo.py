@@ -44,8 +44,10 @@ def transform_element(html_element):
     # Images
     elif cls == CLS_IMG:
         url = html_element.attrs["src"]
-        alt = html_element.attrs["alt"]
-        text = f"![{alt}]({url})\n\n_{alt}_"
+        alt = html_element.attrs["alt"].strip()
+        text = f"![{alt}]({url})\n"
+        if alt:
+            text += f"\n_{alt}_"
 
     # Paragraphs
     elif cls == CLS_P:
