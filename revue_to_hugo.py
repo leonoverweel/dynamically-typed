@@ -16,6 +16,18 @@ CLS_UL = "ul"
 CLS_OL = "ol"
 
 
+def _one_sentence_per_line(text):
+    text = text.replace(".** ", ".**\n")
+    text = text.replace("!** ", "!**\n")
+    text = text.replace("?** ", "?**\n")
+
+    text = text.replace(". ", ".\n")
+    text = text.replace("! ", "!\n")
+    text = text.replace("? ", "?\n")
+
+    return text
+
+
 def transform_element(html_element):
     """Transform an HTML element from Revue into markdown text and return it."""
 
@@ -54,13 +66,7 @@ def transform_element(html_element):
         text = converter.handle(str(html_element))
 
         # Make text one sentence per line
-        text = text.replace(".** ", ".**\n")
-        text = text.replace("!** ", "!**\n")
-        text = text.replace("?** ", "?**\n")
-
-        text = text.replace(". ", ".\n")
-        text = text.replace("! ", "!\n")
-        text = text.replace("? ", "?\n")
+        text = _one_sentence_per_line(text)
 
     # Unordered lists
     elif cls == CLS_UL:
