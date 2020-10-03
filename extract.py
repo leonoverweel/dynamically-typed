@@ -53,7 +53,7 @@ def save_quick_link(text, title, slug, category, issue_metadata):
                 "---\n",
                 yaml.safe_dump(quick_link_metadata),
                 "---\n\n",
-                _one_sentence_per_line(text[1:].strip()),
+                _one_sentence_per_line(text[1:].strip()).strip(),
             ]
         )
 
