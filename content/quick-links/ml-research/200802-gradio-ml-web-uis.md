@@ -1,0 +1,9 @@
+---
+category: ml-research
+date: 2020-08-02
+emoji: M
+issue_number: 45
+title: Gradio ML web UIs
+---
+
+* ⚡️ [Gradio](https://github.com/gradio-app/gradio?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) is an open-source Python library for generating quick web UIs around ML models: use it to “play around with your model in your browser by dragging-and-dropping in your own images (or pasting your own text, recording your own voice, etc.).”

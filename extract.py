@@ -81,6 +81,7 @@ def extract_issue_contents(issue_path):
         if "**Quick" in text_raw:
             stories_raw, quick_links_raw = text_raw.split("**Quick")
             quick_links_raw = quick_links_raw[quick_links_raw.find("**\n") + 2 :]
+            quick_links_raw = quick_links_raw[quick_links_raw.find("6c2e4))") + 7 :]
         else:
             stories_raw = text_raw
             quick_links_raw = text_raw
