@@ -1,6 +1,6 @@
 ---
 category: productized-ai
-data: 2020-08-16
+date: 2020-08-16
 issue_number: 46
 title: Snapchat's platform for creative ML models
 ---

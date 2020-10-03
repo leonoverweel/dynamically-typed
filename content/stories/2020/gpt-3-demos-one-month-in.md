@@ -1,6 +1,6 @@
 ---
 category: productized-ai
-data: 2020-07-19
+date: 2020-07-19
 issue_number: 44
 title: 'GPT-3 demos: one month in'
 ---

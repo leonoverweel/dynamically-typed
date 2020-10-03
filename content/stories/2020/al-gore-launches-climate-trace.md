@@ -1,6 +1,6 @@
 ---
 category: climate-ai
-data: 2020-08-02
+date: 2020-08-02
 issue_number: 45
 title: Al Gore launches Climate TRACE
 ---

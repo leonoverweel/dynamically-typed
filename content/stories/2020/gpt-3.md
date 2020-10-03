@@ -1,6 +1,6 @@
 ---
 category: ml-research
-data: 2020-06-21
+date: 2020-06-21
 issue_number: 42
 title: 'OpenAI''s GPT-3: a language model that doesn''t need finetuning'
 ---

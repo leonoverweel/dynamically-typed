@@ -1,6 +1,6 @@
 ---
 category: productized-ai
-data: 2020-09-27
+date: 2020-09-27
 issue_number: 49
 title: Autonmous trucks will be the first big self-driving market
 ---

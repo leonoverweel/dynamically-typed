@@ -1,6 +1,6 @@
 ---
 category: ml-research
-data: 2020-08-02
+date: 2020-08-02
 issue_number: 45
 title: Methods is Papers with Code's machine learning knowledge graph
 ---

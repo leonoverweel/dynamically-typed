@@ -1,6 +1,6 @@
 ---
 category: productized-ai
-data: 2020-09-13
+date: 2020-09-13
 issue_number: 48
 title: The deepfake detection ratrace
 ---

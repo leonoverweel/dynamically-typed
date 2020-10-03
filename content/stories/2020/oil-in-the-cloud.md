@@ -1,6 +1,6 @@
 ---
 category: climate-ai
-data: 2020-06-21
+date: 2020-06-21
 issue_number: 42
 title: 'Greenpeace report: oil in the cloud'
 ---

@@ -1,6 +1,6 @@
 ---
 category: productized-ai
-data: 2020-06-21
+date: 2020-06-21
 issue_number: 42
 title: Is it enough for only big tech to pull out of facial recognition?
 ---

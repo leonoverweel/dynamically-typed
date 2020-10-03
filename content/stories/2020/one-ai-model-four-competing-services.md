@@ -1,6 +1,6 @@
 ---
 category: productized-ai
-data: 2020-07-05
+date: 2020-07-05
 issue_number: 43
 title: One AI model, four competing services
 ---
