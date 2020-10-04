@@ -10,8 +10,8 @@
 <p>Total issues: {{ len $allIssues }}</p>
 <p>Total stories: {{ len $allStories }}</p>
 <p>Total links: {{ len $allLinks }}</p>
-<p>Categories:</p>
 
+<p>Categories:</p>
 <ul>
     {{ range sort .Site.Data.categories "index" }}
     <li>
@@ -19,6 +19,16 @@
         {{ $content := where $.Site.Pages ".Params.category" .category }}
         (Stories: {{ len ($allStories | intersect $content) }};
         Links: {{ len ($content | complement $allStories) }})
+    </li>
+    {{ end }}
+</ul>
+
+<p>Recent issues: (<a href="/issues">see all</a>)</p>
+<ul>
+    {{ range first 5 $allIssues }}
+    <li>
+        {{  .Params.date.Format "Jan 2" }} -
+        <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
     </li>
     {{ end }}
 </ul>
