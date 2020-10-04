@@ -1,0 +1,22 @@
+[
+    {
+        "category": "cool-things",
+        "name": "Cool Things",
+        "index": 3
+    },
+    {
+        "category": "climate-ai",
+        "name": "Climate AI",
+        "index": 2
+    },
+    {
+        "category": "ml-research",
+        "name": "ML Research",
+        "index": 1
+    },
+    {
+        "category": "productized-ai",
+        "name": "Productized AI",
+        "index": 0
+    }
+]

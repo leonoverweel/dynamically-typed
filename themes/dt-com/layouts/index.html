@@ -1,5 +1,26 @@
 {{ define "main" }}
 
-<h1>Hello, world!</h1>
+<h1>Dynamically Typed</h1>
+
+{{ $allIssues := where .Site.RegularPages ".Section" "in" "issues" }}
+{{ $allStories := where .Site.RegularPages ".Section" "in" "stories" }}
+{{ $allLinks := where .Site.RegularPages ".Section" "in" "quick-links" }}
+{{ $categories := .Site.Data.categories }}
+
+<p>Total issues: {{ len $allIssues }}</p>
+<p>Total stories: {{ len $allStories }}</p>
+<p>Total links: {{ len $allLinks }}</p>
+<p>Categories:</p>
+
+<ul>
+    {{ range sort .Site.Data.categories "index" }}
+    <li>
+        {{ .name }}
+        {{ $content := where $.Site.Pages ".Params.category" .category }}
+        (Stories: {{ len ($allStories | intersect $content) }};
+        Links: {{ len ($content | complement $allStories) }})
+    </li>
+    {{ end }}
+</ul>
 
 {{ end }}
