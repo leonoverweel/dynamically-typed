@@ -135,7 +135,7 @@ def revue_to_md(issue_id):
     # Transform content
     title = html.escape(soup.title.text.split("|")[0])
     date = soup.find("time").attrs["datetime"].split("T")[0]
-    revue_link = soup.find("link", {"rel": "canonical"}).get("href")
+    revue_link = soup.find("link", {"rel": "canonical"}).get("href").split(".com")[-1]
     number = title.split(":")[0].strip("#")
     markdown = "".join(transform_element(tag) for tag in content).strip()
 
