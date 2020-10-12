@@ -1,8 +1,40 @@
 :root {
     --color-text: #333;
+    --font-h: 'Overpass Mono', monospace;
 }
 
 body {
     margin: 0;
     color: var(--color-text);
+}
+
+h1, h2 {
+    font-family: var(--font-h);
+}
+
+.index-header {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px var(--color-text) solid;
+}
+
+.index-header>h1 {
+    font-size: 2.5rem;
+    margin-bottom: 4vh;
+    margin-top: 0;
+}
+
+.index-header>form>input {
+    border: 1px var(--color-text) solid;
+    padding: 0.3rem 0.5rem;
+    background-color: inherit;
+    font-family: var(--font-h);
+    margin: 0 0.1rem;
+}
+
+.index-header>form>input[type="email"] {
+    width: 30ch;
 }
