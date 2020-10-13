@@ -1,4 +1,19 @@
 :root {
+    --color-index-light: hsl(277, 30%, 96%);
+    --color-index-medium: hsl(277, 30%, 80%);
+    --color-index-dark: hsl(277, 30%, 60%);
+    --color-productized-ai-light: hsl(0, 30%, 96%);
+    --color-productized-ai-medium: hsl(0, 30%, 80%);
+    --color-productized-ai-dark: hsl(0, 30%, 60%);
+    --color-ml-research-light: hsl(220, 30%, 96%);
+    --color-ml-research-medium: hsl(220, 30%, 80%);
+    --color-ml-research-dark: hsl(220, 30%, 60%);
+    --color-climate-ai-light: hsl(133, 30%, 96%);
+    --color-climate-ai-medium: hsl(133, 30%, 80%);
+    --color-climate-ai-dark: hsl(133, 30%, 60%);
+    --color-cool-stuff-light: hsl(36, 30%, 96%);
+    --color-cool-stuff-medium: hsl(36, 30%, 80%);
+    --color-cool-stuff-dark: hsl(36, 30%, 60%);
     --color-text: #333;
     --font-h: 'Overpass Mono', monospace;
     --font-text: 'Noto Sans JP', sans-serif;
@@ -10,6 +25,11 @@ body {
     color: var(--color-text);
     font-family: var(--font-text);
     font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
 }
 
 b {
@@ -80,4 +100,10 @@ h1, h2 {
 
 .content .main {
     max-width: 600px;
+}
+
+/* Categories */
+
+.cat-index a {
+    color: var(--color-index-dark)
 }
