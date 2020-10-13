@@ -1,33 +1,16 @@
 {{ define "main" }}
 
+{{ $allIssues := where .Site.RegularPages ".Section" "in" "issues" }}
+{{ $allStories := where .Site.RegularPages ".Section" "in" "stories" }}
+{{ $allLinks := where .Site.RegularPages ".Section" "in" "quick-links" }}
+{{ $categories := .Site.Data.categories }}
 
+<div class="main cat-index">
+    <p>
+        <b>Welcome to Dynamically Typed!</b>
+        My name is Leon and DT is my newsletter covering productized AI, ML research, climate AI, and cool stuff.
+    </p>
 
-<div class="main">
-    <div class="item">
-        <p><b>Welcome to Dynamically Typed!</b></p>
-    </div>
-
-
-    {{ $allIssues := where .Site.RegularPages ".Section" "in" "issues" }}
-    {{ $allStories := where .Site.RegularPages ".Section" "in" "stories" }}
-    {{ $allLinks := where .Site.RegularPages ".Section" "in" "quick-links" }}
-    {{ $categories := .Site.Data.categories }}
-
-    <p>Total issues: {{ len $allIssues }}</p>
-    <p>Total stories: {{ len $allStories }}</p>
-    <p>Total links: {{ len $allLinks }}</p>
-
-    <p>Recent issues: (<a href="/issues">see all</a>)</p>
-    <ul>
-        {{ range first 5 $allIssues }}
-        <li>
-            {{  .Params.date.Format "Jan 2" }} -
-            <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
-        </li>
-        {{ end }}
-    </ul>
-
-    <p>Categories:</p>
     <ul>
         {{ range sort .Site.Data.categories "index" }}
         <li>
@@ -35,6 +18,22 @@
             {{ $content := where $.Site.Pages ".Params.category" .category }}
             (Stories: {{ len ($allStories | intersect $content) }};
             Links: {{ len ($content | complement $allStories) }})
+        </li>
+        {{ end }}
+    </ul>
+
+    <p>
+        DT goes out every second Sunday &mdash;
+        <a href="/issues">{{ len $allIssues }} issues</a> so far, featuring a total of
+        {{ len $allStories }} stories and
+        {{ len $allLinks }} links.
+        Here's a few recent ones:
+    </p>
+    <ul>
+        {{ range first 5 $allIssues }}
+        <li>
+            {{  .Params.date.Format "Jan 2" }} -
+            <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
         </li>
         {{ end }}
     </ul>
