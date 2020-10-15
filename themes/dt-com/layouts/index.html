@@ -8,20 +8,27 @@
 <div class="main cat-index">
     <p>
         <b>Welcome to Dynamically Typed!</b>
-        My name is Leon and DT is my newsletter covering productized AI, ML research, climate AI, and cool stuff.
+        I'm Leon, and DT is my fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
     </p>
-
-    <ul>
+</div>
+<div class="wide">
+    <div class="index-sections">
         {{ range sort .Site.Data.categories "index" }}
-        <li>
-            {{ .name }}
-            {{ $content := where $.Site.Pages ".Params.category" .category }}
-            (Stories: {{ len ($allStories | intersect $content) }};
-            Links: {{ len ($content | complement $allStories) }})
-        </li>
+        {{ $content := where $.Site.Pages ".Params.category" .category }}
+        <div class="cat-{{ .category }}-border">
+            <h2 class="index-section-name">{{ .name }}</h2>
+            <p class="index-section-description">{{ .descriptionShort }}</p>
+            <a href="/" class="index-section-link cat-{{ .category }}-background">
+                {{ len ($allStories | intersect $content) }} stories
+            </a>
+            <a href="/" class="index-section-link cat-{{ .category }}-background">
+                {{ len ($content | complement $allStories) }} links
+            </a>
+        </div>
         {{ end }}
-    </ul>
-
+    </div>
+</div>
+<div class="main cat-index">
     <p>
         DT goes out every second Sunday &mdash;
         <a href="/issues">{{ len $allIssues }} issues</a> so far, featuring a total of
@@ -30,7 +37,7 @@
         Here's a few recent ones:
     </p>
     <ul>
-        {{ range first 5 $allIssues }}
+        {{ range first 3 $allIssues }}
         <li>
             {{  .Params.date.Format "Jan 2" }} -
             <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
