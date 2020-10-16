@@ -8,25 +8,23 @@
 <div class="main cat-index">
     <p>
         <b>Welcome to Dynamically Typed!</b>
-        I'm Leon, and DT is my fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
+        I'm Leon and DT is my fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
     </p>
 </div>
-<div class="wide">
-    <div class="index-sections">
-        {{ range sort .Site.Data.categories "index" }}
-        {{ $content := where $.Site.Pages ".Params.category" .category }}
-        <div class="cat-{{ .category }}-border">
-            <h2 class="index-section-name">{{ .name }}</h2>
-            <p class="index-section-description">{{ .descriptionShort }}</p>
-            <a href="/" class="index-section-link cat-{{ .category }}-background">
-                {{ len ($allStories | intersect $content) }} stories
-            </a>
-            <a href="/" class="index-section-link cat-{{ .category }}-background">
-                {{ len ($content | complement $allStories) }} links
-            </a>
-        </div>
-        {{ end }}
+<div class="index-sections">
+    {{ range sort .Site.Data.categories "index" }}
+    {{ $content := where $.Site.Pages ".Params.category" .category }}
+    <div class="cat-{{ .category }}-border">
+        <h2 class="index-section-name">{{ .name }}</h2>
+        <p class="index-section-description">{{ .descriptionShort }}</p>
+        <a href="/" class="index-section-link cat-{{ .category }}-background">
+            {{ len ($allStories | intersect $content) }} stories
+        </a>
+        <a href="/" class="index-section-link cat-{{ .category }}-background">
+            {{ len ($content | complement $allStories) }} links
+        </a>
     </div>
+    {{ end }}
 </div>
 <div class="main cat-index">
     <p>

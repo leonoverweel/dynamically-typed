@@ -43,7 +43,7 @@ h1, h2 {
 /* Headers */
 
 .index-header {
-    height: 30vh;
+    height: 33vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,6 +89,7 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 .5rem;
 }
 
 .content h1 {
@@ -111,7 +112,7 @@ h1, h2 {
 /* Index-page specific (maybe move into separate file) */
 
 .index-sections {
-    width: 100%;
+    width: min(100%, 800px);
     display: grid;
     grid-template: auto / repeat(4, 1fr);
     column-gap: 0.7rem;

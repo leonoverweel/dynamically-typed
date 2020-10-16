@@ -1,0 +1,12 @@
+{
+    "image_id": {
+        "sessions": [
+            {
+                "timestamp": "(start time of labeling session)",
+                "labeler": "(name of labeler)",
+                "interface": "(from UDT)",
+                "annotation": "(from UDT)"
+            }
+        ]
+    }
+}

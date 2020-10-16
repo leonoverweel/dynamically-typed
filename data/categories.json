@@ -3,7 +3,7 @@
         "category": "cool-things",
         "name": "Cool Things",
         "index": 3,
-        "descriptionShort": "Art projects and visualizations built with machine learning."
+        "descriptionShort": "Art projects and visualizations built with and around ML models."
     },
     {
         "category": "climate-ai",
@@ -21,6 +21,6 @@
         "category": "productized-ai",
         "name": "Productized AI",
         "index": 0,
-        "descriptionShort": "Products and features enabled by (deep learning) AI."
+        "descriptionShort": "Products and features enabled by (deep learning) artficial intelligence."
     }
 ]
