@@ -43,7 +43,7 @@ h1, h2 {
 /* Headers */
 
 .index-header {
-    height: 33vh;
+    height: clamp(10rem, 33vh, 30rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,6 +146,19 @@ h1, h2 {
     font-size: 0.65rem;
     text-align: center;
     color: #333;
+}
+
+.index-stories>p {
+    margin-bottom: 0rem;
+}
+
+.index-stories>ul {
+    margin-top: 0;
+    padding-left: 1.7rem;
+}
+
+.index-stories>ul>li {
+    margin-top: 0.3rem;
 }
 
 /* Category tweaks */

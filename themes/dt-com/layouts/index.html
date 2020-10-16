@@ -26,7 +26,7 @@
     </div>
     {{ end }}
 </div>
-<div class="main cat-index">
+<div class="main index-stories cat-index">
     <p>
         DT goes out every second Sunday &mdash;
         <a href="/issues">{{ len $allIssues }} issues</a> so far, featuring a total of
@@ -37,7 +37,7 @@
     <ul>
         {{ range first 3 $allIssues }}
         <li>
-            {{  .Params.date.Format "Jan 2" }} -
+            {{  .Params.date.Format "January 2, 2006" }} &mdash;
             <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
         </li>
         {{ end }}
