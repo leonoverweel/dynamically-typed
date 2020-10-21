@@ -1,0 +1,14 @@
+{
+    "filters": [
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-0.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-1.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-2.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-3.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-4.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-6.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-11.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-7.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-13.png",
+        "https://openai-encyclopedia-public.storage.googleapis.com/production/2020-06-19/alexnet/lucid.feature_vis/feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dchannel%26op%3Dconv4_1%253A0%26steps%3D1024/channel-9.png"
+    ]
+}
