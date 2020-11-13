@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<div class='main cat-{{ replace (replace .CurrentSection.Dir "links/" "") "/" "" }}'>
+    {{ range .Pages }}
+    <p>
+        <a href="{{ .URL }}">{{ safeHTML .Title }}</a>:
+        {{ replace (replace .Content "<p>" "") "</p>" "" | safeHTML }}
+    </p>
+    {{ end }}
+</div>
+
+{{ end }}

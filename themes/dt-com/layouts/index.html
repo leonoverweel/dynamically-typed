@@ -21,7 +21,7 @@
         <a href="/" class="index-section-link cat-{{ .category }}-background">
             {{ len ($allStories | intersect $content) }} stories
         </a>
-        <a href="/" class="index-section-link cat-{{ .category }}-background">
+        <a href="/links/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
             {{ len ($content | complement $allStories) }} links
         </a>
     </div>

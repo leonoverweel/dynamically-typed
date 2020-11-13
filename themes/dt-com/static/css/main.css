@@ -216,11 +216,29 @@ h1, h2 {
     margin-top: 0.3rem;
 }
 
-/* Category tweaks */
+/* Category tweaks: link */
 
 .cat-index a {
-    color: var(--color-index-dark)
+    color: var(--color-index-dark);
 }
+
+.cat-productized-ai a {
+    color: var(--color-productized-ai-dark);
+}
+
+.cat-ml-research a {
+    color: var(--color-ml-research-dark);
+}
+
+.cat-climate-ai a {
+    color: var(--color-climate-ai-dark);
+}
+
+.cat-cool-things a {
+    color: var(--color-cool-things-dark);
+}
+
+/* Category tweaks: background */
 
 .cat-productized-ai-background {
     background-color: var(--color-productized-ai-light);
@@ -237,6 +255,8 @@ h1, h2 {
 .cat-cool-things-background {
     background-color: var(--color-cool-things-light);
 }
+
+/* Category tweaks: border */
 
 .cat-productized-ai-border {
     border: 1px solid var(--color-productized-ai-dark);
