@@ -43,7 +43,7 @@ def save_quick_link(text, title, slug, category, issue_metadata):
         "emoji": text[0],
     }
 
-    directory = f"content/quick-links/{category}"
+    directory = f"content/links/{category}"
     Path(directory).mkdir(exist_ok=True)
     date_id = issue_metadata["date"].strftime("%y%m%d")
 
