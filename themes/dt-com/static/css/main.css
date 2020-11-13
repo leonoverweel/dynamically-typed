@@ -38,6 +38,7 @@ b {
 
 h1, h2 {
     font-family: var(--font-h);
+    font-weight: 300;
 }
 
 /* Headers */
@@ -133,16 +134,28 @@ h1, h2 {
     padding: 0 .5rem;
 }
 
-.content h1 {
-    font-size: 1.5rem;
-}
-
-.content h2 {
-    font-size: 1.3rem;
-}
-
 .content .main {
     max-width: 600px;
+}
+
+.content .main h1 {
+    font-size: 1.4rem;
+    line-height: 1.3em;
+    margin: 1rem 0 0 0;
+}
+
+.content .main h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 2rem 0 0 0;
+}
+
+.content .main p {
+    margin: 1rem 0 0 0;
+}
+
+.content .main ul {
+    margin-top: 0.3rem;
 }
 
 .content .wide {
@@ -157,6 +170,7 @@ h1, h2 {
     display: grid;
     grid-template: auto / repeat(4, 1fr);
     column-gap: 0.7rem;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
 .index-sections>div {
