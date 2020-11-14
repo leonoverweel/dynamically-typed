@@ -6,7 +6,7 @@ issue_number: 47
 title: Facebook's AI Red Team
 ---
 
-️ There has always been a cat-and-mouse game between ever-updating automated content filters and users who think of clever new ways to circumvent them: from email spam filters decades ago to blockers for explicit, violent or fake viral content on social media today.
+️There has always been a cat-and-mouse game between ever-updating automated content filters and users who think of clever new ways to circumvent them: from email spam filters decades ago to blockers for explicit, violent or fake viral content on social media today.
 A new filter evasion trick falls through the cracks every once in a while, becomes popular and widely used, and is then eventually added to the automated filters.
 Depending on the severity of the bypass, this process sometimes has to be completed in mere hours or days.
 In light of, well, the state of the world, the stakes here are obviously very high—I don’t envy the pressure these ML teams must be under.
