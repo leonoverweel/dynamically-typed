@@ -3,7 +3,7 @@
 {{ $linkSection := replace (replace .CurrentSection.Dir "links/" "") "/" "" }}
 {{ $linkSectionName := (index (where .Site.Data.categories "category" $linkSection) 0).name }}
 
-<div class='main cat-{{ $linkSection }}'>
+<div class="main cat-{{ $linkSection }}">
     <h1>{{ $linkSectionName }} links</h1>
     {{ range .Pages }}
     <div class="link">

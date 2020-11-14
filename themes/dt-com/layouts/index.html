@@ -18,7 +18,7 @@
     <div class="cat-{{ .category }}-border">
         <h2 class="index-section-name">{{ .name }}</h2>
         <p class="index-section-description">{{ .descriptionShort }}</p>
-        <a href="/" class="index-section-link cat-{{ .category }}-background">
+        <a href="/stories/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
             {{ len ($allStories | intersect $content) }} stories
         </a>
         <a href="/links/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
