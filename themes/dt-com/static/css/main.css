@@ -216,6 +216,20 @@ h1, h2 {
     margin-top: 0.3rem;
 }
 
+/* Link page specific */
+
+.link {
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.link-meta {
+    font-family: var(--font-h);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
 /* Category tweaks: link */
 
 .cat-index a {

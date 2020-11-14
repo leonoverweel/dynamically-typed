@@ -1,11 +1,21 @@
 {{ define "main" }}
 
-<div class='main cat-{{ replace (replace .CurrentSection.Dir "links/" "") "/" "" }}'>
+{{ $linkSection := replace (replace .CurrentSection.Dir "links/" "") "/" "" }}
+{{ $linkSectionName := (index (where .Site.Data.categories "category" $linkSection) 0).name }}
+
+<div class='main cat-{{ $linkSection }}'>
+    <h1>{{ $linkSectionName }} links</h1>
     {{ range .Pages }}
-    <p>
-        <a href="{{ .URL }}">{{ safeHTML .Title }}</a>:
-        {{ replace (replace .Content "<p>" "") "</p>" "" | safeHTML }}
-    </p>
+    <div class="link">
+        <div class="link-meta">
+            <a href='/issues/{{ printf "%03d" .Params.issue_number }}'>DT #{{ .Params.issue_number }}</a> &mdash;
+            {{ .Date.Format "January 2, 2006" }} &mdash;
+            <a href="{{ .URL }}">{{ .Title }}</a>
+        </div>
+        <div>
+            {{ replace (replace .Content "<p>" "") "</p>" "" | safeHTML }}
+        </div>
+    </div>
     {{ end }}
 </div>
 
