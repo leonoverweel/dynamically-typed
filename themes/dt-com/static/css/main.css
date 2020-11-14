@@ -230,6 +230,18 @@ h1, h2 {
     font-weight: 400;
 }
 
+/* Story page specific */
+
+blockquote {
+    background-color: rgb(248, 248, 248);
+    margin: 0;
+}
+
+blockquote p {
+    margin: 0;
+    padding: 0.7rem 1rem;
+}
+
 /* Category tweaks: link */
 
 .cat-index a {
