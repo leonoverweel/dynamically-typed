@@ -10,6 +10,7 @@
         <div class="link-meta">
             <a href='/issues/{{ printf "%03d" .Params.issue_number }}'>DT #{{ .Params.issue_number }}</a> &mdash;
             {{ .Date.Format "January 2, 2006" }} &mdash;
+            {{ .Params.emoji }}
             <a href="{{ .URL }}">{{ .Title }}</a>
         </div>
         <div>
