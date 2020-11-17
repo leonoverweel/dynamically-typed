@@ -1,9 +1,19 @@
-{{ $cat := replace (replace .CurrentSection.Dir "stories/" "") "/" "" }}
+{{ $cat:= "" }}
+
+{{ if eq $cat "" }}
+{{ $cat = replace (replace .CurrentSection.Dir "stories/" "") "/" "" }}
+{{ end }}
+
+{{ if eq $cat "" }}
+{{ $cat = .Page.Params.category }}
+{{ end }}
+
 {{ $meta := (index (where .Site.Data.categories "category" $cat) 0) }}
 
 <div class="sidebar cat-{{ $cat }}-border">
     <h2 class="index-section-name">{{ $meta.name }}</h2>
     <p>
+
         This section of Dynamically Typed covers
         {{ lower $meta.descriptionShort }}
     </p>
