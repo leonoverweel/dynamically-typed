@@ -5,8 +5,8 @@
 {{ $allLinks := where .Site.RegularPages ".Section" "in" "links" }}
 {{ $categories := .Site.Data.categories }}
 
-<div class="home">
-    <div class="main cat-index">
+<div class="index">
+    <div class="index-main cat-index">
         <p>
             <b>Welcome to Dynamically Typed!</b>
             I'm <a href="https://twitter.com/layon_overwhale">Leon</a>
@@ -28,7 +28,7 @@
         </div>
         {{ end }}
     </div>
-    <div class="main index-stories cat-index">
+    <div class="index-main index-stories cat-index">
         <p>
             DT goes out every second Sunday &mdash;
             <a href="/issues">{{ len $allIssues }} issues</a> so far, featuring a total of
