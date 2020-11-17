@@ -76,7 +76,12 @@
     border-bottom: 1px var(--color-text) solid;
 }
 
-.regular-header>h1>a {
+.regular-header h1 {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.regular-header h1 a {
     color: inherit;
     text-decoration: none;
 }

@@ -1,10 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    max-width: calc(600px + 1rem + 250px);
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.main {
+    min-width: 0;
+}
+
+.main img {
+    width: 100%;
+}
+
 /* Sidebar */
 
 .sidebar {
-    width: 250px;
-    margin: 1rem;
     padding: 0.3rem 0.5rem 0.6rem 0.5rem;
-    box-sizing: border-box;
 }
 
 .sidebar h2 {
@@ -34,13 +51,14 @@
 /* Story page specific */
 
 .story {
+    min-width: 0;
     margin: 2rem 0;
     padding-bottom: 1rem;
     border-bottom: 0.5px solid #ccc;
 }
 
 .story:first-of-type {
-    margin: 1rem 0 0 0;
+    margin: 0;
 }
 
 .story h2 {
