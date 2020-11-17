@@ -1,0 +1,19 @@
+{{ $cat := replace (replace .CurrentSection.Dir "stories/" "") "/" "" }}
+{{ $meta := (index (where .Site.Data.categories "category" $cat) 0) }}
+
+<div class="sidebar cat-{{ $cat }}-border">
+    <h2 class="index-section-name">{{ $meta.name }}</h2>
+    <p>
+        This section of Dynamically Typed covers
+        {{ lower $meta.descriptionShort }}
+    </p>
+    <p>
+        For more like this, you can join TODO+ others and
+        <b>subscribe to receive DT in your inbox every second Sunday</b> &mdash;
+        {{ len (where .Site.RegularPages ".Section" "in" "issues") }} issues and counting!
+    </p>
+    <form>
+        <input type="email" id="email" placeholder="Write your email..." />
+        <input type="submit" value="Subscibe" />
+    </form>
+</div>

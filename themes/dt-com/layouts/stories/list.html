@@ -4,9 +4,8 @@
 {{ $storiesSectionName := (index (where .Site.Data.categories "category" $storiesSection) 0).name }}
 
 <div class="main cat-{{ $storiesSection }}">
-    <h1>{{ $storiesSectionName }} Stories</h1>
     {{ range where (where $.Site.Pages "Section" "stories") ".Params.category" $storiesSection }}
-    <div class="link">
+    <div class="story">
         <a href="{{ .URL }}">
             <h2>{{ .Title }}</h2>
         </a>

@@ -5,44 +5,46 @@
 {{ $allLinks := where .Site.RegularPages ".Section" "in" "links" }}
 {{ $categories := .Site.Data.categories }}
 
-<div class="main cat-index">
-    <p>
-        <b>Welcome to Dynamically Typed!</b>
-        I'm <a href="https://twitter.com/layon_overwhale">Leon</a>
-        and DT is my fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
-    </p>
-</div>
-<div class="index-sections">
-    {{ range sort .Site.Data.categories "index" }}
-    {{ $content := where $.Site.Pages ".Params.category" .category }}
-    <div class="cat-{{ .category }}-border">
-        <h2 class="index-section-name">{{ .name }}</h2>
-        <p class="index-section-description">{{ .descriptionShort }}</p>
-        <a href="/stories/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
-            {{ len ($allStories | intersect $content) }} stories
-        </a>
-        <a href="/links/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
-            {{ len ($content | complement $allStories) }} links
-        </a>
+<div class="home">
+    <div class="main cat-index">
+        <p>
+            <b>Welcome to Dynamically Typed!</b>
+            I'm <a href="https://twitter.com/layon_overwhale">Leon</a>
+            and DT is my fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
+        </p>
     </div>
-    {{ end }}
-</div>
-<div class="main index-stories cat-index">
-    <p>
-        DT goes out every second Sunday &mdash;
-        <a href="/issues">{{ len $allIssues }} issues</a> so far, featuring a total of
-        {{ len $allStories }} stories and
-        {{ len $allLinks }} links.
-        Here's a few recent ones:
-    </p>
-    <ul>
-        {{ range first 3 $allIssues }}
-        <li>
-            {{  .Params.date.Format "January 2, 2006" }} &mdash;
-            <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
-        </li>
+    <div class="index-sections">
+        {{ range sort .Site.Data.categories "index" }}
+        {{ $content := where $.Site.Pages ".Params.category" .category }}
+        <div class="cat-{{ .category }}-border">
+            <h2 class="index-section-name">{{ .name }}</h2>
+            <p class="index-section-description">{{ .descriptionShort }}</p>
+            <a href="/stories/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
+                {{ len ($allStories | intersect $content) }} stories
+            </a>
+            <a href="/links/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
+                {{ len ($content | complement $allStories) }} links
+            </a>
+        </div>
         {{ end }}
-    </ul>
+    </div>
+    <div class="main index-stories cat-index">
+        <p>
+            DT goes out every second Sunday &mdash;
+            <a href="/issues">{{ len $allIssues }} issues</a> so far, featuring a total of
+            {{ len $allStories }} stories and
+            {{ len $allLinks }} links.
+            Here's a few recent ones:
+        </p>
+        <ul>
+            {{ range first 3 $allIssues }}
+            <li>
+                {{  .Params.date.Format "January 2, 2006" }} &mdash;
+                <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
 </div>
 
 {{ end }}
