@@ -12,16 +12,24 @@
 {{ $cat = .Page.Params.category }}
 {{ end }}
 
+{{ if not $cat }}
+{{ $cat = "index" }}
+{{ end }}
+
 {{ $meta := (index (where .Site.Data.categories "category" $cat) 0) }}
 
 <div class="sidebar cat-{{ $cat }}-border">
     <h2 class="index-section-name">{{ $meta.name }}</h2>
     <p>
+        {{ if eq $cat "index" }}
+        Dynamically Typed is fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
+        {{ else }}
         This section of Dynamically Typed covers
         {{ lower $meta.descriptionShort }}
+        {{ end }}
     </p>
     <p>
-        For more like this, you can join TODO+ others and
+        For more like this, you can join {{ .Site.Data.meta.numSubscribers }}+ others and
         <b>subscribe to receive DT in your inbox every second Sunday</b> &mdash;
         {{ len (where .Site.RegularPages ".Section" "in" "issues") }} issues and counting!
     </p>
