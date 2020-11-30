@@ -22,7 +22,7 @@
     <h2 class="index-section-name">{{ $meta.name }}</h2>
     <p>
         {{ if eq $cat "index" }}
-        Dynamically Typed is fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
+        Dynamically Typed is a fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
         {{ else }}
         This section of Dynamically Typed covers
         {{ lower $meta.descriptionShort }}
@@ -35,6 +35,6 @@
     </p>
     <form>
         <input type="email" id="email" placeholder="Write your email..." />
-        <input type="submit" value="Subscibe" />
+        <input type="submit" value="Subscibe" class="cat-{{ $cat }}-background" />
     </form>
 </div>

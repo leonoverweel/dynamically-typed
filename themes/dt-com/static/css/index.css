@@ -1,3 +1,7 @@
+.content {
+    padding: 0 1rem;
+}
+
 .index {
     display: flex;
     flex-direction: column;

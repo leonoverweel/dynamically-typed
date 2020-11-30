@@ -95,6 +95,10 @@ ul {
 
 /* Category tweaks: background */
 
+.cat-index-background {
+    background-color: var(--color-index-light);
+}
+
 .cat-productized-ai-background {
     background-color: var(--color-productized-ai-light);
 }

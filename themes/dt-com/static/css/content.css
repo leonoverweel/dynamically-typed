@@ -36,6 +36,20 @@
     margin: 0.3rem 0 0 0;
 }
 
+.sidebar form input {
+    border: 1px var(--color-text) solid;
+    padding: 0.3rem 0.5rem;
+    font-family: var(--font-h);
+    font-size: 0.7rem;
+    margin: 0.7rem 0 0 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar form input[type="submit"] {
+    margin-top: 0.5rem;
+}
+
 /* Link page specific */
 
 .link {
