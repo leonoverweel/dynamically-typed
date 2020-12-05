@@ -1,3 +1,5 @@
+{{ $allIssues := where .Site.RegularPages ".Section" "in" "issues" }}
+
 {{ $cat:= "" }}
 
 {{ if and (eq $cat "") (in .CurrentSection.Dir "stories") }}
@@ -25,11 +27,11 @@
         Dynamically Typed is a fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
         {{ else }}
         This section of Dynamically Typed covers
-        {{ lower $meta.descriptionShort }}
+        {{ lower (substr $meta.descriptionShort 0 1) }}{{ substr $meta.descriptionShort 1 }}
         {{ end }}
     </p>
     <p>
-        For more like this, you can join {{ .Site.Data.meta.numSubscribers }}+ others and
+        Join {{ .Site.Data.meta.numSubscribers }}+ others and
         <b>subscribe to receive DT in your inbox every second Sunday</b> &mdash;
         {{ len (where .Site.RegularPages ".Section" "in" "issues") }} issues and counting!
     </p>
@@ -37,4 +39,13 @@
         <input type="email" id="email" placeholder="Write your email..." />
         <input type="submit" value="Subscibe" class="cat-{{ $cat }}-background" />
     </form>
+    <p>
+        Or read some <b>recent DT issues</b> first:
+    </p>
+    {{ range first 3 $allIssues }}
+    <p class="cat-{{ $cat }}">
+        <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
+        ({{ .Params.date.Format "January 2, 2006" }})
+    </p>
+    {{ end }}
 </div>

@@ -20,6 +20,10 @@
     width: 100%;
 }
 
+.main h1 {
+    margin-top: 0;
+}
+
 /* Sidebar */
 
 .sidebar {

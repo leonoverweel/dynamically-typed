@@ -44,7 +44,20 @@
             </li>
             {{ end }}
         </ul>
+        <h1>Recent stories from DT issues</h1>
     </div>
+    {{ range first 10 $allStories }}
+    <div class="index-main story cat-{{ .Params.category }}">
+        <a href="{{ .URL }}">
+            <h2>{{ .Title }}</h2>
+        </a>
+        <div class="link-meta">
+            <a href='/issues/{{ printf "%03d" .Params.issue_number }}'>DT #{{ .Params.issue_number }}</a> &mdash;
+            {{ .Date.Format "January 2, 2006" }}
+        </div>
+        {{ .Content }}
+    </div>
+    {{ end }}
 </div>
 
 {{ end }}
