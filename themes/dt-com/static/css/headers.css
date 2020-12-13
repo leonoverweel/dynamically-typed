@@ -17,6 +17,10 @@
     line-height: initial;
 }
 
+.index-header h1 a, .index-header h1 a:visited {
+    color: black !important;
+}
+
 .index-header form {
     background: rgba(255, 255, 255, 0.9);
     padding: 0.5rem;

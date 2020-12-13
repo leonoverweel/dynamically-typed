@@ -8,11 +8,13 @@
 {{ $paginator := .Paginate $allStories 5 }}
 
 <div class="main">
-    <div class="cat-index-background hey-there-fellow-kids">
+    {{ if eq $paginator.PageNumber 1 }}
+    <div class="cat-index cat-index-background hey-there-fellow-kids">
         Hey there! I'm <a href="https://twitter.com/layon_overwhale">Leon</a> and I write Dynamically Typed.
         Check out the sidebar for more info about my newsletter and category overviews,
-        or keep reading for my recent stories.
+        or keep reading for recent stories.
     </div>
+    {{ end }}
     {{ range $paginator.Pages }}
     <div class="index-main story cat-index">
         <a href="{{ .URL }}">
@@ -28,6 +30,18 @@
         {{ .Content }}
     </div>
     {{ end }}
+    <div class="page-nav cat-index">
+        <div>
+            {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}">&#171; Newer Stories</a>
+            {{ end}}
+        </div>
+        <div>
+            {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}">Older Stories &#187;</a>
+            {{ end}}
+        </div>
+    </div>
 </div>
 
 {{ end }}

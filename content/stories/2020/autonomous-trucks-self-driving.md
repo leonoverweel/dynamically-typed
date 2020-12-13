@@ -2,7 +2,7 @@
 category: productized-ai
 date: 2020-09-27
 issue_number: 49
-title: Autonmous trucks will be the first big self-driving market
+title: Autonomous trucks will be the first big self-driving market
 ---
 
 **Autonomous trucking is where I think self-driving vehicle technology will have its first big impact** , much before e.g.
