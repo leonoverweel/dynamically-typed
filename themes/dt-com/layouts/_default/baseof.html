@@ -5,8 +5,9 @@
 
 <body>
     {{- partial "header-index.html" . -}}
-    <div class="content">
+    <div class="grid">
         {{- block "main" . }}{{- end }}
+        {{- partial "sidebar.html" . -}}
     </div>
     {{- partial "footer.html" . -}}
 </body>

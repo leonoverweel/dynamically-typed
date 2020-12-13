@@ -5,55 +5,25 @@
 {{ $allLinks := where .Site.RegularPages ".Section" "in" "links" }}
 {{ $categories := .Site.Data.categories }}
 
-<div class="index">
-    <div class="index-main cat-index">
-        <p>
-            <b>Welcome to Dynamically Typed!</b>
-            I'm <a href="https://twitter.com/layon_overwhale">Leon</a>
-            and DT is my fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
-        </p>
+{{ $paginator := .Paginate $allStories 5 }}
+
+<div class="main">
+    <div class="cat-index-background hey-there-fellow-kids">
+        Hey there! I'm <a href="https://twitter.com/layon_overwhale">Leon</a> and I write Dynamically Typed.
+        Check out the sidebar for more info about my newsletter and category overviews,
+        or keep reading for my recent stories.
     </div>
-    <div class="index-sections">
-        {{ range sort .Site.Data.categories "index" }}
-        {{ $content := where $.Site.Pages ".Params.category" .category }}
-        <div class="cat-{{ .category }}-border">
-            <h2 class="index-section-name">{{ .name }}</h2>
-            <p class="index-section-description">{{ .descriptionShort }}</p>
-            <a href="/stories/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
-                {{ len ($allStories | intersect $content) }} stories
-            </a>
-            <a href="/links/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
-                {{ len ($content | complement $allStories) }} links
-            </a>
-        </div>
-        {{ end }}
-    </div>
-    <div class="index-main index-stories cat-index">
-        <p>
-            DT goes out every second Sunday &mdash;
-            <a href="/issues">{{ len $allIssues }} issues</a> so far, featuring a total of
-            {{ len $allStories }} stories and
-            {{ len $allLinks }} links.
-            Here's a few recent ones:
-        </p>
-        <ul>
-            {{ range first 3 $allIssues }}
-            <li>
-                {{  .Params.date.Format "January 2, 2006" }} &mdash;
-                <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
-            </li>
-            {{ end }}
-        </ul>
-        <h1>Recent stories from DT issues</h1>
-    </div>
-    {{ range first 10 $allStories }}
-    <div class="index-main story cat-{{ .Params.category }}">
+    {{ range $paginator.Pages }}
+    <div class="index-main story cat-index">
         <a href="{{ .URL }}">
             <h2>{{ .Title }}</h2>
         </a>
         <div class="link-meta">
-            <a href='/issues/{{ printf "%03d" .Params.issue_number }}'>DT #{{ .Params.issue_number }}</a> &mdash;
+            <a href='/issues/{{ printf "%03d" .Params.issue_number }}'>DT #{{ .Params.issue_number }}</a>
+            &mdash;
             {{ .Date.Format "January 2, 2006" }}
+            &mdash;
+            {{ (index (where .Site.Data.categories "category" .Params.category) 0).name }}
         </div>
         {{ .Content }}
     </div>

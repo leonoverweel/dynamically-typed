@@ -1,4 +1,5 @@
 {{ $allIssues := where .Site.RegularPages ".Section" "in" "issues" }}
+{{ $allStories := where .Site.RegularPages ".Section" "in" "stories" }}
 
 {{ $cat:= "" }}
 
@@ -20,32 +21,54 @@
 
 {{ $meta := (index (where .Site.Data.categories "category" $cat) 0) }}
 
-<div class="sidebar cat-{{ $cat }}-border">
-    <h2 class="index-section-name">{{ $meta.name }}</h2>
-    <p>
-        {{ if eq $cat "index" }}
-        Dynamically Typed is a fortnightly newsletter covering productized AI, ML research, climate AI, and cool things.
-        {{ else }}
-        This section of Dynamically Typed covers
-        {{ lower (substr $meta.descriptionShort 0 1) }}{{ substr $meta.descriptionShort 1 }}
+<div>
+    <div class="sidebar cat-{{ $cat }}-border">
+        <h2 class="index-section-name">{{ $meta.name }}</h2>
+        <p>
+            {{ if eq $cat "index" }}
+            <b>Dynamically Typed</b> is a fortnightly newsletter covering productized AI, ML research, climate AI, and
+            cool
+            things.
+            {{ else }}
+            This section of <b>Dynamically Typed</b> covers
+            {{ lower (substr $meta.descriptionShort 0 1) }}{{ substr $meta.descriptionShort 1 }}
+            {{ end }}
+        </p>
+        <p>
+            Join {{ .Site.Data.meta.numSubscribers }}+ others and
+            <b>subscribe to receive DT in your inbox every second Sunday</b> &mdash;
+            {{ len (where .Site.RegularPages ".Section" "in" "issues") }} issues and counting!
+        </p>
+        <form>
+            <input type="email" id="email" placeholder="Write your email..." />
+            <input type="submit" value="Subscibe" class="cat-{{ $cat }}-background" />
+        </form>
+        <p>
+            Or read some <b>recent DT issues</b> first:
+        </p>
+        {{ range first 3 $allIssues }}
+        <p class="cat-{{ $cat }}">
+            <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
+            ({{ .Params.date.Format "January 2, 2006" }})
+        </p>
         {{ end }}
-    </p>
-    <p>
-        Join {{ .Site.Data.meta.numSubscribers }}+ others and
-        <b>subscribe to receive DT in your inbox every second Sunday</b> &mdash;
-        {{ len (where .Site.RegularPages ".Section" "in" "issues") }} issues and counting!
-    </p>
-    <form>
-        <input type="email" id="email" placeholder="Write your email..." />
-        <input type="submit" value="Subscibe" class="cat-{{ $cat }}-background" />
-    </form>
-    <p>
-        Or read some <b>recent DT issues</b> first:
-    </p>
-    {{ range first 3 $allIssues }}
-    <p class="cat-{{ $cat }}">
-        <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
-        ({{ .Params.date.Format "January 2, 2006" }})
-    </p>
+    </div>
+
+    {{ if (eq $cat "index")}}
+    <div class="index-sections">
+        {{ range sort .Site.Data.categories "index" }}
+        {{ $content := where $.Site.Pages ".Params.category" .category }}
+        <div class="cat-{{ .category }}-border">
+            <h2 class="index-section-name">{{ .name }}</h2>
+            <p class="index-section-description">{{ .descriptionShort }}</p>
+            <a href="/stories/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
+                {{ len ($allStories | intersect $content) }} stories
+            </a>
+            <a href="/links/{{ .category }}" class="index-section-link cat-{{ .category }}-background">
+                {{ len ($content | complement $allStories) }} links
+            </a>
+        </div>
+        {{ end }}
+    </div>
     {{ end }}
 </div>
