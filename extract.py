@@ -24,9 +24,9 @@ def save_story(text, title, slug, category, issue_metadata):
     }
 
     year = str(issue_metadata["date"].year)
-    Path(f"content/stories/{year}").mkdir(exist_ok=True)
+    Path(f"website/content/stories/{year}").mkdir(exist_ok=True)
 
-    with open(f"content/stories/{year}/{slug}.md", "w") as story_file:
+    with open(f"website/content/stories/{year}/{slug}.md", "w") as story_file:
         story_file.writelines(
             ["---\n", yaml.safe_dump(story_metadata), "---\n\n", text]
         )
@@ -43,7 +43,7 @@ def save_quick_link(text, title, slug, category, issue_metadata):
         "emoji": text[0],
     }
 
-    directory = f"content/links/{category}"
+    directory = f"website/content/links/{category}"
     Path(directory).mkdir(exist_ok=True)
     date_id = issue_metadata["date"].strftime("%y%m%d")
 
@@ -133,9 +133,11 @@ def extract_issue_contents(issue_path):
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
-        extract_issue_contents(f"content/issues/{int(sys.argv[-1]):03}.md")
+        extract_issue_contents(f"website/content/issues/{int(sys.argv[-1]):03}.md")
 
     else:
-        for issue_path in sorted(glob.glob("content/issues/*.md"), reverse=True):
+        for issue_path in sorted(
+            glob.glob("website/content/issues/*.md"), reverse=True
+        ):
             extract_issue_contents(issue_path)
             print("\n\n")
