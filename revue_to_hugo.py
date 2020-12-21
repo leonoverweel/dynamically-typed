@@ -163,7 +163,7 @@ if __name__ == "__main__":
     issue_number, markdown = revue_to_md(issue_id)
 
     # Write new issue
-    with open(f"content/issues/{int(issue_number):03}.md", "w") as out_file:
+    with open(f"website/content/issues/{int(issue_number):03}.md", "w") as out_file:
         out_file.write(markdown)
 
     # Append issue ID to list of IDs

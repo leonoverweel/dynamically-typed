@@ -40,8 +40,10 @@ def save_quick_link(text, title, slug, category, issue_metadata):
         "category": category,
         "issue_number": issue_metadata["number"],
         "date": issue_metadata["date"],
-        "emoji": text[0],
+        "emoji": text.split()[0],
     }
+
+    text = " ".join(text.split()[1:])
 
     directory = f"website/content/links/{category}"
     Path(directory).mkdir(exist_ok=True)
@@ -53,7 +55,7 @@ def save_quick_link(text, title, slug, category, issue_metadata):
                 "---\n",
                 yaml.safe_dump(quick_link_metadata),
                 "---\n\n",
-                _one_sentence_per_line(text[1:].strip()).strip(),
+                _one_sentence_per_line(text).strip(),
             ]
         )
 
