@@ -54,10 +54,11 @@
         {{ end }}
     </div>
 
-    {{ if (eq $cat "index")}}
+
     <div class="index-sections">
         {{ range sort .Site.Data.categories "index" }}
         {{ $content := where $.Site.Pages ".Params.category" .category }}
+        {{ if (or (eq $cat "index") (eq $cat .category))}}
         <div class="cat-{{ .category }}-border">
             <h2 class="index-section-name">{{ .name }}</h2>
             <p class="index-section-description">{{ .descriptionShort }}</p>
@@ -69,6 +70,6 @@
             </a>
         </div>
         {{ end }}
+        {{ end }}
     </div>
-    {{ end }}
 </div>
