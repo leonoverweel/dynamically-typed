@@ -1,3 +1,7 @@
+:root {
+    --color-overlay: rgba(255, 255, 255, 0.97);
+}
+
 .index-header {
     height: 400px;
     display: flex;
@@ -9,11 +13,11 @@
 }
 
 .index-header h1 {
+    background: var(--color-overlay);
     font-size: 2.5rem;
     margin-bottom: 4vh;
     margin-top: 0;
-    padding: 0 0.8rem;
-    background: rgba(255, 255, 255, 0.9);
+    padding: 0.1rem 1rem;
     line-height: initial;
 }
 
@@ -22,7 +26,7 @@
 }
 
 .index-header form {
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--color-overlay);
     padding: 0.5rem;
 }
 
@@ -72,17 +76,18 @@
 }
 
 .regular-header {
-    height: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-bottom: 1px var(--color-text) solid;
+    background: white;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
 }
 
 .regular-header h1 {
     margin: 0;
-    font-size: 1.7rem;
+    padding: 1.1rem 0;
+    text-align: center;
+    font-size: 1.6rem;
 }
 
 .regular-header h1 a {

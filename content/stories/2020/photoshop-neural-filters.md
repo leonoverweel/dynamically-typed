@@ -9,7 +9,7 @@ title: Photoshop's Neural Filters
 
 _Light direction is one of many new AI-powered features in Photoshop; in the middle picture, the light source is on the left; in the right picture, it's moved to the right._
 
-**Adobe’s latest Photoshop release is**[ **jam-packed with AI-powered features**](https://blog.adobe.com/en/2020/10/20/photoshop-the-worlds-most-advanced-ai-application-for-creatives.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) **.**
+**Adobe’s latest Photoshop release is**[ **jam-packed with AI-powered features**](https://blog.adobe.com/en/2020/10/20/photoshop-the-worlds-most-advanced-ai-application-for-creatives.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)**.**
 The pitch, by product manager Pam Clark:
 
 > You already rely on artificial intelligence features in Photoshop to speed your work every day like Select Subject, Object Selection Tool, Content-Aware Fill, Curvature Pen Tool, many of the font features, and more.

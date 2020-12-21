@@ -32,7 +32,7 @@ a {
     font-weight: 400;
 }
 
-b {
+b, strong {
     font-weight: 400;
 }
 
@@ -58,7 +58,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
     margin: 2rem 0 0 0;
 }
