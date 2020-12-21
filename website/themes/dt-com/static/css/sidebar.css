@@ -5,7 +5,7 @@
 @media screen and (max-width: 500px) {
     .sidebar-mobile-top {
         grid-row-start: 1;
-        margin-bottom: -1rem;
+        margin-bottom: 1rem;
     }
     .sidebar-mobile-bottom {
         margin-top: 2rem;

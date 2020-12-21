@@ -74,14 +74,14 @@
         height: 250px;
     }
     .index-header form input[type="email"] {
-        width: 20ch;
+        width: 25ch;
     }
     .index-header div {
         grid-template-columns: repeat(4, 1fr);
     }
     .index-header h1 {
         text-align: center;
-        width: 225px;
+        width: 220px;
         font-size: 1.9rem;
     }
 }
