@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 500px) {
     .index-header, .index-header div {
-        height: 300px;
+        height: 250px;
     }
     .index-header form input[type="email"] {
         width: 20ch;
