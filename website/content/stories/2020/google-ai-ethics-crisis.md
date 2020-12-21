@@ -1,0 +1,38 @@
+---
+category: ml-research
+date: 2020-12-06
+issue_number: 54
+title: Google AI's ethics crisis
+---
+
+**Google AI is in the middle of an ethics crisis.**
+Timnit Gebru, the AI ethics researcher behind Gender Shades (see [DT #42](https://dynamicallytyped.com/issues/42-facial-recognition-exodus-openai-s-new-gpt-3-language-model-and-oil-in-the-cloud-254772?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), Datasheets for Datasets ([#41](https://dynamicallytyped.com/issues/41-black-lives-matter-highlighting-ml-ai-products-research-and-climate-projects-by-black-creators-251381?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)), [and much more](https://twitter.com/math_rachel/status/1334545393057599488?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), got pushed out of the company after a series of conflicts.
+[Karen Hao for MIT Technology Review](https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
+
+> A series of tweets, leaked emails, and media articles showed that Gebru’s exit was the culmination of a conflict over [a critical] paper she co-authored.
+> Jeff Dean, the head of Google AI, told colleagues in an internal email (which he has since put online) that the paper “didn’t meet our bar for publication” and that Gebru had said she would resign unless Google met a number of conditions, which it was unwilling to meet.
+> Gebru tweeted that she had asked to negotiate “a last date” for her employment after she got back from vacation.
+> She was cut off from her corporate email account before her return.
+
+See Casey Newton’s [coverage on his Platformer newsletter](https://www.platformer.news/p/the-withering-email-that-got-an-ethical?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) for both Gebru’s and Jeff Dean’s emails (and [here for his extended statement](https://docs.google.com/document/d/1f2kYWDXwhzYnq8ebVtuk9CqQqz7ScqxhSIxeYGrWjK0/edit?usp=sharing&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)).
+This story unfolded over the past week and is probably far from over, but from everything I’ve read so far — [which](https://venturebeat.com/2020/12/03/ai-ethics-pioneers-exit-from-google-involved-research-into-risks-and-inequality-in-large-language-models/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) [is](https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) [_a_](https://www.vox.com/recode/2020/12/4/22153786/google-timnit-gebru-ethical-ai-jeff-dean-controversy-fired?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) __[_lot_](https://venturebeat.com/2020/12/03/google-ai-ethics-co-lead-timnit-gebru-says-she-was-fired-over-an-email/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), hence this email hitting your inbox a bit later than usual — I think think Google management made the wrong call here.
+[Their statement](https://docs.google.com/document/d/1f2kYWDXwhzYnq8ebVtuk9CqQqz7ScqxhSIxeYGrWjK0/edit?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) on the matter focuses on missing references in Gebru’s paper, but as Google Brain Montreal researcher [Nicolas Le Roux points out](https://twitter.com/le_roux_nicolas/status/1334601960972906496?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
+
+> … [The] easiest way to discriminate is to make stringent rules, then to decide when and for whom to enforce them.
+> My submissions were always checked for disclosure of sensitive material, never for the quality of the literature review.
+
+This is echoed by [a top comment on HackerNews](https://news.ycombinator.com/item?id=25307167&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+From [Gebru’s email](https://www.platformer.news/p/the-withering-email-that-got-an-ethical?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), it sounds like frustrations had been building up for some time, and that the lack of transparency surrounding the internal rejection of this paper was simply the final straw.
+I think it would’ve been more productive for management to start a dialog with Gebru here — forcing a retraction, “accepting her resignation” immediately and then cutting off her email only served to escalate the situation.
+
+Gebru’s research on the biases of large (compute-intensive) vision and language models is much harder to do without the resources of a large company like Google.
+This is a problem that academic ethics researchers often run into; OpenAI’s Jack Clark, who [gave feedback on Gebru’s paper](https://twitter.com/jackclarkSF/status/1335444765224042496?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), has [also pointed this out](https://twitter.com/timnitgebru/status/1335384711837913089?s&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+I always found it admirable that Google AI, as a research organization, intellectually had the space for voices like Gebru’s to critically investigate these things.
+It’s a shame that it was not able to sustain an environment in which this could be fostered.
+
+In the end, beside the ethical issues, I think Google’s handling of this situation was also a big strategic misstep.
+1500 Googlers and 2100 others have signed [an open letter supporting Gebru](https://googlewalkout.medium.com/standing-with-dr-timnit-gebru-isupporttimnit-believeblackwomen-6dadc300d382?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+Researchers from [UC Berkeley](https://www.vox.com/recode/2020/12/4/22153786/google-timnit-gebru-ethical-ai-jeff-dean-controversy-fired?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and the [University of Washington](https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) said this will have “a chilling effect” on the field.
+Apple and Twitter are [publicly](https://twitter.com/NovallSwift/status/1334900843921825793?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) [poaching](https://twitter.com/quicola/status/1334343360765718529?s=20&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) Google’s AI ethics researchers.
+Even mainstream outlets like [The Washington Post](https://www.washingtonpost.com/technology/2020/12/03/timnit-gebru-google-fired/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [The New York Times](https://www.nytimes.com/2020/12/03/technology/google-researcher-timnit-gebru.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) have picked up the story.
+In the week leading up to NeurIPS and the Black in AI workshop there, is this a better outcome for Google AI than letting an internal researcher submit a conference paper critical of large language models?
