@@ -57,6 +57,12 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1500px) {
+    .index-header div {
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .index-header div {
         grid-template-columns: repeat(8, 1fr);
