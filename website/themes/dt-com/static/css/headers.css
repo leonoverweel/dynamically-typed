@@ -49,7 +49,7 @@
     overflow-y: hidden;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 1rem;
+    gap: 0.5rem;
     height: 400px;
 }
 
