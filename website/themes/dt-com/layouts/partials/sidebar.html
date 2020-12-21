@@ -21,7 +21,7 @@
 
 {{ $meta := (index (where .Site.Data.categories "category" $cat) 0) }}
 
-<div>
+<div {{ if .IsHome }} class="sidebar-mobile-top" {{ else }} class="sidebar-mobile-bottom" {{ end }}>
     <div class="sidebar cat-{{ $cat }}-border">
         <h2 class="index-section-name">{{ $meta.name }}</h2>
         <p>

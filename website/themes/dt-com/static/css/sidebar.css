@@ -1,7 +1,16 @@
-/* Sidebar */
-
 .sidebar {
     padding: 0.3rem 0.5rem 0.6rem 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .sidebar-mobile-top {
+        grid-row-start: 1;
+        margin-bottom: -1rem;
+    }
+    .sidebar-mobile-bottom {
+        margin-top: 2rem;
+        grid-row-start: 2;
+    }
 }
 
 .sidebar h2 {

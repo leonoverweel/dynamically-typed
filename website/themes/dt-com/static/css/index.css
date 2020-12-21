@@ -3,6 +3,12 @@
     margin-bottom: -1rem;
 }
 
+@media screen and (max-width: 450px) {
+    .hey-there-fellow-kids {
+        display: none;
+    }
+}
+
 .page-nav {
     display: grid;
     grid-template-columns: auto auto;
