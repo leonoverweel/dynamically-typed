@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+{{ $allIssues := where .Site.RegularPages ".Section" "in" "issues" }}
+{{ $allStories := where .Site.RegularPages ".Section" "in" "stories" }}
+{{ $allLinks := where .Site.RegularPages ".Section" "in" "links" }}
+{{ $categories := .Site.Data.categories }}
+
+{{ $paginator := .Paginate $allStories 5 }}
+
+<div class="main">
+    {{ if eq $paginator.PageNumber 1 }}
+    <div class="cat-index cat-index-background hey-there-fellow-kids">
+        Hey there! I'm <a href="https://twitter.com/layon_overwhale">Leon</a> and I write Dynamically Typed.
+        Check out the sidebar for more info about my newsletter and category overviews,
+        or keep reading for recent stories.
+    </div>
+    {{ end }}
+    {{ range $paginator.Pages }}
+    <div class="index-main story cat-index">
+        <a href="{{ .URL }}">
+            <h2>{{ .Title }}</h2>
+        </a>
+        <div class="link-meta">
+            <a href='/issues/{{ printf "%03d" .Params.issue_number }}'>DT #{{ .Params.issue_number }}</a>
+            &mdash;
+            {{ .Date.Format "January 2, 2006" }}
+            &mdash;
+            {{ (index (where .Site.Data.categories "category" .Params.category) 0).name }}
+        </div>
+        {{ .Content }}
+    </div>
+    {{ end }}
+    <div class="page-nav cat-index">
+        <div>
+            {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}">&#171; Newer Stories</a>
+            {{ end}}
+        </div>
+        <div>
+            {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}">Older Stories &#187;</a>
+            {{ end}}
+        </div>
+    </div>
+</div>
+
+{{ end }}

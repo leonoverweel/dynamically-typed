@@ -1,0 +1,16 @@
+.hey-there-fellow-kids {
+    padding: 0.3rem 0.5rem 0.6rem 0.5rem;
+    margin-bottom: -1rem;
+}
+
+@media screen and (max-width: 450px) {
+    .hey-there-fellow-kids {
+        display: none;
+    }
+}
+
+.page-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "category": "cool-things",
+        "name": "Cool Things",
+        "index": 3,
+        "descriptionShort": "Art projects and visualizations built with and around ML models."
+    },
+    {
+        "category": "climate-ai",
+        "name": "Climate AI",
+        "index": 2,
+        "descriptionShort": "Climate change prevention and adaptation projects that use AI."
+    },
+    {
+        "category": "ml-research",
+        "name": "ML Research",
+        "index": 1,
+        "descriptionShort": "Recent models, datasets, and tools for machine learnig research."
+    },
+    {
+        "category": "productized-ai",
+        "name": "Productized AI",
+        "index": 0,
+        "descriptionShort": "Products and features enabled by (deep learning) artficial intelligence."
+    }
+]

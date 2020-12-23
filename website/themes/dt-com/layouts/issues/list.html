@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<ul>
+    {{ range .Pages }}
+    <li>
+        <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+
+
+{{ end }}

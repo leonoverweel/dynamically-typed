@@ -135,7 +135,7 @@ def revue_to_md(issue_id):
     # Transform content
     title = html.escape(soup.title.text.split("|")[0])
     date = soup.find("time").attrs["datetime"].split("T")[0]
-    revue_link = soup.find("link", {"rel": "canonical"}).get("href")
+    revue_link = soup.find("link", {"rel": "canonical"}).get("href").split(".com")[-1]
     number = title.split(":")[0].strip("#")
     markdown = "".join(transform_element(tag) for tag in content).strip()
 
@@ -163,7 +163,7 @@ if __name__ == "__main__":
     issue_number, markdown = revue_to_md(issue_id)
 
     # Write new issue
-    with open(f"content/issues/{int(issue_number):03}.md", "w") as out_file:
+    with open(f"website/content/issues/{int(issue_number):03}.md", "w") as out_file:
         out_file.write(markdown)
 
     # Append issue ID to list of IDs

@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+{{ $storiesSection := replace (replace .CurrentSection.Dir "stories/" "") "/" "" }}
+{{ $storiesSectionName := (index (where .Site.Data.categories "category" $storiesSection) 0).name }}
+
+<div class="main cat-{{ $storiesSection }}">
+    {{ range where (where $.Site.Pages "Section" "stories") ".Params.category" $storiesSection }}
+    <div class="story">
+        <a href="{{ .URL }}">
+            <h2>{{ .Title }}</h2>
+        </a>
+        <div class="link-meta">
+            <a href='/issues/{{ printf "%03d" .Params.issue_number }}'>DT #{{ .Params.issue_number }}</a> &mdash;
+            {{ .Date.Format "January 2, 2006" }}
+        </div>
+        {{ .Content }}
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

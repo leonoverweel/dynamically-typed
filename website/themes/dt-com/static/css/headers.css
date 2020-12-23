@@ -1,0 +1,114 @@
+:root {
+    --color-overlay: rgba(255, 255, 255, 0.97);
+}
+
+.index-header {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px var(--color-text) solid;
+    overflow-y: hidden;
+}
+
+.index-header h1 {
+    background: var(--color-overlay);
+    font-size: 2.5rem;
+    margin-bottom: 4vh;
+    margin-top: 0;
+    padding: 0.1rem 1rem;
+    line-height: initial;
+}
+
+.index-header h1 a, .index-header h1 a:visited {
+    color: black !important;
+}
+
+.index-header form {
+    background: var(--color-overlay);
+    padding: 0.5rem;
+}
+
+.index-header form input {
+    border: 1px var(--color-text) solid;
+    padding: 0.3rem 0.5rem;
+    background-color: inherit;
+    font-family: var(--font-h);
+    margin: 0 0.1rem;
+}
+
+.index-header form input[type="email"] {
+    width: 30ch;
+}
+
+.index-header div {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 0.5rem;
+    height: 400px;
+}
+
+.index-header div img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .index-header div {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .index-header div {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .index-header, .index-header div {
+        height: 250px;
+    }
+    .index-header form input[type="email"] {
+        width: 25ch;
+    }
+    .index-header div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .index-header h1 {
+        text-align: center;
+        width: 220px;
+        font-size: 1.9rem;
+    }
+}
+
+.regular-header {
+    border-bottom: 1px var(--color-text) solid;
+    background: white;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.regular-header h1 {
+    margin: 0;
+    padding: 1.1rem 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.regular-header h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .regular-header h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+}

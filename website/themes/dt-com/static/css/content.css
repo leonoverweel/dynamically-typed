@@ -1,0 +1,30 @@
+/* Link page specific */
+
+.link {
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.link-meta {
+    font-family: var(--font-h);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/* Story page specific */
+
+.story {
+    min-width: 0;
+    margin: 3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.story:first-of-type {
+    margin: 0;
+}
+
+.story h2 {
+    margin: 0;
+}
