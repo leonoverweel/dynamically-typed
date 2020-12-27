@@ -23,6 +23,15 @@
     margin: 0.3rem 0 0 0;
 }
 
+.sidebar ul {
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+.sidebar li {
+    font-size: 0.9rem;
+}
+
 .sidebar form input {
     border: 1px var(--color-text) solid;
     padding: 0.3rem 0.5rem;

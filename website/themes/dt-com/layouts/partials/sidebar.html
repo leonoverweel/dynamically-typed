@@ -26,7 +26,7 @@
         <h2 class="index-section-name">{{ $meta.name }}</h2>
         <p>
             {{ if eq $cat "index" }}
-            <b>Dynamically Typed</b> is a fortnightly newsletter covering productized AI, ML research, climate AI, and
+            <b>Dynamically Typed</b> is a biweekly newsletter covering productized AI, ML research, climate AI, and
             cool
             things.
             {{ else }}
@@ -36,7 +36,7 @@
         </p>
         <p>
             Join {{ .Site.Data.meta.numSubscribers }}+ others and
-            <b>subscribe to receive DT in your inbox every second Sunday</b> &mdash;
+            <b>subscribe to get DT in your inbox every second Sunday</b> &mdash;
             {{ len (where .Site.RegularPages ".Section" "in" "issues") }} issues and counting!
         </p>
         <form>
@@ -44,14 +44,17 @@
             <input type="submit" value="Subscribe" class="cat-{{ $cat }}-background" />
         </form>
         <p>
-            Or read some <b>recent DT issues</b> first:
+            Or check out <b>recent DT issues</b> first:
         </p>
-        {{ range first 3 $allIssues }}
-        <p class="cat-{{ $cat }}">
-            <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
-            ({{ .Params.date.Format "January 2, 2006" }})
-        </p>
-        {{ end }}
+        <ul>
+            {{ range first 3 $allIssues }}
+            <li class="cat-{{ $cat }}">
+
+                <a href="{{ .URL }}">DT #{{ .Params.number }}</a>:
+                {{ safeHTML (substr .Title 5) }}
+            </li>
+            {{ end }}
+        </ul>
     </div>
 
 
