@@ -42,6 +42,10 @@
     width: 30ch;
 }
 
+.index-header form input[type="submit"] {
+    cursor: pointer;
+}
+
 .index-header div {
     position: absolute;
     width: 100%;
