@@ -44,6 +44,7 @@
 
 .sidebar form input[type="submit"] {
     margin-top: 0.5rem;
+    cursor: pointer;
 }
 
 .index-sections {
