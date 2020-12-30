@@ -1,8 +1,8 @@
 # Dynamically Typed
 
 This is the website for [Dynamically Typed](https://dynamicallytyped.com/), my newsletter.
-For now, this repository only contains scripts for downloading issues and transforming them into [Hugo](https://gohugo.io)-compatible Markdown files.
-In the future it'll also have scripts to extract more richt content (like individual stories and quick links) and render a Hugo-based static website.
+This repository only contains scripts for downloading issues and transforming them into [Hugo](https://gohugo.io)-compatible Markdown files and to split them up into individual stories and links.
+For the source of the Hugo website, see the `website` directory.
 
 ## Setup
 
@@ -27,6 +27,14 @@ python revue_to_hugo.py issue_id
 Where `issue_id` is the 6-digit identifier at the end of the Revue link for the issue.
 This script will also append the ID to `issue_ids.txt`, for future rescraping.
 
+### Extracting contnt
+
+To extract links and stories from an issue and dump them in the appropriate `website/content` folders:
+
+```bash
+python extract.py issue_number
+```
+
 ### Rescraping
 
 To rescrape all issues whose IDs are in `issue_ids.txt`, for example when some metadata formatting changes:
@@ -34,3 +42,7 @@ To rescrape all issues whose IDs are in `issue_ids.txt`, for example when some m
 ```bash
 python rescrape.py
 ```
+
+## Copyright
+
+Written contents from Dynamically Typed (in the `website/content` folder) are &copy; Leon Overweel / [Nubic](https://nubic.tech).
