@@ -1,0 +1,37 @@
+<!-- Find category-->
+{{ $cat:= "" }}
+
+{{ if and (eq $cat "") (in .CurrentSection.Dir "stories") }}
+{{ $cat = replace (replace .CurrentSection.Dir "stories/" "") "/" "" }}
+{{ end }}
+
+{{ if and (eq $cat "") (in .CurrentSection.Dir "links") }}
+{{ $cat = replace (replace .CurrentSection.Dir "links/" "") "/" "" }}
+{{ end }}
+
+{{ if eq $cat "" }}
+{{ $cat = .Page.Params.category }}
+{{ end }}
+
+{{ if not $cat }}
+{{ $cat = "index" }}
+{{ end }}
+
+<div class="footer-container cat-{{ $cat }}-background">
+    <div class="footer">
+        <div>
+            <div>Dynamically Typed is Leon Overweel's {{ .Site.Data.meta.description }}</div>
+            <div>
+                Header images are DeepDream AlexNet feature visualizations,
+                <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+                by <a href="https://microscope.openai.com/">OpenAI Microscope</a>.
+            </div>
+            <div>&#169; Leon Overweel / <a href="https://nubic.tech">Nubic</a> {{ now.Year }}.</div>
+        </div>
+        <div>
+            <div>🐦 &nbsp;<a href="https://twitter.com/layon_overwhale">Twitter</a></div>
+            <div>📧 &nbsp;<a href="https://www.getrevue.co/privacy">Revue privacy policy</a></div>
+            <div>💻 &nbsp;<a href="https://github.com/leonoverweel/dynamically-typed">Site source on GitHub</a></div>
+        </div>
+    </div>
+</div>

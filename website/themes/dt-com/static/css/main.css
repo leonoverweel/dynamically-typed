@@ -92,6 +92,7 @@ ul {
     margin: 0 auto;
     padding: 1rem;
     box-sizing: border-box;
+    min-height: calc(100vh - 70px - 20vh);
 }
 
 @media screen and (max-width: 500px) {
@@ -103,7 +104,7 @@ ul {
 /* Main */
 
 .main {
-    min-width: 0;
+    margin-bottom: 2rem;
 }
 
 .main img {
