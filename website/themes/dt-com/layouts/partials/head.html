@@ -1,6 +1,56 @@
 <head>
+    <!-- Defaults -->
+    {{ $imageId := printf "%02d" (index (seq 40 | shuffle) 1) }}
+    {{ $image := print .Site.BaseURL "images/meta/dt-meta-cover-" $imageId ".png" }}
+    {{ $title := "" }}
+    {{ $description := "" }}
+
+    <!-- Home -->
+    {{ if .IsHome }}
+    {{ $title = "Dynamically Typed" }}
+    {{ $description = print "DT is a " .Site.Data.meta.description }}
+
+    <!-- Individual issue, story or link -->
+    {{ else if and (.IsPage) }}
+    {{ $imageId = printf "%02d" (mod (int (print "0x" (substr (md5 .URL) 0 5))) 40) }}
+    {{ $image = print .Site.BaseURL "images/meta/dt-meta-cover-" $imageId ".png" }}
+    {{ $title = print .Title " | Dynamically Typed" }}
+    {{ $description = print "From DT #" .Params.issue_number ": " (htmlUnescape .Summary) }}
+
+    <!-- List page  -->
+    {{ else if .IsSection }}
+
+    {{ $cat:= "" }}
+    {{ if and (eq $cat "") (in .CurrentSection.Dir "stories") }}
+    {{ $cat = replace (replace .CurrentSection.Dir "stories/" "") "/" "" }}
+    {{ end }}
+    {{ if and (eq $cat "") (in .CurrentSection.Dir "links") }}
+    {{ $cat = replace (replace .CurrentSection.Dir "links/" "") "/" "" }}
+    {{ end }}
+
+    {{ $meta := (index (where .Site.Data.categories "category" $cat) 0) }}
+
+    {{ $title = print $meta.name " " (index (split .CurrentSection.Dir "/") 0) " | Dynamically Typed" }}
+    {{ $description = $meta.descriptionShort }}
+
+    {{ end }}
+
+    <!-- Meta tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <title>{{ $title }}</title>
+    <meta name="title" content="{{ $title }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="twitter:title" content="{{ $title }}">
+
+    <meta name="description" content="{{ $description }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta property="twitter:description" content="{{ $description }}">
+
+    <meta property="og:image" content="{{ $image }}">
+    <meta property="twitter:image" content="{{ $image }}">
+
+    <!-- CSS, fonts, etc. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Site.Title }}</title>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/headers.css">
     <link rel="stylesheet" href="/css/index.css">
