@@ -2,6 +2,9 @@
 
 <div class="main cat-index">
     <h1>{{ safeHTML .Title }}</h1>
+    <div class="link-meta">
+        {{ .Date.Format "January 2, 2006" }}
+    </div>
     {{ .Content }}
 </div>
 
