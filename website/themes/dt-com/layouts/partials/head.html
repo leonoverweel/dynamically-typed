@@ -1,7 +1,7 @@
 <head>
     <!-- Defaults -->
     {{ $imageId := printf "%02d" (index (seq 40 | shuffle) 1) }}
-    {{ $image := print .Site.BaseURL "images/meta/dt-meta-cover-" $imageId ".png" }}
+    {{ $image := print .Site.BaseURL "/images/meta/dt-meta-cover-" $imageId ".png" }}
     {{ $title := "" }}
     {{ $description := "" }}
 
@@ -13,7 +13,7 @@
     <!-- Individual issue, story or link -->
     {{ else if and (.IsPage) }}
     {{ $imageId = printf "%02d" (mod (int (print "0x" (substr (md5 .URL) 0 5))) 40) }}
-    {{ $image = print .Site.BaseURL "images/meta/dt-meta-cover-" $imageId ".png" }}
+    {{ $image = print .Site.BaseURL "/images/meta/dt-meta-cover-" $imageId ".png" }}
     {{ $title = print (htmlUnescape .Title) " | Dynamically Typed" }}
     {{ $description = print "From DT #" .Params.issue_number ": " (htmlUnescape .Summary) }}
 
