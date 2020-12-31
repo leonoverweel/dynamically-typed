@@ -80,6 +80,14 @@ ul {
     margin-top: 0.3rem;
 }
 
+input {
+    border-radius: 0;
+}
+
+input[type="email"] {
+    -webkit-appearance: none;
+}
+
 /* Layout */
 
 .grid {
