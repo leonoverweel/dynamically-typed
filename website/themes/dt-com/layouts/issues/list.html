@@ -1,9 +1,11 @@
 {{ define "main" }}
 
-<ul>
+<ul class="cat-index">
     {{ range .Pages }}
     <li>
-        <a href="{{ .URL }}">{{ safeHTML .Title }}</a>
+        <a href="{{ .URL }}">DT #{{ .Params.number }}</a>:
+        {{ safeHTML (substr .Title 4) }}
+        <i>({{ .Date.Format "Jan 2, 2006" }})</i>
     </li>
     {{ end }}
 </ul>
