@@ -84,7 +84,7 @@ input {
     border-radius: 0;
 }
 
-input[type="email"] {
+input[type="email"], input[type="submit"] {
     -webkit-appearance: none;
 }
 
