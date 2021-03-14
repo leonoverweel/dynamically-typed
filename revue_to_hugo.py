@@ -88,7 +88,7 @@ def transform_element(html_element):
     return f"{text.strip()}\n\n"
 
 
-def load_issue(issue_id, base_url="https://dynamicallytyped.com"):
+def load_issue(issue_id, base_url="https://revue.dynamicallytyped.com"):
     """Download an issue and return its HTML contents."""
 
     url = f"{base_url}/issues/0-{issue_id}"
