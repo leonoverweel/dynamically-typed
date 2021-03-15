@@ -50,7 +50,7 @@ In practice, it’s usually the latter: someone will jump in and produce the ext
 This is big business for coal and gas plants, because they can ramp their production up (or down if the scenario is reversed) on-demand, and very quickly.
 As a larger percentage of electricity on the grid is generated using weather-dependent renewables, this intraday market becomes more valuable — and coal and gas-burning plants can be operated profitably for longer, even as [learning effects make wind and solar power cheaper](https://ourworldindata.org/cheap-renewables-growth?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [CO2 emission prices rise](https://www.bloomberg.com/news/articles/2021-01-19/europe-carbon-market-emissions-permits-set-price-records-in-2021?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 
-Beyond fossil fuel-burning power plants ramping their generation up and down to meet consumption, another obvious supplier of flexility is large batteries.
+Beyond fossil fuel-burning power plants ramping their generation up and down to meet consumption, another obvious supplier of flexibility is large batteries.
 These can be paid to charge when there is an oversupply, and paid again to discharge when there is an undersupply.
 Another plausible demand-side response comes from climate-controlled (food) distribution centers that need to run their cooling units a number of hours a day, but can be a bit flexible about exactly when those hours are.
 These are both useful, but they’re not happening at scale (yet).
