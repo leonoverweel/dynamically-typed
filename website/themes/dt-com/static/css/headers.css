@@ -59,17 +59,24 @@
 
 .index-header div img {
     width: 100%;
+    height: calc((100vw / 10) - 8px);
 }
 
 @media screen and (max-width: 1000px) {
     .index-header div {
         grid-template-columns: repeat(8, 1fr);
     }
+    .index-header div img {
+        height: calc((100vw / 8) - 0.5rem);
+    }
 }
 
 @media screen and (max-width: 800px) {
     .index-header div {
         grid-template-columns: repeat(6, 1fr);
+    }
+    .index-header div img {
+        height: calc((100vw / 6) - 0.5rem);
     }
 }
 
@@ -82,6 +89,9 @@
     }
     .index-header div {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .index-header div img {
+        height: calc((100vw / 4) - 0.5rem);
     }
     .index-header h1 {
         text-align: center;
