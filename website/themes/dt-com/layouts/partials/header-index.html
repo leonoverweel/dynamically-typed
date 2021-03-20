@@ -1,7 +1,10 @@
+{{ $colors := .Site.Data.channels }}
+
 <div class="index-header">
     <div>
         {{ range seq 40 | shuffle }}
-        <img src="/images/header/channel-{{ . }}.png" />
+        <img src="/images/header/channel-{{ . }}.png"
+            style="background-color: {{ index $colors (string .) | safeCSS }}" />
         {{ end }}
     </div>
     <h1><a href="/">Dynamically Typed</a></h1>
