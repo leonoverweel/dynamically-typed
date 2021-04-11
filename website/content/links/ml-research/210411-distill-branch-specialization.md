@@ -1,0 +1,14 @@
+---
+category: ml-research
+date: 2021-04-11
+emoji: "\u26D3"
+issue_number: 63
+title: 'Distill: Branch Specialization'
+---
+
+_Distill #2:_ [Branch Specialization](https://distill.pub/2020/circuits/branch-specialization/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) by Voss et al.
+(2021), a chapter in the [_Circuits_ thread](https://distill.pub/2020/circuits?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) which includes previous work like [Zoom in on Circuits](https://dynamicallytyped.com/stories/2020/distill-zoom-in-on-circuits/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [Early Vision in CNNs](https://dynamicallytyped.com/stories/2020/distill-early-vision-in-cnns/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [Curve Detectors](https://dynamicallytyped.com/links/ml-research/200621-distill-circuits-curve-detectors/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [Equivariance](https://dynamicallytyped.com/links/ml-research/201220-naturally-occurring-equivariance-in-neural-networks/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [High-Low Frequency Detectors](https://dynamicallytyped.com/links/ml-research/210131-distill-circuits-high-low-frequency-detectors/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), and [Curve Circuits](https://dynamicallytyped.com/links/ml-research/210228-distill-long-reads/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+In this article, the authors find that similar circuit-level functions tend to group themselves in network branches, which are “sequences of layers which temporarily don’t have access to ‘parallel’ information which is still passed to later layers.” For example, all 30 curve-related features in InceptionV1’s _mixed3b_5x5_ layer are concentrated in just one of the layer’s four branches.
+The authors hypothesize that this is because of a positive feedback loop during training, where the earlier layer in a branch is incentivized to form low-level features that the later layer uses as primitives for higher-level features.
+One cool thing about Distill is that it also invites non-AI researchers to provide commentary on articles.
+In this case, [Matthew Nolan](https://www.ed.ac.uk/discovery-brain-sciences/our-staff/research-groups/matthew-nolan?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and Ian Hawes, neuroscientists at the University of Edinburgh, see a “striking parallel” with the separation of cortical pathways in the human brain.
