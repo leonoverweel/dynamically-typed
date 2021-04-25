@@ -8,7 +8,7 @@ title: Google's tips for reducing AI training emissions
 David Patterson wrote a blog post for Google’s The Keyword blog on [how the company is minimizing AI’s carbon footprint](https://blog.google/technology/ai/minimizing-carbon-footprint/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), mostly covering his new paper on the topic: [Carbon Emissions and Large Neural Network Training](https://arxiv.org/abs/2104.10350?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) (Patterson et al.
 2021).
 The paper went live on arXiv just half a week ago, but coming in at 22 data-dense pages, I think it’ll become a key piece of literature for sustainable AI.
-My two main takeaways from the paper were: (1) retroactively estimating AI training emissions is difficult, so researchers should measure it during model development (2) where, when and on what hardware models are trained can make an enormous difference in emissions.
+My two main takeaways from the paper were: (1) retroactively estimating AI training emissions is difficult, so researchers should measure it during model development; and (2) where, when and on what hardware models are trained can make an enormous difference in emissions.
 
 **Emissions estimates**
 
