@@ -3,7 +3,7 @@ category: cool-things
 date: 2021-05-09
 emoji: "\U0001F9E0"
 issue_number: 65
-title: Forward Pass by Andrej Kartpathy
+title: Forward Pass by Andrej Karpathy
 ---
 
 Andrej Karpathy (director of AI at Tesla) wrote a fun short story on his personal blog: [Forward Pass](https://karpathy.github.io/2021/03/27/forward-pass/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
