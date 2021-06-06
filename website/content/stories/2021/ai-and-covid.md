@@ -1,0 +1,25 @@
+---
+category: productized-ai
+date: 2021-06-06
+issue_number: 67
+title: Artificial Intelligence and COVID-19
+---
+
+Although my daily new arXiv submissions notification emails have been full of papers about fighting COVID-19 with AI for the past year and a half, I’ve so far decided against writing about them in DT.
+From early on in the pandemic, the preprints all seemed quite far removed from real-world applications, and I’m generally always a bit hesitant when I see AI pitched as a silver bullet solution to big societal problems.
+
+I’m revisiting that now because Maxime Nauwynck, biomedical engineer and former PhD student at the UAntwerp Vision Lab, has written an extensive overview of [how AI has contributed to dealing with the COVID-19 pandemic](https://thegradient.pub/how-has-ai-contributed-to-dealing-with-the-covid-19-pandemic/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) for The Gradient.
+I still think I was mostly right to skip covering all the preprints — as Nauwynck highlights for example, a review of 300+ arXiv articles on detecting COVID-19 in CT images by [Roberts et al.
+(2020)](https://arxiv.org/abs/2008.06388?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) found that not a single one was fit for clinical use — but there are actually now a few cool AI-powered systems related to COVID-19 deployed in the real world.
+These are all from Nauwynck’s article, so check that out for the full details, but I’ll highlight a few of the ones I found most interesting:
+
+* [BlueDot](https://www.wired.com/story/ai-epidemiologist-wuhan-public-health-warnings/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) and [HealthMap](https://www.sciencemag.org/news/2020/05/artificial-intelligence-systems-aim-sniff-out-signs-covid-19-outbreaks?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), two companies that use natural language processing to scrape local news, warned customers about “a new type of pneumonia in Wuhan, China” on December 30th and 31st 2019, respectively — a solid week before the US Centers for Disease Control and World Health Organization did the same.
+* Alizila (part of Alibaba) [has a system for detecting COVID-19 in CT scans](https://www.alizila.com/how-damo-academys-ai-system-detects-coronavirus-cases/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), that by March of 2020 had already helped diagnose over 30,000 people across 26 hospitals in China. Now that PCR tests and rapid tests have become much more widely available over the past year, though, I don’t know if such systems are still in use.
+* To forecast/nowcast the actual (not just positive-tested) numbers of COVID-19 cases, hospitalizations, and deaths for a region, several organizations now use machine learning models and ensembles. [Youyang Gu’s model](https://spectrum.ieee.org/artificial-intelligence/medical-ai/why-modeling-the-spread-of-covid19-is-so-damn-hard?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) was quite popular on Twitter for a while, and [the US CDC has one too](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/forecasting-us.html?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+* DeepMind used [AlphaFold 2](https://dynamicallytyped.com/stories/2020/deepmind-alphafold-2/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) to predict the shapes of some proteins related to COVID-19.
+
+Nauwynck also goes into some more cutting-edge research, like AI-powered (or at least AI-assisted) medicine and vaccine development, but beyond some automated electron microscopy image segmentation tools that help reduce manual labor, those approaches don’t seem to have had many real-world applications yet.
+
+I do think, though, that we’ll now see a lot more attention ([and funding](https://a16z.com/2020/02/04/bio-fund-iii-announcement/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter)) going to AI-assisted medicine than we did before the pandemic, similar to how the development of COVID-19 vaccines [has accelerated mRNA-based vaccine technology](https://www.biopharma-reporter.com/Article/2021/04/15/Moderna-to-take-mRNA-flu-and-HIV-vaccines-into-Phase-1-trials-this-year?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+That means the coming few years will be pretty exciting for AI-assisted life science.
+To follow along with those developments, I recommend Nathan Benaich’s monthly [Your Guide to AI](https://newsletter.airstreet.com/issues/your-guide-to-ai-april-2021-570176?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) newsletter, which has a recurring _AI in Industry: life (and) science_ section _._
