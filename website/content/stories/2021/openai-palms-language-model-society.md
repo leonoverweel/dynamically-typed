@@ -5,8 +5,6 @@ issue_number: 68
 title: What's socially acceptable for a language model to say?
 ---
 
-**What’s socially acceptable for a language model to say?**
-
 OpenAI’s Irene Solaiman and Christy Dennison published a very interesting blog post on [improving language model behavior](https://openai.com/blog/improving-language-model-behavior/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) around socially sensitive topics.
 They developed a process for finetuning models like [GPT-3](https://dynamicallytyped.com/stories/2020/gpt-3/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) to, for example, promote healthy beauty standards:
 
@@ -42,13 +40,10 @@ Solaiman and Dennison address this topic in the blog post in quite some detail.
 First, they make it explicit that the values targeted in this paper are “based on U.S.
 and international human rights law and Western social movements for human equality.” Second, they acknowledge that societal values “cannot be reduced to one universal standard; desirable behavior differs by application and social context.” These are solid first steps, but they raise a lot of new questions, which Solaiman and Dennison also include in the blog post’s conclusion:
 
-> \- Who should be consulted when designing a values-targeted dataset?
-
-> \- Who is accountable when a user receives an output that is not aligned with their own values?
-
-> \- How does this research apply to non-English languages and generative models outside language, such as image, video, or audio?
-
-> \- How robust is this methodology to real-world prompt distributions?
+> - Who should be consulted when designing a values-targeted dataset?
+> - Who is accountable when a user receives an output that is not aligned with their own values?
+> - How does this research apply to non-English languages and generative models outside language, such as image, video, or audio?
+> - How robust is this methodology to real-world prompt distributions?
 
 I don’t know the answers to these questions — or if there will ever be answers to them that we can all agree to.
 But I think it’s very good that OpenAI has researchers publicly thinking and publishing about them _now_ , before giant language model-powered systems are weaved into many aspects of society as they one day very well may be.
