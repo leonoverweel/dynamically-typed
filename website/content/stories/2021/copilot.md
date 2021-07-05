@@ -1,0 +1,67 @@
+---
+category: productized-ai
+date: 2021-07-04
+issue_number: 69
+title: GitHub Copilot + OpenAI Codex = Microsoft synergy?
+---
+
+**GitHub Copilot**
+
+GitHub previewed [Copilot](https://copilot.github.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), “your AI pair programmer,” this week.
+Accessed through a Visual Studio Code extension and powered by OpenAI’s brand-new Codex language model, it auto-suggests “whole lines or entire functions right inside your editor.” These suggestions are based on context from the rest of your code.
+
+You can, for example, write a method’s signature and a docstring comment describing what it should do, and Copilot may be able to synthesize the rest of the method for you.
+Other use cases include autofilling repetitive code, generating tests based on method implementations (which seems a bit backward?), and showing alternative code completions.
+
+One of the places where Copilot really shines is in helping developers navigate new packages and frameworks.
+In my job as ML engineer I often run into the problem of finding a package that may help me do a thing I need to do, but not knowing exactly how I can get it to do that thing because I’m not familiar with the package’s architecture, standards and quirks (hi pandas).
+In that situation, I now usually context switch to Google and StackOverflow to see a few examples of the package in use.
+Copilot can bring this process right into my IDE: I could just import the package, write a comment describing what I want to do, and cycle through a few examples that Copilot learned from open-source code until I understand how the package wants me to interact with it.
+OpenAI’s Harri Edwards describes this quite eloquently:
+
+> Trying to code in an unfamiliar language by googling everything is like navigating a foreign country with just a phrase book.
+> Using GitHub Copilot is like hiring an interpreter.
+
+I also like Patrick McKenzie’s [take on Twitter](https://twitter.com/patio11/status/1410003256537800704?s=12&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
+
+> I’m probably more bullish on this product than my model of most programmers.
+> Contrary to naive expectations, it doesn’t decrease demand for programmers; it probably decreases unproductive time of junior programmers stumped by the “white page problem.”
+
+> For many years folks, often non-technical, have mentioned tauntingly “Wait until you automate programmers out of a job” and that was the exact opposite of what happened when we introduced cutting edge “AI” [emphasis mine] like compilers and interpreters to liberate programmers from programming.
+
+Beside looking like it’ll be a very cool and useful tool, Copilot’s launch is also interesting in a broader productized AI context.
+From last October’s [OpenAI and Microsoft: GPT-3 and beyond](https://dynamicallytyped.com/stories/2020/openai-microsoft-gpt-3-license-exclusive/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) in DT #50:
+
+> So this suggests that the partnership goes beyond just the exchange of Microsoft’s money and compute for OpenAI’s trained models and ML brand strength (an exchange of cloud for clout, if you will) that we [previously expected](https://twitter.com/soumithchintala/status/1153308199610511360/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+> Are the companies actually also deeply collaborating on ML and systems engineering research?
+> I’d love to find out.
+
+> If so, this could be an early indication that Microsoft — who I’m sure is at least a little bit envious of Google’s ownership of DeepMind — will eventually want to acquire OpenAI.
+> And it could be a great fit.
+> Looking at Microsoft’s recent acquisition history, it has so far let GitHub (which it acquired two years ago) continue to operate largely autonomously.
+
+Microsoft hasn’t acquired OpenAI (yet?), but we can obviously see its stake in the company at work here.
+After last month’s launch of [GPT-3-powered code completion in Microsoft Power Platform](https://dynamicallytyped.com/links/productized-ai/210606-gpt-3-ms-power-platform/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), I expected to see more of the same: mostly small features in Microsoft’s Office-related suite of products, powered by fine-tuned GPT-3 models.
+This is different.
+
+First, Copilot is powered by a new, as of yet unpublished, OpenAI model: Codex, which “has been trained on a selection of English language and source code from publicly available sources, including code in public repositories on GitHub.” This isn’t just a slightly finetuned GPT-3.
+
+Second, Copilot is distinctly a feature built into _GitHub_ , not into a Microsoft-branded product.
+GitHub still appears to operate mostly independently (other than a few Azure integrations) but — and I hate to use the word — that’s some serious synergy between these two companies Microsoft has a stake in.
+From the [Copilot FAQ](https://copilot.github.com/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter):
+
+> If the technical preview is successful, our plan is to build a commercial version of GitHub Copilot in the future.
+> We want to use the preview to learn how people use GitHub Copilot and what it takes to operate it at scale.
+
+I’m guessing that right now, GitHub’s use of Codex is free (or at least covered by Microsoft’s OpenAI investment), and that they’re sharing a lot of data back and forth about how Copilot is being used.
+When GitHub commercializes though, I wonder what this relationship will be.
+Will Microsoft (exclusively?) license and run the model on their own infrastructure, or will they ping OpenAI’s Codex API?
+And if it’s the latter, what will differentiate Copilot from any other IDE plugins that ping that same API?
+Can anyone just undercut Copilot’s pricing by piping Codex results into an editor extension at lower margins?
+As I wrote in last July’s [One AI model, four competing services](https://dynamicallytyped.com/stories/2020/one-ai-model-four-competing-services/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), though, there may be room in a productized AI market for many apps / services powered by the same model — you can always differentiate on UX or a more specialized market.
+
+The technical preview of Copilot works best for Python, JavaScript, TypeScript, Ruby, and Go.
+I’ve joined the waitlist for Copilot, and I’m excited to try it out at work.
+For one, I wonder how well it’ll understand our internal Python packages, which don’t appear in any open-source codebases — I guess that may be a good test of how well we adhere to coding standards.
+In line with that, I imagine a version of Codex / Copilot finetuned to a company’s entire internal codebase could be a very cool upsell for this product, especially when that company’s code is already hosted on GitHub.
+Dare I say synergy again?
