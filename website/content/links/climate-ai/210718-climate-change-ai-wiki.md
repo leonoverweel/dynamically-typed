@@ -3,7 +3,7 @@ category: climate-ai
 date: 2021-07-18
 emoji: "\U0001F30D"
 issue_number: 70
-title: Climate Change AI launches Wiki
+title: Climate Change AI Wiki
 ---
 
 There is now a [Climate Change AI Wiki](https://wiki.climatechange.ai/wiki/Welcome_to_the_Climate_Change_AI_Wiki?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).

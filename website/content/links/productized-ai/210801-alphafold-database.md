@@ -1,0 +1,14 @@
+---
+category: productized-ai
+date: 2021-08-01
+emoji: "\U0001F9EC"
+issue_number: 71
+title: The AlphaFold Protein Structure Database
+---
+
+AlphaFold, DeepMind’s protein folding neural network, [represented a breakthrough in structural biology](https://dynamicallytyped.com/stories/2020/deepmind-alphafold-2/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter) when it was released in December.
+Given a protein’s sequenced “code” of amino acid chains, the model predicts what shape the molecule “folds” itself into in nature — a key property for understanding how the protein works.
+After [open-sourcing it last month](https://dynamicallytyped.com/links/ml-research/210718-deepmind-alphafold-open-sourced/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), DeepMind has now partnered with the European Bioinformatics Institute (EMBL-EBI) to build the [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), “which offers the most complete and accurate picture of the human proteome, doubling humanity’s accumulated knowledge of high-accuracy human protein structures.” The database currently has a total of 350,000 predicted 3D protein structures and will soon be extended to cover all 100+ million sequenced proteins.
+It’s very impressive how in less than a year, AlphaFold went from cutting-edge research to something that end users (scientists and drug developers) can use without having to run or understand the AI model themselves.
+From [EMBL’s press release](https://www.embl.org/news/science/alphafold-potential-impacts/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter): “This step change will catalyse a huge amount of research in new areas, and the development of applications that were previously impossible, impractical or limited in their scope by the hitherto relatively restricted amounts of 3D structural information available.” Some people even think [this’ll get the AlphaFold team a Nobel prize](https://twitter.com/rbhar90/status/1418287550930825218?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
+More coverage: [MIT Tech review](https://www.technologyreview.com/2021/07/22/1029973/deepmind-alphafold-protein-folding-biology-disease-drugs-proteome/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [NYT](https://www.nytimes.com/2021/07/22/technology/deepmind-ai-proteins-folding.html?smid=tw-nytimes&smtyp=cur&utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter), [DeepMind blog](https://deepmind.com/blog/article/putting-the-power-of-alphafold-into-the-worlds-hands?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
