@@ -5,8 +5,6 @@ issue_number: 72
 title: Towards talking to computers with Codex
 ---
 
-**Towards talking to computers with Codex**
-
 About seven years ago, when I was a junior in high school, I built a “self-learning natural language search engine” called [Wykki](https://leonoverweel.com/projects/2014/wykki/?utm_campaign=Dynamically%20Typed&utm_medium=email&utm_source=Revue%20newsletter).
 It used “natural language” in that it was able to separate a user’s prompt like “How old is Barack Obama” into a question stub (“How old is _blank_ ”) and a subject (“Barack Obama”) using some hard-coded tricks and simple heuristics.
 It then had a backend that connected those question stubs to properties in Freebase — think Wikipedia-as-a-database — so it could answer that question about Obama with his _person.age_ property.
